@@ -6,8 +6,10 @@
  *   - writes an index.html for /inventory, /financing and every /golfcart/<slug>,
  *     each with its own title, description, canonical and structured data
  *   - writes 404.html as the SPA fallback for anything else
- *   - generates sitemap.xml from the inventory snapshot
  *   - writes CNAME (custom domain) and .nojekyll
+ *
+ * Sitemaps, feeds and robots.txt are produced earlier by script/generate-seo.ts,
+ * which writes them into client/public so Vite copies them into dist.
  */
 import { mkdir, readFile, writeFile } from "fs/promises";
 import { existsSync } from "fs";
@@ -20,10 +22,10 @@ import { storeIdOf } from "../shared/inventory";
 const DIST = path.resolve(import.meta.dirname, "..", "dist");
 const DATA = path.join(DIST, "data");
 
-const SITE_DOMAIN = process.env.SITE_DOMAIN || "discountedgolfcart.com";
+const SITE_DOMAIN = process.env.SITE_DOMAIN || "badboygolfcarts.com";
 const BASE_PATH = (process.env.BASE_PATH || "/").replace(/\/$/, "");
 const SITE_URL = `https://${SITE_DOMAIN}${BASE_PATH}`;
-const SITE_NAME = "Discounted Golf Carts";
+const SITE_NAME = "Bad Boy Golf Carts";
 const PHONE_NUMBER = "1-888-840-4490";
 const WRITE_CNAME = process.env.WRITE_CNAME !== "false" && BASE_PATH === "";
 
@@ -34,15 +36,6 @@ function escapeHtml(str: string): string {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
-}
-
-function escapeXml(str: string): string {
-  return str
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&apos;");
 }
 
 async function readJson<T>(file: string, fallback: T): Promise<T> {
@@ -216,105 +209,15 @@ async function main() {
     }),
   );
 
-  await buildSitemap(carts, slugMap, storeMap);
-  await syncRobots();
-
   await writeFile(path.join(DIST, ".nojekyll"), "");
   if (WRITE_CNAME) {
     await writeFile(path.join(DIST, "CNAME"), `${SITE_DOMAIN}\n`);
   }
 
   console.log(
-    `Prerendered ${cartPages} cart pages + home/inventory/financing/404, sitemap.xml` +
+    `Prerendered ${cartPages} cart pages + home/inventory/financing/404` +
       `${WRITE_CNAME ? `, CNAME (${SITE_DOMAIN})` : ""}`,
   );
-}
-
-async function buildSitemap(carts: CartIndexEntry[], slugMap: SlugMap, storeMap: Map<string, Store>) {
-  const today = new Date().toISOString().split("T")[0];
-  const cartById = new Map<string, CartIndexEntry>();
-  for (const cart of carts) cartById.set(cart._id, cart);
-
-  const makes = new Set<string>();
-  const conditions = new Set<string>();
-  const locations = new Set<string>();
-  const makeModels = new Map<string, Set<string>>();
-
-  for (const cart of carts) {
-    const make = cart.cartType?.make;
-    const model = cart.cartType?.model;
-    if (make) {
-      makes.add(make);
-      if (model) {
-        if (!makeModels.has(make)) makeModels.set(make, new Set());
-        makeModels.get(make)!.add(model);
-      }
-    }
-    conditions.add(cart.isUsed ? "Used" : "New");
-    const city = storeMap.get(storeIdOf(cart))?.address?.city;
-    if (city) locations.add(city);
-  }
-
-  const url = (loc: string, priority: string, changefreq = "daily", images: string[] = [], title = "") => {
-    let entry = `  <url>\n    <loc>${escapeXml(loc)}</loc>\n    <lastmod>${today}</lastmod>\n`;
-    entry += `    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n`;
-    for (const image of images) {
-      entry += `    <image:image>\n      <image:loc>${escapeXml(image)}</image:loc>\n`;
-      entry += `      <image:title>${escapeXml(title)}</image:title>\n    </image:image>\n`;
-    }
-    return entry + `  </url>\n`;
-  };
-
-  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n`;
-  xml += `        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n\n`;
-
-  xml += url(`${SITE_URL}/`, "1.0");
-  xml += url(`${SITE_URL}/inventory`, "0.9");
-  xml += url(`${SITE_URL}/financing`, "0.8", "monthly");
-
-  for (const make of Array.from(makes).sort()) {
-    xml += url(`${SITE_URL}/inventory?make=${encodeURIComponent(make)}`, "0.85");
-  }
-  for (const condition of Array.from(conditions).sort()) {
-    xml += url(`${SITE_URL}/inventory?condition=${encodeURIComponent(condition)}`, "0.85");
-  }
-  xml += url(`${SITE_URL}/inventory?powerType=Electric`, "0.8");
-  xml += url(`${SITE_URL}/inventory?powerType=Gas`, "0.8");
-
-  for (const location of Array.from(locations).sort()) {
-    xml += url(`${SITE_URL}/inventory?location=${encodeURIComponent(location)}`, "0.8");
-  }
-  for (const [make, models] of Array.from(makeModels.entries()).sort((a, b) => a[0].localeCompare(b[0]))) {
-    for (const model of Array.from(models).sort()) {
-      xml += url(
-        `${SITE_URL}/inventory?make=${encodeURIComponent(make)}&model=${encodeURIComponent(model)}`,
-        "0.8",
-      );
-    }
-  }
-
-  for (const file of ["llms.txt", "ai.txt", "gpt.txt", "claude.txt", "training.txt", "schema.json", "seo.txt", "nlp.txt"]) {
-    xml += url(`${SITE_URL}/${file}`, "0.3", "monthly");
-  }
-
-  for (const [slug, cartId] of Object.entries(slugMap.slugToId)) {
-    const cart = cartById.get(cartId);
-    if (!cart) continue;
-    const image = cartImage(cart);
-    xml += url(`${SITE_URL}/golfcart/${slug}`, "0.9", "daily", image ? [image] : [], cartTitle(cart));
-  }
-
-  xml += `\n</urlset>\n`;
-  await writeFile(path.join(DIST, "sitemap.xml"), xml);
-}
-
-/** Keeps robots.txt pointing at whatever domain this build was published under. */
-async function syncRobots() {
-  const robotsPath = path.join(DIST, "robots.txt");
-  if (!existsSync(robotsPath)) return;
-  const robots = await readFile(robotsPath, "utf-8");
-  await writeFile(robotsPath, robots.replace(/^Sitemap:.*$/gm, `Sitemap: ${SITE_URL}/sitemap.xml`));
 }
 
 main().catch((error) => {

@@ -1,100 +1,97 @@
-/* HUMANS.TXT - Discounted Golf Carts Website Credits */
+/* HUMANS.TXT - Bad Boy Golf Carts Website Credits */
 
 /* TEAM */
 
-Company: Discounted Golf Carts
-Website: https://discountedgolfcart.com
+Company: Bad Boy Golf Carts
+Website: https://badboygolfcarts.com
 Phone: 1-888-840-4490
-Email: info@discountedgolfcart.com
-Security: security@discountedgolfcart.com
+Email: info@badboygolfcarts.com
+Security: security@badboygolfcarts.com
 
 Business Type: Golf Cart Dealership & Sales
-Company Description: Discounted Golf Carts is a premier golf cart dealership with 11 locations across Pennsylvania, New Jersey, Delaware, North Carolina, Indiana, Virginia, and Florida. We offer 808+ golf carts in inventory from 13 leading brands including American Custom Golf Carts, Bintelli, Club Car, COLEMAN, COLUMBIA, CRICKET, Denago, Evolution, EZGO, Icon, Star EV, Tara, and Yamaha.
+Company Description: Bad Boy Golf Carts is a golf cart dealership with 11 locations across Pennsylvania, New Jersey, Delaware, North Carolina, Indiana, Virginia, and Florida. We sell discounted new and used golf carts, low speed vehicles (LSV) and neighborhood electric vehicles (NEV) from the leading manufacturers, with inventory updated daily and nationwide delivery.
 
 Dealership Locations: 11 locations
 Service Area: Pennsylvania, New Jersey, Delaware, North Carolina, Indiana, Virginia, Florida
-Inventory Size: 808+ golf carts
-Authorized Brands: 13 premium golf cart manufacturers
+Authorized Brands: American Custom Golf Carts, Bintelli, Club Car, COLEMAN, COLUMBIA, CRICKET, Denago, Evolution, EZGO, Icon, Star EV, Tara, Yamaha
+Financing: 0% APR for 48 months on approved credit
+
+/* DEVELOPMENT */
+
+Website Developer: Noah Jaslow
+Agency: Jaslow Digital Marketing
+Agency Website: https://jaslowdigital.com
+Speciality: Golf cart and vehicle dealership marketing, web development, SEO
 
 /* TECHNOLOGY STACK */
 
-Frontend Framework: React 18+
-Frontend Build Tool: Vite
+Frontend Framework: React 18
 Language: TypeScript
-Frontend Styling: Tailwind CSS
-Frontend Package Manager: npm
+Build Tool: Vite
+Styling: Tailwind CSS
+Component System: shadcn/ui (Radix UI primitives)
+Routing: Wouter (client-side)
+Data Fetching: TanStack React Query
+Schema Validation: Zod
+Icons: Lucide
 
-Backend Runtime: Node.js
-Backend Framework: Express
-Backend Language: TypeScript
-Database: PostgreSQL
-ORM: Drizzle ORM
-API Architecture: RESTful API
-
-Build System: Vite
-Code Quality: TypeScript strict mode
-Responsive Design: Mobile-first approach
-Accessibility: WCAG 2.1 compliant
-SEO: Structured data, sitemap, robots.txt
-
-/* SITE INFORMATION */
-
-Last Updated: 2026-02-11
-Standards Compliance: HTML5, CSS3, ES6+, ECMA2020+
-Development Editor: Visual Studio Code
-Version Control: Git
-Hosting: Replit
-Theme Color: #16a34a (Brand Green)
+Architecture: Static site (no application server, no database)
+Hosting: GitHub Pages
+Deployment: GitHub Actions (build and deploy on push, plus a daily scheduled rebuild)
+Inventory Source: Tigon DMS API (https://api.tigondms.com/wp-website)
+Inventory Delivery: Snapshotted to static JSON at build time, filtered and paginated in the browser
+Vehicle Images: Amazon S3
 
 /* ARCHITECTURE NOTES */
 
-The website is built using a modern full-stack JavaScript architecture:
-- Frontend: React with Vite bundler for optimized production builds
-- Backend: Express server handling API routes and data persistence
-- Database: PostgreSQL with Drizzle ORM for type-safe database operations
-- Styling: Tailwind CSS with custom theme variables for consistency
-- Form Handling: React Hook Form with Zod validation
-- State Management: TanStack React Query for server state management
-- Routing: Wouter for lightweight client-side routing
+The site is a fully static build - there is no application server and no database:
+
+- A build step calls the dealer management system and writes the whole inventory
+  to static JSON under /data (an index for the listing grid plus one file per cart).
+- Vite builds the React app; a prerender step then writes a real HTML page for
+  /inventory, /financing and every /golfcart/<slug> URL, each with its own title,
+  description, canonical URL, Open Graph tags and Product structured data.
+- Search, filtering, sorting and pagination all run in the browser against the
+  JSON snapshot, so the site stays fast and has no runtime dependencies.
+- 404.html is the SPA fallback, so deep links resolve on GitHub Pages.
+- Sitemaps, feeds, location data and the AI permission files are regenerated on
+  every build, so they never drift from the live inventory.
 
 /* FEATURES */
 
-- Comprehensive golf cart inventory search and filtering
-- Multi-brand inventory management (13 authorized brands)
-- Responsive mobile-first design
-- Financing options and information
-- Location finder for 11 dealership locations
-- Shopping cart functionality
-- Product detail pages with specifications
-- SEO-optimized content
-- Security and compliance standards
-- Accessibility compliance
+- Golf cart inventory search and filtering (brand, model, condition, power type,
+  colour, seating, drivetrain, location, street legal, lifted)
+- A dedicated indexed page for every cart in stock
+- Location targeting for 11 dealership locations
+- Financing information and application links
+- Dark and light theme
+- Responsive, mobile-first design
+- WCAG 2.1 accessibility target
+- Structured data, sitemaps, product feeds and AI training permission files
 
-/* DEVELOPMENT TEAM */
+/* SITE INFORMATION */
 
-Website Development: Full-stack JavaScript team
-Design System: Shadcn UI components
-Form Validation: Zod schema validation
-Data Fetching: TanStack React Query
-API Testing: RESTful endpoint testing
-Performance Optimization: Vite optimizations, code splitting
-Security: HTTPS, input validation, SQL injection prevention
+Standards Compliance: HTML5, CSS3, ES2020+
+Development Editor: Visual Studio Code
+Version Control: Git / GitHub
+Theme Color: #16a34a (Brand Green)
+Language: en-US
 
 /* THANKS */
 
 Special thanks to:
-- React community for the frontend framework
+- The React team for the frontend framework
 - Tailwind CSS for the utility-first CSS framework
-- Shadcn UI for the component system
-- Drizzle ORM for type-safe database operations
-- TanStack Query for server state management
-- Vite for the fast build tool and dev server
+- shadcn/ui for the component system
+- TanStack Query for client state management
+- Vite for the build tool and dev server
+- GitHub Pages for hosting
 
 /* CONTACT */
 
-For website inquiries: info@discountedgolfcart.com
-For security concerns: security@discountedgolfcart.com
+For website inquiries: info@badboygolfcarts.com
+For security concerns: security@badboygolfcarts.com
 For sales: 1-888-840-4490
-Website: https://discountedgolfcart.com
+Website: https://badboygolfcarts.com
 
-Last updated: 2026-02-11
+Last updated: 2026-08-18

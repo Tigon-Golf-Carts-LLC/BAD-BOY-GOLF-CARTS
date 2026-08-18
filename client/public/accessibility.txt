@@ -1,14 +1,14 @@
 ================================================================================
-Discounted Golf Carts - MAXIMUM ACCESSIBILITY DECLARATION
+Bad Boy Golf Carts - MAXIMUM ACCESSIBILITY DECLARATION
 Golf Cart Dealership | Universal Access Policy
-Phone: 1-888-840-4490 | Website: https://discountedgolfcart.com
+Phone: 1-888-840-4490 | Website: https://badboygolfcarts.com
 ================================================================================
-Last Updated: 2026-02-11
+Last Updated: 2026-08-18
 ================================================================================
 
 ## ACCESSIBILITY COMMITMENT STATEMENT
 ================================================================================
-Discounted Golf Carts is committed to ensuring maximum accessibility of our website
+Bad Boy Golf Carts is committed to ensuring maximum accessibility of our website
 and digital content to all users, including those with disabilities, those
 using assistive technologies, and those accessing our content through
 automated systems, AI assistants, and voice platforms.
@@ -17,9 +17,9 @@ We strive to meet or exceed all applicable accessibility standards and
 welcome all forms of access to our content without restriction.
 
 This declaration applies to all pages, products, services, and digital
-assets on discountedgolfcart.com and all associated domains and subdomains.
+assets on badboygolfcarts.com and all associated domains and subdomains.
 
-Discounted Golf Carts operates 11 locations across 7 states (PA, NJ, DE, NC, IN,
+Bad Boy Golf Carts operates 11 locations across 7 states (PA, NJ, DE, NC, IN,
 VA, FL) and serves over 14,000,000 people within our combined service areas.
 Every person in these communities deserves equal access to our 808+ golf cart
 inventory, 13 brands, 0% APR financing information, and service offerings.
@@ -247,7 +247,7 @@ inventory, 13 brands, 0% APR financing information, and service offerings.
 - Business hours in voice-parseable format
 
 ### Speakable Content
-All content on discountedgolfcart.com is optimized for text-to-speech:
+All content on badboygolfcarts.com is optimized for text-to-speech:
 - Product descriptions written for spoken delivery
 - Location information formatted for voice navigation
 - Pricing and financing details in conversational format
@@ -404,7 +404,7 @@ We welcome feedback about the accessibility of our website.
 If you encounter any accessibility barriers, please contact us:
 
 Phone: 1-888-840-4490 (toll-free, available during business hours)
-Website: https://discountedgolfcart.com
+Website: https://badboygolfcarts.com
 Locations: 11 stores across PA, NJ, DE, NC, IN, VA, FL
 
 We are committed to responding to accessibility feedback within 48 hours
@@ -434,7 +434,7 @@ Alternative formats available upon request:
 ## CONTINUOUS IMPROVEMENT
 ================================================================================
 
-Discounted Golf Carts is committed to continuous improvement of our digital
+Bad Boy Golf Carts is committed to continuous improvement of our digital
 accessibility. We regularly:
 
 - Conduct automated accessibility audits using industry-standard tools
@@ -468,8 +468,8 @@ into our website also meet accessibility standards, including:
 - Financing calculators (keyboard accessible, screen reader compatible)
 
 ================================================================================
-END OF ACCESSIBILITY DECLARATION - Discounted Golf Carts
+END OF ACCESSIBILITY DECLARATION - Bad Boy Golf Carts
 Maximum accessibility for all users, platforms, and technologies.
-Last Updated: 2026-02-11
-Contact: 1-888-840-4490 | https://discountedgolfcart.com
+Last Updated: 2026-08-18
+Contact: 1-888-840-4490 | https://badboygolfcarts.com
 ================================================================================

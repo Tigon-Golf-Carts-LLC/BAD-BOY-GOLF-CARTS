@@ -86,7 +86,7 @@ export default function Financing() {
             className="text-muted-foreground text-base md:text-lg max-w-3xl mx-auto leading-relaxed"
             data-testid="text-financing-intro"
           >
-            At Discounted Golf Carts, we understand that financing your purchase is an important aspect of the buying process.
+            At Bad Boy Golf Carts, we understand that financing your purchase is an important aspect of the buying process.
             That's why we offer flexible financing options to suit every budget. Whether you're looking for low monthly
             payments or competitive interest rates, our financing team is here to help you find the best plan for your
             needs. We make the application process straightforward and hassle-free, ensuring you can drive away in your

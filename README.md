@@ -1,6 +1,6 @@
-# Discounted Golf Carts — discountedgolfcart.com
+# Bad Boy Golf Carts — badboygolfcarts.com
 
-Static website for Discounted Golf Carts, built with React + Vite and hosted on **GitHub Pages**.
+Static website for Bad Boy Golf Carts, built with React + Vite and hosted on **GitHub Pages**.
 Inventory comes from the Tigon DMS API and is snapshotted into static JSON at build time.
 
 ## How it works (and why)
@@ -12,35 +12,27 @@ So the DMS call moved from *request time* to *build time*:
 
 ```
 GitHub Actions (daily + on push)
-  └─ npm run fetch-data   → calls api.tigondms.com, writes client/public/data/*.json
-  └─ vite build           → builds the React app into dist/
-  └─ npm run prerender    → per-page HTML, sitemap.xml, 404.html, CNAME, .nojekyll
-  └─ deploy-pages         → publishes dist/ to GitHub Pages
+  └─ npm run fetch-data    → calls api.tigondms.com, writes client/public/data/*.json
+  └─ npm run generate-seo  → sitemaps, feeds, location data, llms-full.txt, robots.txt
+  └─ vite build            → builds the React app into dist/
+  └─ npm run prerender     → per-page HTML, 404.html, CNAME, .nojekyll
+  └─ deploy-pages          → publishes dist/ to GitHub Pages
 ```
 
 The browser then reads `/data/*.json` and does the filtering, sorting and pagination locally —
 same URLs, same filters, same slugs as before, with no server.
 
-### What gets generated
-
-| File | Contents |
-|------|----------|
-| `data/carts.json` | Every cart, trimmed to the fields the grid and filters need |
-| `data/cart/<id>.json` | Full detail for one cart (loaded only when that page is opened) |
-| `data/stores.json`, `data/brands.json`, `data/models.json`, `data/colors.json` | Filter sources |
-| `data/slug-map.json` | `/golfcart/<slug>` ⇄ cart id |
-| `data/meta.json` | Snapshot timestamp and counts |
-| `index.html`, `inventory/`, `financing/`, `golfcart/<slug>/` | Real HTML pages with their own title, description, canonical URL, Open Graph tags and Product structured data |
-| `404.html` | SPA fallback for any other path |
-| `sitemap.xml` | Home, inventory, brand/model/condition/location facets, and every cart page with image entries |
-
 ## Publishing to GitHub Pages
 
-1. Push this branch and merge it into `main`.
-2. In the repository: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. **Settings → Pages → Custom domain:** enter `discountedgolfcart.com` and save, then tick
+1. Merge this branch into `main`.
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. Wait for the **Deploy to GitHub Pages** workflow to finish (Actions tab).
+4. **Settings → Pages → Custom domain:** enter `badboygolfcarts.com`, save, then tick
    **Enforce HTTPS** once the certificate is issued (can take up to ~30 minutes).
-4. Update DNS at your registrar (see below).
+5. Update DNS at your registrar (see below).
+
+> "There isn't a GitHub Pages site here" means no deployment exists yet for the domain.
+> DNS alone does not create the site — steps 2 and 3 have to run first.
 
 The site rebuilds automatically:
 
@@ -53,8 +45,8 @@ deployment stays live.
 
 ### DNS records
 
-For the apex domain `discountedgolfcart.com` — delete any existing A / AAAA / CNAME records for
-`@` and `www` that point at Replit first:
+For the apex domain `badboygolfcarts.com` — delete any existing A / AAAA / CNAME records for
+`@` and `www` that point somewhere else first:
 
 | Type | Name | Value | TTL |
 |------|------|-------|-----|
@@ -68,6 +60,9 @@ For the apex domain `discountedgolfcart.com` — delete any existing A / AAAA / 
 | AAAA | `@` | `2606:50c0:8003::153` | 3600 |
 | CNAME | `www` | `tigon-golf-carts-llc.github.io.` | 3600 |
 
+All four A records (and all four AAAA) are required — they are GitHub's load-balanced set, not
+alternatives. Leave MX and TXT records for email alone.
+
 ### Hosting without a custom domain
 
 To serve from `https://tigon-golf-carts-llc.github.io/BAD-BOY-GOLF-CARTS/` instead, edit the `env`
@@ -79,8 +74,8 @@ env:
   BASE_PATH: "/BAD-BOY-GOLF-CARTS/"
 ```
 
-`BASE_PATH` feeds Vite's `base`, the router and the data loader, and `CNAME` is skipped
-automatically when it is not `/`.
+`BASE_PATH` feeds Vite's `base`, the router, the data loader and every generated URL, and `CNAME`
+is skipped automatically when it is not `/`.
 
 ## Local development
 
@@ -96,7 +91,7 @@ it is regenerated on every build.
 Full production build:
 
 ```bash
-npm run build        # fetch-data + vite build + prerender  → dist/
+npm run build        # fetch-data + generate-seo + vite build + prerender → dist/
 npm run preview
 ```
 
@@ -104,27 +99,92 @@ npm run preview
 |--------|--------------|
 | `npm run dev` | Vite dev server |
 | `npm run fetch-data` | Refresh the DMS snapshot in `client/public/data` |
-| `npm run build` | Snapshot + build + prerender |
-| `npm run build:site` | Build + prerender using the existing snapshot |
+| `npm run generate-seo` | Regenerate sitemaps, feeds, location data and robots.txt |
+| `npm run build` | Snapshot + SEO files + build + prerender |
+| `npm run build:site` | SEO files + build + prerender, reusing the existing snapshot |
 | `npm run check` | TypeScript check |
+
+## SEO / AI file suite
+
+Everything lives under `client/public/`, so it is served from the site root.
+
+### Generated on every build (`npm run generate-seo`)
+
+Do not hand-edit these — they are rewritten from the inventory snapshot and `shared/locations.ts`.
+
+**Sitemaps (20).** `sitemap.xml` is a sitemap **index**; it lists every child sitemap, which is what
+Search Console and Bing should be pointed at.
+
+| File | Contents |
+|------|----------|
+| `sitemap.xml` | Master index of all child sitemaps |
+| `sitemap-pages.xml`, `page-sitemap.xml` | Home, inventory, financing |
+| `sitemap-brands.xml` | One URL per manufacturer in stock |
+| `category-sitemap.xml` | Condition, power type, seating, drivetrain, street legal, lifted |
+| `tag-sitemap.xml` | Make+model and colour facets |
+| `geo-sitemap.xml` | One URL per store city, with image geo tags |
+| `dynamic-sitemap.xml` | Every `/golfcart/<slug>` page, with images |
+| `sitemap-images.xml`, `image-sitemap.xml` | Image sitemap, up to 10 photos per cart |
+| `mobile-sitemap.xml` | Mobile namespace |
+| `hreflang-sitemap.xml`, `xhtml-sitemap.xml` | `en-US` + `x-default` alternates |
+| `urllist.xml` | Flat list of every indexable URL |
+| `sitemap-blog.xml`, `post-sitemap.xml`, `author-sitemap.xml`, `events-sitemap.xml`, `news-sitemap.xml` | Valid but empty — the site has no blog, news or events yet. Deliberately **not** listed in `sitemap.xml` so Search Console is never told to fetch an empty sitemap. Add content and they fill in. |
+
+**Feeds and data (9).** `product_feed.xml` and `google-shopping-feed.xml` (Google Merchant Center
+RSS 2.0 with the `g:` namespace), `local-inventory-feed.xml` (per-store availability),
+`rss.xml` / `feed.xml` / `atom.xml` (latest inventory), `podcast.xml` (valid empty channel),
+`data.xml` and `api-feed.xml` (machine-readable site summary and endpoint list).
+
+**Locations (15).** `locations.json`, `locations.geojson`, `locations.kml`,
+`schema/all-locations.jsonld` and one `schema/<store>.jsonld` per store (AutoDealer schema with
+address, coordinates and service area).
+
+**AI (1) and access control (1).** `llms-full.txt` (full location, brand and live inventory tables
+plus entity triples and Q&A) and the sitemap block in `robots.txt`.
+
+### Hand-written, refreshed on every build
+
+`llms.txt`, `ai.txt`, `gpt.txt`, `claude.txt`, `training.txt`, `nlp.txt`, `seo.txt`, `geo.txt`,
+`crawlers.txt`, `bots.txt`, `accessibility.txt`, `compliance.txt`, `performance.txt`, `images.txt`,
+`humans.txt`, `security.txt`, `ads.txt`, `schema.json`, `manifest.json`, `browserconfig.xml`,
+`opensearch.xml`, and the body of `robots.txt`.
+
+Edit the content freely. The build only rewrites the parts that go stale:
+
+- `Last Updated` dates
+- inventory and brand counts (`808+ golf carts` → the live number)
+- the site URL, if you build for a different domain or base path
+- `security.txt`'s `Expires` (one year out), also copied to `.well-known/security.txt`
+- `manifest.json`'s `start_url` / `scope` / `id`, to follow `BASE_PATH`
+- the generated block at the end of `llms.txt`
+
+### Needs your input
+
+- **`ads.txt`** carries a placeholder AdSense publisher id, which the build comments out. Put your
+  real `pub-…` id in if you run ads; otherwise the file is fine as pure documentation.
+- **Store locations** live in `shared/locations.ts` (11 stores, verified addresses and
+  coordinates). Everything geographic is generated from that one file — edit it and rebuild.
 
 ## Project structure
 
 ```
-client/src/pages/          Home, Inventory, CartDetail, Financing, NotFound
-client/src/components/     Header, Footer, CartCard, InventoryFilters, ThemeProvider
-client/src/lib/static-data.ts  Reads /data/*.json — replaces the old Express API
-client/public/             SEO files (robots.txt, llms.txt, ai.txt, …) and favicons
-shared/schema.ts           Types/Zod schemas for DMS data
-shared/inventory.ts        Slug, sort and filter logic shared by build scripts and browser
-script/fetch-data.ts       Build-time DMS snapshot
-script/prerender.ts        Static pages, sitemap, CNAME, 404
-.github/workflows/deploy.yml  Build + deploy to GitHub Pages
+client/src/pages/               Home, Inventory, CartDetail, Financing, NotFound
+client/src/components/          Header, Footer, CartCard, InventoryFilters, ThemeProvider
+client/src/lib/static-data.ts   Reads /data/*.json — replaces the old Express API
+client/public/                  SEO, AI and discovery files, favicons
+shared/schema.ts                Types/Zod schemas for DMS data
+shared/inventory.ts             Slug, sort and filter logic shared by build scripts and browser
+shared/locations.ts             The 11 store locations — single source of truth for geo files
+script/fetch-data.ts            Build-time DMS snapshot
+script/generate-seo.ts          Sitemaps, feeds, location data, robots.txt
+script/prerender.ts             Static pages, 404, CNAME
+.github/workflows/deploy.yml    Build + deploy to GitHub Pages
 ```
 
 ## Site facts
 
 - Phone: **1-888-840-4490** (every CTA is a `tel:` link)
+- 11 stores across PA, NJ, DE, NC, IN, VA, FL — nationwide delivery
 - Images: `https://s3.amazonaws.com/prod.docs.s3/carts/<filename>`
 - DMS API: `https://api.tigondms.com/wp-website`
 - Theme: green primary (hue 152), dark mode by default, Plus Jakarta Sans

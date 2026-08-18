@@ -1,7 +1,7 @@
 {
-  "name": "Discounted Golf Carts - Discounted Golf Cart Inventory Updated Daily",
-  "short_name": "Discounted Golf Carts",
-  "description": "Discounted Golf Carts - Browse discounted new and used golf carts with inventory updated daily across 11 locations. 13 brands including Club Car, EZGO, Yamaha, Evolution, Denago and more. 0% APR financing available. Call 1-888-840-4490.",
+  "name": "Bad Boy Golf Carts - Golf Cart Inventory Updated Daily",
+  "short_name": "Bad Boy Golf Carts",
+  "description": "Bad Boy Golf Carts - Browse discounted new and used golf carts with inventory updated daily across 11 locations. 3 brands including Club Car, EZGO, Yamaha, Evolution, Denago and more. 0% APR financing available. Call 1-888-840-4490.",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#16a34a",
@@ -65,7 +65,11 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["shopping", "automotive", "business"],
+  "categories": [
+    "shopping",
+    "automotive",
+    "business"
+  ],
   "lang": "en-US",
   "dir": "ltr",
   "prefer_related_applications": false,

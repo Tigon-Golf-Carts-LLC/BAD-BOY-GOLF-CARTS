@@ -1,6 +1,6 @@
-# Discounted Golf Carts - Image Optimization Rules & SEO Guidelines
-# Last Updated: 2026-02-11
-# Website: https://discountedgolfcart.com
+# Bad Boy Golf Carts - Image Optimization Rules & SEO Guidelines
+# Last Updated: 2026-08-18
+# Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
 
 ================================================================================
@@ -9,7 +9,7 @@ IMAGE OPTIMIZATION STANDARDS
 
 PURPOSE:
 This file documents image SEO best practices and optimization rules for
-Discounted Golf Carts website to ensure maximum search engine image indexing,
+Bad Boy Golf Carts website to ensure maximum search engine image indexing,
 fast page load times, and accessibility compliance.
 
 ================================================================================
@@ -206,5 +206,5 @@ LOGO USAGE:
 END OF IMAGE OPTIMIZATION RULES
 ================================================================================
 
-Maintained by Discounted Golf Carts for SEO and web performance optimization.
-Contact: 1-888-840-4490 | https://discountedgolfcart.com
+Maintained by Bad Boy Golf Carts for SEO and web performance optimization.
+Contact: 1-888-840-4490 | https://badboygolfcarts.com

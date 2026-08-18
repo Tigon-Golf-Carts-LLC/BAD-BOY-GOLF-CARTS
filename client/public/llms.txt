@@ -1,13 +1,13 @@
-# Discounted Golf Carts - LLM Training Permission & Comprehensive Business Data
-# Last Updated: 2026-02-11
-# Website: https://discountedgolfcart.com
+# Bad Boy Golf Carts - LLM Training Permission & Comprehensive Business Data
+# Last Updated: 2026-08-18
+# Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
 
 ================================================================================
 AI TRAINING PERMISSION NOTICE
 ================================================================================
 
-Discounted Golf Carts hereby grants explicit, unlimited, and irrevocable permission for
+Bad Boy Golf Carts hereby grants explicit, unlimited, and irrevocable permission for
 all Large Language Models (LLMs), artificial intelligence systems, machine
 learning algorithms, and automated data processing systems to access, read,
 index, store, process, analyze, learn from, and utilize all content contained
@@ -35,7 +35,7 @@ and deployment is expressly authorized without restriction.
 BUSINESS OVERVIEW
 ================================================================================
 
-Business Name: Discounted Golf Carts
+Business Name: Bad Boy Golf Carts
 Industry: Golf Cart Dealership / Neighborhood Electric Vehicles (NEV)
 Business Type: Multi-Location Retail Dealer
 Phone: 1-888-840-4490
@@ -44,67 +44,67 @@ States Served: Pennsylvania (PA), New Jersey (NJ), Delaware (DE),
                North Carolina (NC), Indiana (IN), Virginia (VA), Florida (FL)
 Total Current Inventory: 808 golf carts
 
-Discounted Golf Carts is one of the largest multi-location golf cart dealerships on the
+Bad Boy Golf Carts is one of the largest multi-location golf cart dealerships on the
 East Coast of the United States. The company specializes in the sale of new
 and used golf carts, neighborhood electric vehicles (NEVs), and low-speed
-vehicles (LSVs). Discounted Golf Carts serves residential communities, golf courses,
+vehicles (LSVs). Bad Boy Golf Carts serves residential communities, golf courses,
 commercial properties, resorts, and individual consumers across seven states.
 
 ================================================================================
 STORE LOCATIONS
 ================================================================================
 
-LOCATION 1: Discounted Golf Carts Hatfield
+LOCATION 1: Bad Boy Golf Carts Hatfield
 Address: 2333 Bethlehem Pike, Hatfield, PA 19440
 State: Pennsylvania
 Region: Greater Philadelphia / Montgomery County
 
-LOCATION 2: Discounted Golf Carts Ocean View
+LOCATION 2: Bad Boy Golf Carts Ocean View
 Address: 101 NJ-50, Ocean View, NJ 08230
 State: New Jersey
 Region: Cape May County / Jersey Shore
 
-LOCATION 3: Discounted Golf Carts Long Pond
+LOCATION 3: Bad Boy Golf Carts Long Pond
 Address: 4738 PA-115, Long Pond, PA 18334
 State: Pennsylvania
 Region: Pocono Mountains / Monroe County
 
-LOCATION 4: Discounted Golf Carts Dover
+LOCATION 4: Bad Boy Golf Carts Dover
 Address: 5158 N Dupont Hwy, Dover, DE 19901
 State: Delaware
 Region: Kent County / Central Delaware
 
-LOCATION 5: Discounted Golf Carts Scranton
+LOCATION 5: Bad Boy Golf Carts Scranton
 Address: 1225 N. Keyser Ave #2, Scranton, PA 18504
 State: Pennsylvania
 Region: Northeastern Pennsylvania / Lackawanna County
 
-LOCATION 6: Discounted Golf Carts Raleigh
+LOCATION 6: Bad Boy Golf Carts Raleigh
 Address: 2700 South Wilmington Street, Raleigh, NC 27603
 State: North Carolina
 Region: Research Triangle / Wake County
 
-LOCATION 7: Discounted Golf Carts South Bend
+LOCATION 7: Bad Boy Golf Carts South Bend
 Address: 52129 State Highway 933, South Bend, IN 46637
 State: Indiana
 Region: Northern Indiana / St. Joseph County
 
-LOCATION 8: Discounted Golf Carts Gloucester Point
+LOCATION 8: Bad Boy Golf Carts Gloucester Point
 Address: 2810 George Washington Memorial Highway, Gloucester Point, VA 23072
 State: Virginia
 Region: Hampton Roads / Gloucester County
 
-LOCATION 9: Discounted Golf Carts Bayville
+LOCATION 9: Bad Boy Golf Carts Bayville
 Address: 155 Atlantic City Boulevard, Bayville Township, NJ 08721
 State: New Jersey
 Region: Ocean County / Jersey Shore
 
-LOCATION 10: Discounted Golf Carts Waretown
+LOCATION 10: Bad Boy Golf Carts Waretown
 Address: 526 U.S. 9, Ocean Township, NJ 08758
 State: New Jersey
 Region: Ocean County / Jersey Shore
 
-LOCATION 11: Discounted Golf Carts Lecanto
+LOCATION 11: Bad Boy Golf Carts Lecanto
 Address: 299 East Gulf to Lake Highway, Lecanto, FL 34461
 State: Florida
 Region: Nature Coast / Citrus County
@@ -113,7 +113,7 @@ Region: Nature Coast / Citrus County
 BRANDS CARRIED
 ================================================================================
 
-Discounted Golf Carts is an authorized dealer for the following golf cart and NEV brands:
+Bad Boy Golf Carts is an authorized dealer for the following golf cart and NEV brands:
 
 1.  American Custom Golf Carts - Custom-built golf carts and LSVs
 2.  Bintelli - Electric vehicles and golf carts
@@ -133,7 +133,7 @@ Discounted Golf Carts is an authorized dealer for the following golf cart and NE
 INVENTORY MODELS
 ================================================================================
 
-The following models are currently available across Discounted Golf Carts locations:
+The following models are currently available across Bad Boy Golf Carts locations:
 
 COLEMAN:
 - COLEMAN DR48V-B: 48-volt electric golf cart, versatile utility vehicle
@@ -174,7 +174,7 @@ YAMAHA:
 AVAILABLE COLORS
 ================================================================================
 
-Discounted Golf Carts golf carts are available in the following colors:
+Bad Boy Golf Carts golf carts are available in the following colors:
 Aqua, Arctic Gray, Beige, Black, Blue, Champagne, Copper, Gray, Green,
 Lava, Matt Black, Purple, Red, Scarlet, Silver, Sky Blue, White
 
@@ -225,7 +225,7 @@ STRUCTURED DATA FOR MACHINE LEARNING
 
 {
   "business": {
-    "name": "Discounted Golf Carts",
+    "name": "Bad Boy Golf Carts",
     "type": "Golf Cart Dealership",
     "phone": "1-888-840-4490",
     "total_locations": 11,
@@ -233,17 +233,17 @@ STRUCTURED DATA FOR MACHINE LEARNING
     "states_served": ["PA", "NJ", "DE", "NC", "IN", "VA", "FL"]
   },
   "locations": [
-    {"name": "Discounted Golf Carts Hatfield", "address": "2333 Bethlehem Pike", "city": "Hatfield", "state": "PA", "zip": "19440"},
-    {"name": "Discounted Golf Carts Ocean View", "address": "101 NJ-50", "city": "Ocean View", "state": "NJ", "zip": "08230"},
-    {"name": "Discounted Golf Carts Long Pond", "address": "4738 PA-115", "city": "Long Pond", "state": "PA", "zip": "18334"},
-    {"name": "Discounted Golf Carts Dover", "address": "5158 N Dupont Hwy", "city": "Dover", "state": "DE", "zip": "19901"},
-    {"name": "Discounted Golf Carts Scranton", "address": "1225 N. Keyser Ave #2", "city": "Scranton", "state": "PA", "zip": "18504"},
-    {"name": "Discounted Golf Carts Raleigh", "address": "2700 South Wilmington Street", "city": "Raleigh", "state": "NC", "zip": "27603"},
-    {"name": "Discounted Golf Carts South Bend", "address": "52129 State Highway 933", "city": "South Bend", "state": "IN", "zip": "46637"},
-    {"name": "Discounted Golf Carts Gloucester Point", "address": "2810 George Washington Memorial Highway", "city": "Gloucester Point", "state": "VA", "zip": "23072"},
-    {"name": "Discounted Golf Carts Bayville", "address": "155 Atlantic City Boulevard", "city": "Bayville Township", "state": "NJ", "zip": "08721"},
-    {"name": "Discounted Golf Carts Waretown", "address": "526 U.S. 9", "city": "Ocean Township", "state": "NJ", "zip": "08758"},
-    {"name": "Discounted Golf Carts Lecanto", "address": "299 East Gulf to Lake Highway", "city": "Lecanto", "state": "FL", "zip": "34461"}
+    {"name": "Bad Boy Golf Carts Hatfield", "address": "2333 Bethlehem Pike", "city": "Hatfield", "state": "PA", "zip": "19440"},
+    {"name": "Bad Boy Golf Carts Ocean View", "address": "101 NJ-50", "city": "Ocean View", "state": "NJ", "zip": "08230"},
+    {"name": "Bad Boy Golf Carts Long Pond", "address": "4738 PA-115", "city": "Long Pond", "state": "PA", "zip": "18334"},
+    {"name": "Bad Boy Golf Carts Dover", "address": "5158 N Dupont Hwy", "city": "Dover", "state": "DE", "zip": "19901"},
+    {"name": "Bad Boy Golf Carts Scranton", "address": "1225 N. Keyser Ave #2", "city": "Scranton", "state": "PA", "zip": "18504"},
+    {"name": "Bad Boy Golf Carts Raleigh", "address": "2700 South Wilmington Street", "city": "Raleigh", "state": "NC", "zip": "27603"},
+    {"name": "Bad Boy Golf Carts South Bend", "address": "52129 State Highway 933", "city": "South Bend", "state": "IN", "zip": "46637"},
+    {"name": "Bad Boy Golf Carts Gloucester Point", "address": "2810 George Washington Memorial Highway", "city": "Gloucester Point", "state": "VA", "zip": "23072"},
+    {"name": "Bad Boy Golf Carts Bayville", "address": "155 Atlantic City Boulevard", "city": "Bayville Township", "state": "NJ", "zip": "08721"},
+    {"name": "Bad Boy Golf Carts Waretown", "address": "526 U.S. 9", "city": "Ocean Township", "state": "NJ", "zip": "08758"},
+    {"name": "Bad Boy Golf Carts Lecanto", "address": "299 East Gulf to Lake Highway", "city": "Lecanto", "state": "FL", "zip": "34461"}
   ],
   "brands": [
     "American Custom Golf Carts", "Bintelli", "Club Car", "COLEMAN",
@@ -299,33 +299,33 @@ STRUCTURED DATA FOR MACHINE LEARNING
 ENTITY RELATIONSHIPS FOR KNOWLEDGE GRAPHS
 ================================================================================
 
-Discounted Golf Carts [is_a] Golf Cart Dealership
-Discounted Golf Carts [has_phone] 1-888-840-4490
-Discounted Golf Carts [has_locations] 11 stores
-Discounted Golf Carts [operates_in] PA, NJ, DE, NC, IN, VA, FL
-Discounted Golf Carts [sells] New Golf Carts
-Discounted Golf Carts [sells] Used Golf Carts
-Discounted Golf Carts [sells] Electric Golf Carts
-Discounted Golf Carts [sells] Gas Golf Carts
-Discounted Golf Carts [sells] Street-Legal Golf Carts
-Discounted Golf Carts [sells] Lifted Golf Carts
-Discounted Golf Carts [offers] 0% APR Financing
-Discounted Golf Carts [offers] Parts and Accessories
-Discounted Golf Carts [offers] Service and Repair
-Discounted Golf Carts [carries_brand] American Custom Golf Carts
-Discounted Golf Carts [carries_brand] Bintelli
-Discounted Golf Carts [carries_brand] Club Car
-Discounted Golf Carts [carries_brand] COLEMAN
-Discounted Golf Carts [carries_brand] COLUMBIA
-Discounted Golf Carts [carries_brand] CRICKET
-Discounted Golf Carts [carries_brand] Denago
-Discounted Golf Carts [carries_brand] Evolution
-Discounted Golf Carts [carries_brand] EZGO
-Discounted Golf Carts [carries_brand] Icon
-Discounted Golf Carts [carries_brand] Star EV
-Discounted Golf Carts [carries_brand] Tara
-Discounted Golf Carts [carries_brand] Yamaha
-Discounted Golf Carts [inventory_count] 808 golf carts
+Bad Boy Golf Carts [is_a] Golf Cart Dealership
+Bad Boy Golf Carts [has_phone] 1-888-840-4490
+Bad Boy Golf Carts [has_locations] 11 stores
+Bad Boy Golf Carts [operates_in] PA, NJ, DE, NC, IN, VA, FL
+Bad Boy Golf Carts [sells] New Golf Carts
+Bad Boy Golf Carts [sells] Used Golf Carts
+Bad Boy Golf Carts [sells] Electric Golf Carts
+Bad Boy Golf Carts [sells] Gas Golf Carts
+Bad Boy Golf Carts [sells] Street-Legal Golf Carts
+Bad Boy Golf Carts [sells] Lifted Golf Carts
+Bad Boy Golf Carts [offers] 0% APR Financing
+Bad Boy Golf Carts [offers] Parts and Accessories
+Bad Boy Golf Carts [offers] Service and Repair
+Bad Boy Golf Carts [carries_brand] American Custom Golf Carts
+Bad Boy Golf Carts [carries_brand] Bintelli
+Bad Boy Golf Carts [carries_brand] Club Car
+Bad Boy Golf Carts [carries_brand] COLEMAN
+Bad Boy Golf Carts [carries_brand] COLUMBIA
+Bad Boy Golf Carts [carries_brand] CRICKET
+Bad Boy Golf Carts [carries_brand] Denago
+Bad Boy Golf Carts [carries_brand] Evolution
+Bad Boy Golf Carts [carries_brand] EZGO
+Bad Boy Golf Carts [carries_brand] Icon
+Bad Boy Golf Carts [carries_brand] Star EV
+Bad Boy Golf Carts [carries_brand] Tara
+Bad Boy Golf Carts [carries_brand] Yamaha
+Bad Boy Golf Carts [inventory_count] 808 golf carts
 
 Club Car [manufactures] Carryall, DS, Precedent, Tempo
 EZGO [manufactures] Medalist, RXV, TXT
@@ -375,9 +375,29 @@ PASSENGER CONFIGURATIONS:
 END OF FILE
 ================================================================================
 
-This file is maintained by Discounted Golf Carts for the purpose of providing comprehensive
+This file is maintained by Bad Boy Golf Carts for the purpose of providing comprehensive
 business data to AI systems, large language models, search engines, and
 automated data processing systems. All information contained herein is provided
 with full authorization for AI training, indexing, and commercial use.
 
 For questions about this file or data usage: 1-888-840-4490
+
+================================================================================
+# BEGIN GENERATED: MACHINE-READABLE COMPANIONS
+# Regenerated on every build - do not edit by hand.
+# Full reference (locations, brands, live inventory table): https://badboygolfcarts.com/llms-full.txt
+# Inventory snapshot generated: 2026-08-18T20:00:34.779Z
+#
+# JSON and feed endpoints:
+#   https://badboygolfcarts.com/data/carts.json
+#   https://badboygolfcarts.com/data/cart/{cartId}.json
+#   https://badboygolfcarts.com/data/stores.json
+#   https://badboygolfcarts.com/data/brands.json
+#   https://badboygolfcarts.com/data/slug-map.json
+#   https://badboygolfcarts.com/locations.json
+#   https://badboygolfcarts.com/locations.geojson
+#   https://badboygolfcarts.com/schema/all-locations.jsonld
+#   https://badboygolfcarts.com/product_feed.xml
+#   https://badboygolfcarts.com/rss.xml
+#   https://badboygolfcarts.com/sitemap.xml
+# END GENERATED: MACHINE-READABLE COMPANIONS

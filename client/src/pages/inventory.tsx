@@ -8,6 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { CartCard, CartCardSkeleton } from "@/components/cart-card";
 import { InventoryFilters, defaultFilters, type FilterState } from "@/components/inventory-filters";
 import type { CartsResult } from "@/lib/static-data";
+import type { Store } from "@shared/schema";
 
 interface SlugMap {
   slugToId: Record<string, string>;
@@ -16,22 +17,80 @@ interface SlugMap {
 
 const PAGE_SIZE = 20;
 
+/**
+ * Reads a filter state out of the URL. These are the facet URLs published in
+ * the sitemaps and feeds (?make=, ?condition=, ?powerType=, ?seats=, ...), so
+ * every indexed URL has to land on the inventory it advertises.
+ */
+function filtersFromParams(params: URLSearchParams): FilterState {
+  const initial: FilterState = { ...defaultFilters };
+  const list = (key: string) =>
+    (params.get(key) || "").split(",").map((v) => v.trim()).filter(Boolean);
+  const flag = (key: string) => params.get(key) === "true";
+
+  if (flag("isNew")) initial.isNew = true;
+  if (flag("isUsed")) initial.isUsed = true;
+  if (flag("isElectric")) initial.isElectric = true;
+  if (flag("isGas")) initial.isGas = true;
+  if (flag("isStreetLegal")) initial.isStreetLegal = true;
+  if (flag("isLifted")) initial.isLifted = true;
+
+  const condition = (params.get("condition") || "").toLowerCase();
+  if (condition === "new") initial.isNew = true;
+  if (condition === "used") initial.isUsed = true;
+
+  const power = (params.get("powerType") || "").toLowerCase();
+  if (power === "electric") initial.isElectric = true;
+  if (power === "gas") initial.isGas = true;
+
+  initial.makes = [...list("make"), ...list("makes")];
+  initial.models = [...list("model"), ...list("models")];
+  initial.colors = [...list("color"), ...list("colors")];
+  initial.seats = list("seats");
+  initial.driveTrain = list("driveTrain");
+  initial.searchText = params.get("search") || params.get("searchText") || "";
+
+  return initial;
+}
+
 export default function Inventory() {
   const searchString = useSearch();
   const params = new URLSearchParams(searchString);
 
-  const [filters, setFilters] = useState<FilterState>(() => {
-    const initial = { ...defaultFilters };
-    if (params.get("isNew") === "true") initial.isNew = true;
-    if (params.get("isUsed") === "true") initial.isUsed = true;
-    if (params.get("make")) initial.makes = [params.get("make")!];
-    if (params.get("search")) initial.searchText = params.get("search")!;
-    return initial;
-  });
+  const locationParam = params.get("location") || "";
+
+  const [filters, setFilters] = useState<FilterState>(() => filtersFromParams(params));
 
   const [page, setPage] = useState(0);
   const [searchInput, setSearchInput] = useState(filters.searchText);
   const [debouncedSearch, setDebouncedSearch] = useState(filters.searchText);
+
+  // Re-read the URL when it changes under a mounted page (e.g. a brand link on
+  // the home page navigating to /inventory?make=Denago).
+  useEffect(() => {
+    const next = filtersFromParams(new URLSearchParams(searchString));
+    setFilters(next);
+    setSearchInput(next.searchText);
+    setDebouncedSearch(next.searchText);
+    setPage(0);
+  }, [searchString]);
+
+  // ?location=<city> targets a store, which the snapshot only exposes by id.
+  const { data: locationStores } = useQuery<Store[]>({
+    queryKey: ["/api/stores"],
+    enabled: !!locationParam,
+  });
+
+  useEffect(() => {
+    if (!locationParam || !locationStores) return;
+    const storeIds = locationStores
+      .filter((store) => (store.address?.city || "").toLowerCase() === locationParam.toLowerCase())
+      .map((store) => store.storeId);
+    if (storeIds.length === 0) return;
+    setFilters((prev) =>
+      prev.storeIds.length > 0 ? prev : { ...prev, storeIds },
+    );
+  }, [locationParam, locationStores]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -101,7 +160,7 @@ export default function Inventory() {
     <div className="mx-auto max-w-7xl px-4 py-6">
       <div className="mb-6">
         <h1 className="text-2xl font-bold" data-testid="text-inventory-title">
-          Discounted Golf Cart Inventory
+          Golf Cart Inventory
         </h1>
         <p className="text-sm text-muted-foreground mt-1" data-testid="text-inventory-count">
           {data ? `${data.totalCarts.toLocaleString()} discounted vehicles found` : "Loading discounted inventory..."}

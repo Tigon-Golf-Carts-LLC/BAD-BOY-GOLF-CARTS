@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2993,
+          40.2751
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Hatfield",
+        "street": "2333 Bethlehem Pike",
+        "city": "Hatfield",
+        "state": "Pennsylvania",
+        "stateCode": "PA",
+        "zip": "19440",
+        "county": "Montgomery County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Hatfield",
+        "region": "Greater Philadelphia / Southeastern Pennsylvania",
+        "serviceRadius": "50+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7202,
+          39.2482
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Ocean View",
+        "street": "101 NJ-50",
+        "city": "Ocean View",
+        "state": "New Jersey",
+        "stateCode": "NJ",
+        "zip": "08230",
+        "county": "Cape May County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Ocean%20View",
+        "region": "South Jersey Shore / Cape May Peninsula",
+        "serviceRadius": "40+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4532,
+          41.0506
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Long Pond (Poconos)",
+        "street": "4738 PA-115",
+        "city": "Long Pond",
+        "state": "Pennsylvania",
+        "stateCode": "PA",
+        "zip": "18334",
+        "county": "Monroe County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Long%20Pond",
+        "region": "Pocono Mountains / Northeast Pennsylvania",
+        "serviceRadius": "40+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5244,
+          39.1582
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Dover",
+        "street": "5158 N Dupont Hwy",
+        "city": "Dover",
+        "state": "Delaware",
+        "stateCode": "DE",
+        "zip": "19901",
+        "county": "Kent County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Dover",
+        "region": "Central Delaware / Delmarva Peninsula",
+        "serviceRadius": "50+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6624,
+          41.409
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Scranton",
+        "street": "1225 N. Keyser Ave #2",
+        "city": "Scranton",
+        "state": "Pennsylvania",
+        "stateCode": "PA",
+        "zip": "18504",
+        "county": "Lackawanna County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Scranton",
+        "region": "Northeastern Pennsylvania / Lackawanna Valley",
+        "serviceRadius": "50+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6382,
+          35.7596
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Raleigh",
+        "street": "2700 South Wilmington Street",
+        "city": "Raleigh",
+        "state": "North Carolina",
+        "stateCode": "NC",
+        "zip": "27603",
+        "county": "Wake County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Raleigh",
+        "region": "Research Triangle / Central North Carolina",
+        "serviceRadius": "75+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.239,
+          41.7002
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - South Bend",
+        "street": "52129 State Highway 933",
+        "city": "South Bend",
+        "state": "Indiana",
+        "stateCode": "IN",
+        "zip": "46637",
+        "county": "St. Joseph County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=South%20Bend",
+        "region": "Michiana / Northern Indiana",
+        "serviceRadius": "60+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4966,
+          37.2779
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Gloucester Point",
+        "street": "2810 George Washington Memorial Highway",
+        "city": "Gloucester Point",
+        "state": "Virginia",
+        "stateCode": "VA",
+        "zip": "23072",
+        "county": "Gloucester County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Gloucester%20Point",
+        "region": "Hampton Roads / Virginia Peninsula",
+        "serviceRadius": "50+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.156,
+          39.9065
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Bayville",
+        "street": "155 Atlantic City Boulevard",
+        "city": "Bayville Township",
+        "state": "New Jersey",
+        "stateCode": "NJ",
+        "zip": "08721",
+        "county": "Ocean County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Bayville%20Township",
+        "region": "Jersey Shore / Central New Jersey Coast",
+        "serviceRadius": "40+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2035,
+          39.7812
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Waretown",
+        "street": "526 U.S. 9",
+        "city": "Ocean Township (Waretown)",
+        "state": "New Jersey",
+        "stateCode": "NJ",
+        "zip": "08758",
+        "county": "Ocean County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Ocean%20Township%20(Waretown)",
+        "region": "Southern Ocean County / Jersey Shore",
+        "serviceRadius": "35+ miles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4876,
+          28.8517
+        ]
+      },
+      "properties": {
+        "name": "Bad Boy Golf Carts - Lecanto",
+        "street": "299 East Gulf to Lake Highway",
+        "city": "Lecanto",
+        "state": "Florida",
+        "stateCode": "FL",
+        "zip": "34461",
+        "county": "Citrus County",
+        "phone": "1-888-840-4490",
+        "url": "https://badboygolfcarts.com/inventory?location=Lecanto",
+        "region": "Nature Coast / Central West Florida",
+        "serviceRadius": "60+ miles"
+      }
+    }
+  ]
+}

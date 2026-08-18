@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bad Boy Golf Carts - Latest Inventory</title>
+    <link>https://badboygolfcarts.com/inventory</link>
+    <atom:link href="https://badboygolfcarts.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>Newly listed discounted golf carts from Bad Boy Golf Carts. Updated daily. Call 1-888-840-4490.</description>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 18 Aug 2026 20:00:34 GMT</lastBuildDate>
+    <ttl>1440</ttl>
+  </channel>
+</rss>

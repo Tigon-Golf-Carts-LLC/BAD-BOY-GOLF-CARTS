@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "@id": "https://badboygolfcarts.com/#hatfield",
+  "name": "Bad Boy Golf Carts - Hatfield",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Bad Boy Golf Carts",
+    "url": "https://badboygolfcarts.com/"
+  },
+  "url": "https://badboygolfcarts.com/inventory?location=Hatfield",
+  "telephone": "1-888-840-4490",
+  "email": "tigongolfcarts@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2333 Bethlehem Pike",
+    "addressLocality": "Hatfield",
+    "addressRegion": "PA",
+    "postalCode": "19440",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.2751,
+    "longitude": -75.2993
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Montgomery County"
+    },
+    {
+      "@type": "City",
+      "name": "Lansdale"
+    },
+    {
+      "@type": "City",
+      "name": "North Wales"
+    },
+    {
+      "@type": "City",
+      "name": "Souderton"
+    },
+    {
+      "@type": "City",
+      "name": "Quakertown"
+    },
+    {
+      "@type": "City",
+      "name": "Doylestown"
+    },
+    {
+      "@type": "City",
+      "name": "Chalfont"
+    },
+    {
+      "@type": "City",
+      "name": "Harleysville"
+    },
+    {
+      "@type": "City",
+      "name": "Telford"
+    },
+    {
+      "@type": "City",
+      "name": "Perkasie"
+    },
+    {
+      "@type": "City",
+      "name": "Sellersville"
+    },
+    {
+      "@type": "City",
+      "name": "Ambler"
+    },
+    {
+      "@type": "City",
+      "name": "Blue Bell"
+    },
+    {
+      "@type": "City",
+      "name": "Norristown"
+    },
+    {
+      "@type": "City",
+      "name": "King of Prussia"
+    },
+    {
+      "@type": "City",
+      "name": "Plymouth Meeting"
+    }
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.2751,
+      "longitude": -75.2993
+    },
+    "description": "50+ miles"
+  },
+  "priceRange": "$$",
+  "currenciesAccepted": "USD",
+  "knowsAbout": [
+    "golf carts",
+    "low speed vehicles",
+    "neighborhood electric vehicles",
+    "street legal golf carts"
+  ],
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Product",
+      "name": "Golf carts - new and used"
+    },
+    "availability": "https://schema.org/InStock"
+  }
+}

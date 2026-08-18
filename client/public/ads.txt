@@ -1,27 +1,27 @@
 # ads.txt - Advertising Authorization File
-# Discounted Golf Carts
-# Last Updated: 2026-02-11
+# Bad Boy Golf Carts
+# Last Updated: 2026-08-18
 
 # ABOUT THIS FILE
 # This ads.txt file is provided in accordance with the Interactive Advertising Bureau (IAB)
-# ads.txt specification. Discounted Golf Carts is a golf cart dealership and is not primarily
+# ads.txt specification. Bad Boy Golf Carts is a golf cart dealership and is not primarily
 # an ad-supported website. This file is maintained for transparency and compliance purposes.
 # For authorized advertising partnerships and inquiries, please contact us directly.
 
 # PRIMARY BUSINESS
-# Discounted Golf Carts is a multi-location golf cart dealership specializing in sales,
+# Bad Boy Golf Carts is a multi-location golf cart dealership specializing in sales,
 # service, and financing of golf carts and neighborhood electric vehicles.
-# Website: https://discountedgolfcart.com
-# Contact: 1-888-840-4490 or info@discountedgolfcart.com
+# Website: https://badboygolfcarts.com
+# Contact: 1-888-840-4490 or info@badboygolfcarts.com
 
 # AUTHORIZED PROGRAMMATIC ADVERTISERS
 # Google Inc. - Authorized Reseller
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# TODO replace with the real AdSense publisher id: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
 
 # CONTACT FOR ADVERTISING INQUIRIES
 # For any advertising opportunities or partnership inquiries:
-# Email: info@discountedgolfcart.com
+# Email: info@badboygolfcarts.com
 # Phone: 1-888-840-4490
-# Website: https://discountedgolfcart.com
+# Website: https://badboygolfcarts.com
 
 # NOTE: This file may be updated periodically to reflect current advertising policies and partnerships.

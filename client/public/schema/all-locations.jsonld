@@ -1,0 +1,1376 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://badboygolfcarts.com/#organization",
+      "name": "Bad Boy Golf Carts",
+      "url": "https://badboygolfcarts.com/",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "areaServed": [
+        {
+          "@type": "State",
+          "name": "Pennsylvania"
+        },
+        {
+          "@type": "State",
+          "name": "New Jersey"
+        },
+        {
+          "@type": "State",
+          "name": "Delaware"
+        },
+        {
+          "@type": "State",
+          "name": "North Carolina"
+        },
+        {
+          "@type": "State",
+          "name": "Indiana"
+        },
+        {
+          "@type": "State",
+          "name": "Virginia"
+        },
+        {
+          "@type": "State",
+          "name": "Florida"
+        }
+      ],
+      "department": [
+        {
+          "@id": "https://badboygolfcarts.com/#hatfield"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#ocean-view"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#long-pond"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#dover"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#scranton"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#raleigh"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#south-bend"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#gloucester-point"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#bayville-township"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#ocean-township"
+        },
+        {
+          "@id": "https://badboygolfcarts.com/#lecanto"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#hatfield",
+      "name": "Bad Boy Golf Carts - Hatfield",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Hatfield",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2333 Bethlehem Pike",
+        "addressLocality": "Hatfield",
+        "addressRegion": "PA",
+        "postalCode": "19440",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.2751,
+        "longitude": -75.2993
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Montgomery County"
+        },
+        {
+          "@type": "City",
+          "name": "Lansdale"
+        },
+        {
+          "@type": "City",
+          "name": "North Wales"
+        },
+        {
+          "@type": "City",
+          "name": "Souderton"
+        },
+        {
+          "@type": "City",
+          "name": "Quakertown"
+        },
+        {
+          "@type": "City",
+          "name": "Doylestown"
+        },
+        {
+          "@type": "City",
+          "name": "Chalfont"
+        },
+        {
+          "@type": "City",
+          "name": "Harleysville"
+        },
+        {
+          "@type": "City",
+          "name": "Telford"
+        },
+        {
+          "@type": "City",
+          "name": "Perkasie"
+        },
+        {
+          "@type": "City",
+          "name": "Sellersville"
+        },
+        {
+          "@type": "City",
+          "name": "Ambler"
+        },
+        {
+          "@type": "City",
+          "name": "Blue Bell"
+        },
+        {
+          "@type": "City",
+          "name": "Norristown"
+        },
+        {
+          "@type": "City",
+          "name": "King of Prussia"
+        },
+        {
+          "@type": "City",
+          "name": "Plymouth Meeting"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.2751,
+          "longitude": -75.2993
+        },
+        "description": "50+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#ocean-view",
+      "name": "Bad Boy Golf Carts - Ocean View",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Ocean%20View",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "101 NJ-50",
+        "addressLocality": "Ocean View",
+        "addressRegion": "NJ",
+        "postalCode": "08230",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.2482,
+        "longitude": -74.7202
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Cape May County"
+        },
+        {
+          "@type": "City",
+          "name": "Sea Isle City"
+        },
+        {
+          "@type": "City",
+          "name": "Ocean City"
+        },
+        {
+          "@type": "City",
+          "name": "Avalon"
+        },
+        {
+          "@type": "City",
+          "name": "Stone Harbor"
+        },
+        {
+          "@type": "City",
+          "name": "Wildwood"
+        },
+        {
+          "@type": "City",
+          "name": "Cape May"
+        },
+        {
+          "@type": "City",
+          "name": "Strathmere"
+        },
+        {
+          "@type": "City",
+          "name": "Marmora"
+        },
+        {
+          "@type": "City",
+          "name": "Somers Point"
+        },
+        {
+          "@type": "City",
+          "name": "Northfield"
+        },
+        {
+          "@type": "City",
+          "name": "Linwood"
+        },
+        {
+          "@type": "City",
+          "name": "Egg Harbor Township"
+        },
+        {
+          "@type": "City",
+          "name": "Vineland"
+        },
+        {
+          "@type": "City",
+          "name": "Millville"
+        },
+        {
+          "@type": "City",
+          "name": "Bridgeton"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 39.2482,
+          "longitude": -74.7202
+        },
+        "description": "40+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#long-pond",
+      "name": "Bad Boy Golf Carts - Long Pond (Poconos)",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Long%20Pond",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4738 PA-115",
+        "addressLocality": "Long Pond",
+        "addressRegion": "PA",
+        "postalCode": "18334",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.0506,
+        "longitude": -75.4532
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Monroe County"
+        },
+        {
+          "@type": "City",
+          "name": "Pocono Summit"
+        },
+        {
+          "@type": "City",
+          "name": "Blakeslee"
+        },
+        {
+          "@type": "City",
+          "name": "Tobyhanna"
+        },
+        {
+          "@type": "City",
+          "name": "Mount Pocono"
+        },
+        {
+          "@type": "City",
+          "name": "Tannersville"
+        },
+        {
+          "@type": "City",
+          "name": "Stroudsburg"
+        },
+        {
+          "@type": "City",
+          "name": "East Stroudsburg"
+        },
+        {
+          "@type": "City",
+          "name": "Bartonsville"
+        },
+        {
+          "@type": "City",
+          "name": "Pocono Pines"
+        },
+        {
+          "@type": "City",
+          "name": "Pocono Lake"
+        },
+        {
+          "@type": "City",
+          "name": "Brodheadsville"
+        },
+        {
+          "@type": "City",
+          "name": "Saylorsburg"
+        },
+        {
+          "@type": "City",
+          "name": "Sciota"
+        },
+        {
+          "@type": "City",
+          "name": "Cresco"
+        },
+        {
+          "@type": "City",
+          "name": "Mountainhome"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.0506,
+          "longitude": -75.4532
+        },
+        "description": "40+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#dover",
+      "name": "Bad Boy Golf Carts - Dover",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Dover",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5158 N Dupont Hwy",
+        "addressLocality": "Dover",
+        "addressRegion": "DE",
+        "postalCode": "19901",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.1582,
+        "longitude": -75.5244
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Kent County"
+        },
+        {
+          "@type": "City",
+          "name": "Camden-Wyoming"
+        },
+        {
+          "@type": "City",
+          "name": "Smyrna"
+        },
+        {
+          "@type": "City",
+          "name": "Clayton"
+        },
+        {
+          "@type": "City",
+          "name": "Milford"
+        },
+        {
+          "@type": "City",
+          "name": "Harrington"
+        },
+        {
+          "@type": "City",
+          "name": "Felton"
+        },
+        {
+          "@type": "City",
+          "name": "Magnolia"
+        },
+        {
+          "@type": "City",
+          "name": "Frederica"
+        },
+        {
+          "@type": "City",
+          "name": "Woodside"
+        },
+        {
+          "@type": "City",
+          "name": "Hartly"
+        },
+        {
+          "@type": "City",
+          "name": "Cheswold"
+        },
+        {
+          "@type": "City",
+          "name": "Kenton"
+        },
+        {
+          "@type": "City",
+          "name": "Townsend"
+        },
+        {
+          "@type": "City",
+          "name": "Middletown"
+        },
+        {
+          "@type": "City",
+          "name": "Odessa"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 39.1582,
+          "longitude": -75.5244
+        },
+        "description": "50+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#scranton",
+      "name": "Bad Boy Golf Carts - Scranton",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Scranton",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1225 N. Keyser Ave #2",
+        "addressLocality": "Scranton",
+        "addressRegion": "PA",
+        "postalCode": "18504",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.409,
+        "longitude": -75.6624
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Lackawanna County"
+        },
+        {
+          "@type": "City",
+          "name": "Wilkes-Barre"
+        },
+        {
+          "@type": "City",
+          "name": "Dunmore"
+        },
+        {
+          "@type": "City",
+          "name": "Old Forge"
+        },
+        {
+          "@type": "City",
+          "name": "Carbondale"
+        },
+        {
+          "@type": "City",
+          "name": "Pittston"
+        },
+        {
+          "@type": "City",
+          "name": "Kingston"
+        },
+        {
+          "@type": "City",
+          "name": "Taylor"
+        },
+        {
+          "@type": "City",
+          "name": "Moosic"
+        },
+        {
+          "@type": "City",
+          "name": "Dickson City"
+        },
+        {
+          "@type": "City",
+          "name": "Clarks Summit"
+        },
+        {
+          "@type": "City",
+          "name": "Dalton"
+        },
+        {
+          "@type": "City",
+          "name": "Archbald"
+        },
+        {
+          "@type": "City",
+          "name": "Blakely"
+        },
+        {
+          "@type": "City",
+          "name": "Olyphant"
+        },
+        {
+          "@type": "City",
+          "name": "Throop"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.409,
+          "longitude": -75.6624
+        },
+        "description": "50+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#raleigh",
+      "name": "Bad Boy Golf Carts - Raleigh",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Raleigh",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2700 South Wilmington Street",
+        "addressLocality": "Raleigh",
+        "addressRegion": "NC",
+        "postalCode": "27603",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.7596,
+        "longitude": -78.6382
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wake County"
+        },
+        {
+          "@type": "City",
+          "name": "Durham"
+        },
+        {
+          "@type": "City",
+          "name": "Chapel Hill"
+        },
+        {
+          "@type": "City",
+          "name": "Cary"
+        },
+        {
+          "@type": "City",
+          "name": "Apex"
+        },
+        {
+          "@type": "City",
+          "name": "Holly Springs"
+        },
+        {
+          "@type": "City",
+          "name": "Fuquay-Varina"
+        },
+        {
+          "@type": "City",
+          "name": "Wake Forest"
+        },
+        {
+          "@type": "City",
+          "name": "Garner"
+        },
+        {
+          "@type": "City",
+          "name": "Clayton"
+        },
+        {
+          "@type": "City",
+          "name": "Smithfield"
+        },
+        {
+          "@type": "City",
+          "name": "Knightdale"
+        },
+        {
+          "@type": "City",
+          "name": "Wendell"
+        },
+        {
+          "@type": "City",
+          "name": "Zebulon"
+        },
+        {
+          "@type": "City",
+          "name": "Sanford"
+        },
+        {
+          "@type": "City",
+          "name": "Pittsboro"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 35.7596,
+          "longitude": -78.6382
+        },
+        "description": "75+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#south-bend",
+      "name": "Bad Boy Golf Carts - South Bend",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=South%20Bend",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "52129 State Highway 933",
+        "addressLocality": "South Bend",
+        "addressRegion": "IN",
+        "postalCode": "46637",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.7002,
+        "longitude": -86.239
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "St. Joseph County"
+        },
+        {
+          "@type": "City",
+          "name": "Mishawaka"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhart"
+        },
+        {
+          "@type": "City",
+          "name": "Goshen"
+        },
+        {
+          "@type": "City",
+          "name": "Granger"
+        },
+        {
+          "@type": "City",
+          "name": "Niles MI"
+        },
+        {
+          "@type": "City",
+          "name": "Buchanan MI"
+        },
+        {
+          "@type": "City",
+          "name": "Dowagiac MI"
+        },
+        {
+          "@type": "City",
+          "name": "Plymouth"
+        },
+        {
+          "@type": "City",
+          "name": "Warsaw"
+        },
+        {
+          "@type": "City",
+          "name": "LaPorte"
+        },
+        {
+          "@type": "City",
+          "name": "Michigan City"
+        },
+        {
+          "@type": "City",
+          "name": "Valparaiso"
+        },
+        {
+          "@type": "City",
+          "name": "Bremen"
+        },
+        {
+          "@type": "City",
+          "name": "Nappanee"
+        },
+        {
+          "@type": "City",
+          "name": "Middlebury"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.7002,
+          "longitude": -86.239
+        },
+        "description": "60+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#gloucester-point",
+      "name": "Bad Boy Golf Carts - Gloucester Point",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Gloucester%20Point",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2810 George Washington Memorial Highway",
+        "addressLocality": "Gloucester Point",
+        "addressRegion": "VA",
+        "postalCode": "23072",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.2779,
+        "longitude": -76.4966
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gloucester County"
+        },
+        {
+          "@type": "City",
+          "name": "Yorktown"
+        },
+        {
+          "@type": "City",
+          "name": "Williamsburg"
+        },
+        {
+          "@type": "City",
+          "name": "Newport News"
+        },
+        {
+          "@type": "City",
+          "name": "Hampton"
+        },
+        {
+          "@type": "City",
+          "name": "Norfolk"
+        },
+        {
+          "@type": "City",
+          "name": "Virginia Beach"
+        },
+        {
+          "@type": "City",
+          "name": "Chesapeake"
+        },
+        {
+          "@type": "City",
+          "name": "Poquoson"
+        },
+        {
+          "@type": "City",
+          "name": "Mathews"
+        },
+        {
+          "@type": "City",
+          "name": "West Point"
+        },
+        {
+          "@type": "City",
+          "name": "Tappahannock"
+        },
+        {
+          "@type": "City",
+          "name": "Kilmarnock"
+        },
+        {
+          "@type": "City",
+          "name": "Urbanna"
+        },
+        {
+          "@type": "City",
+          "name": "Saluda"
+        },
+        {
+          "@type": "City",
+          "name": "Deltaville"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 37.2779,
+          "longitude": -76.4966
+        },
+        "description": "50+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#bayville-township",
+      "name": "Bad Boy Golf Carts - Bayville",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Bayville%20Township",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "155 Atlantic City Boulevard",
+        "addressLocality": "Bayville Township",
+        "addressRegion": "NJ",
+        "postalCode": "08721",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.9065,
+        "longitude": -74.156
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Ocean County"
+        },
+        {
+          "@type": "City",
+          "name": "Toms River"
+        },
+        {
+          "@type": "City",
+          "name": "Brick"
+        },
+        {
+          "@type": "City",
+          "name": "Lakewood"
+        },
+        {
+          "@type": "City",
+          "name": "Jackson"
+        },
+        {
+          "@type": "City",
+          "name": "Manchester"
+        },
+        {
+          "@type": "City",
+          "name": "Lacey"
+        },
+        {
+          "@type": "City",
+          "name": "Forked River"
+        },
+        {
+          "@type": "City",
+          "name": "Barnegat"
+        },
+        {
+          "@type": "City",
+          "name": "Beachwood"
+        },
+        {
+          "@type": "City",
+          "name": "Pine Beach"
+        },
+        {
+          "@type": "City",
+          "name": "Island Heights"
+        },
+        {
+          "@type": "City",
+          "name": "Seaside Heights"
+        },
+        {
+          "@type": "City",
+          "name": "Seaside Park"
+        },
+        {
+          "@type": "City",
+          "name": "Lavallette"
+        },
+        {
+          "@type": "City",
+          "name": "Ortley Beach"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 39.9065,
+          "longitude": -74.156
+        },
+        "description": "40+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#ocean-township",
+      "name": "Bad Boy Golf Carts - Waretown",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Ocean%20Township%20(Waretown)",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "526 U.S. 9",
+        "addressLocality": "Ocean Township (Waretown)",
+        "addressRegion": "NJ",
+        "postalCode": "08758",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.7812,
+        "longitude": -74.2035
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Ocean County"
+        },
+        {
+          "@type": "City",
+          "name": "Barnegat"
+        },
+        {
+          "@type": "City",
+          "name": "Manahawkin"
+        },
+        {
+          "@type": "City",
+          "name": "Stafford Township"
+        },
+        {
+          "@type": "City",
+          "name": "Long Beach Township"
+        },
+        {
+          "@type": "City",
+          "name": "Beach Haven"
+        },
+        {
+          "@type": "City",
+          "name": "Ship Bottom"
+        },
+        {
+          "@type": "City",
+          "name": "Surf City"
+        },
+        {
+          "@type": "City",
+          "name": "Harvey Cedars"
+        },
+        {
+          "@type": "City",
+          "name": "Barnegat Light"
+        },
+        {
+          "@type": "City",
+          "name": "Tuckerton"
+        },
+        {
+          "@type": "City",
+          "name": "Little Egg Harbor"
+        },
+        {
+          "@type": "City",
+          "name": "New Gretna"
+        },
+        {
+          "@type": "City",
+          "name": "Chatsworth"
+        },
+        {
+          "@type": "City",
+          "name": "Hammonton"
+        },
+        {
+          "@type": "City",
+          "name": "Galloway Township"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 39.7812,
+          "longitude": -74.2035
+        },
+        "description": "35+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://badboygolfcarts.com/#lecanto",
+      "name": "Bad Boy Golf Carts - Lecanto",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Bad Boy Golf Carts",
+        "url": "https://badboygolfcarts.com/"
+      },
+      "url": "https://badboygolfcarts.com/inventory?location=Lecanto",
+      "telephone": "1-888-840-4490",
+      "email": "tigongolfcarts@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "299 East Gulf to Lake Highway",
+        "addressLocality": "Lecanto",
+        "addressRegion": "FL",
+        "postalCode": "34461",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.8517,
+        "longitude": -82.4876
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Citrus County"
+        },
+        {
+          "@type": "City",
+          "name": "Crystal River"
+        },
+        {
+          "@type": "City",
+          "name": "Inverness"
+        },
+        {
+          "@type": "City",
+          "name": "Homosassa"
+        },
+        {
+          "@type": "City",
+          "name": "Homosassa Springs"
+        },
+        {
+          "@type": "City",
+          "name": "Beverly Hills"
+        },
+        {
+          "@type": "City",
+          "name": "Citrus Springs"
+        },
+        {
+          "@type": "City",
+          "name": "Pine Ridge"
+        },
+        {
+          "@type": "City",
+          "name": "Hernando"
+        },
+        {
+          "@type": "City",
+          "name": "Floral City"
+        },
+        {
+          "@type": "City",
+          "name": "Dunnellon"
+        },
+        {
+          "@type": "City",
+          "name": "Ocala"
+        },
+        {
+          "@type": "City",
+          "name": "Brooksville"
+        },
+        {
+          "@type": "City",
+          "name": "Spring Hill"
+        },
+        {
+          "@type": "City",
+          "name": "Weeki Wachee"
+        },
+        {
+          "@type": "City",
+          "name": "Hudson"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 28.8517,
+          "longitude": -82.4876
+        },
+        "description": "60+ miles"
+      },
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "knowsAbout": [
+        "golf carts",
+        "low speed vehicles",
+        "neighborhood electric vehicles",
+        "street legal golf carts"
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Golf carts - new and used"
+        },
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+}

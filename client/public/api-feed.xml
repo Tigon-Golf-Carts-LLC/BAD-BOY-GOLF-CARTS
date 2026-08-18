@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Static JSON endpoints published by this site. All are plain GET, no authentication. -->
+<api generated="2026-08-18T20:00:34.779Z" version="1.0">
+  <site>https://badboygolfcarts.com/</site>
+  <upstream>https://api.tigondms.com/wp-website</upstream>
+  <endpoint path="/data/carts.json" format="json">Full inventory index (all carts, card-level fields)</endpoint>
+  <endpoint path="/data/cart/{cartId}.json" format="json">Full specification for a single cart</endpoint>
+  <endpoint path="/data/stores.json" format="json">Dealership store records from the DMS</endpoint>
+  <endpoint path="/data/brands.json" format="json">Brands currently in stock</endpoint>
+  <endpoint path="/data/models.json" format="json">Models by manufacturer key</endpoint>
+  <endpoint path="/data/colors.json" format="json">Colours by manufacturer key</endpoint>
+  <endpoint path="/data/slug-map.json" format="json">Cart id to URL slug mapping</endpoint>
+  <endpoint path="/data/meta.json" format="json">Snapshot timestamp and counts</endpoint>
+  <endpoint path="/locations.json" format="json">Store locations with coordinates and service areas</endpoint>
+  <endpoint path="/locations.geojson" format="json">Store locations as GeoJSON</endpoint>
+  <endpoint path="/product_feed.xml" format="xml">Google Merchant Center product feed</endpoint>
+  <endpoint path="/sitemap.xml" format="xml">Master sitemap index</endpoint>
+  <counts carts="0" brands="0" locations="11" cities="11"/>
+</api>
