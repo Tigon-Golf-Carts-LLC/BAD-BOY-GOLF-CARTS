@@ -3,12 +3,12 @@
   "@graph": [
     {
       "@type": "AutoDealer",
-      "@id": "https://discountedgolfcart.com/#organization",
-      "name": "Discounted Golf Carts",
-      "alternateName": ["Discounted Golf Carts", "DGC"],
-      "url": "https://discountedgolfcart.com",
+      "@id": "https://badboygolfcarts.com/#organization",
+      "name": "Bad Boy Golf Carts",
+      "alternateName": ["Bad Boy Golf Carts", "DGC"],
+      "url": "https://badboygolfcarts.com",
       "telephone": "1-888-840-4490",
-      "description": "Discounted Golf Carts is one of the largest multi-location golf cart dealerships on the East Coast, operating 11 retail locations across 7 states. We carry 13 major golf cart brands with over 800 units in stock, updated daily. 0% APR financing available.",
+      "description": "Bad Boy Golf Carts is one of the largest multi-location golf cart dealerships on the East Coast, operating 11 retail locations across 7 states. We carry 13 major golf cart brands with over 800 units in stock, updated daily. 0% APR financing available.",
       "priceRange": "$$",
       "currenciesAccepted": "USD",
       "paymentAccepted": "Cash, Credit Card, Financing",
@@ -48,31 +48,31 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://discountedgolfcart.com/#website",
-      "url": "https://discountedgolfcart.com",
-      "name": "Discounted Golf Carts",
+      "@id": "https://badboygolfcarts.com/#website",
+      "url": "https://badboygolfcarts.com",
+      "name": "Bad Boy Golf Carts",
       "description": "Discounted golf cart inventory updated daily. New and used golf carts from 13 top brands at the best prices.",
-      "publisher": {"@id": "https://discountedgolfcart.com/#organization"},
+      "publisher": {"@id": "https://badboygolfcarts.com/#organization"},
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://discountedgolfcart.com/inventory?search={search_term_string}",
+        "target": "https://badboygolfcarts.com/inventory?search={search_term_string}",
         "query-input": "required name=search_term_string"
       },
       "inLanguage": "en-US"
     },
     {
       "@type": "WebPage",
-      "@id": "https://discountedgolfcart.com/#webpage",
-      "url": "https://discountedgolfcart.com",
-      "name": "Discounted Golf Carts | New & Used Golf Cart Inventory Updated Daily",
-      "isPartOf": {"@id": "https://discountedgolfcart.com/#website"},
-      "about": {"@id": "https://discountedgolfcart.com/#organization"},
+      "@id": "https://badboygolfcarts.com/#webpage",
+      "url": "https://badboygolfcarts.com",
+      "name": "Bad Boy Golf Carts | New & Used Golf Cart Inventory Updated Daily",
+      "isPartOf": {"@id": "https://badboygolfcarts.com/#website"},
+      "about": {"@id": "https://badboygolfcarts.com/#organization"},
       "description": "Browse discounted golf cart inventory updated daily. Premium brands including Club Car, EZGO, Yamaha, Evolution, Denago and more. 0% APR financing. Call 1-888-840-4490.",
       "inLanguage": "en-US"
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Hatfield",
+      "name": "Bad Boy Golf Carts Hatfield",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2333 Bethlehem Pike",
@@ -83,12 +83,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 40.279, "longitude": -75.299},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Ocean View",
+      "name": "Bad Boy Golf Carts Ocean View",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "101 NJ-50",
@@ -99,12 +99,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 39.249, "longitude": -74.722},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Long Pond",
+      "name": "Bad Boy Golf Carts Long Pond",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "4738 PA-115",
@@ -115,12 +115,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 41.054, "longitude": -75.454},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Dover",
+      "name": "Bad Boy Golf Carts Dover",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "5158 N Dupont Hwy",
@@ -131,12 +131,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 39.187, "longitude": -75.546},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Scranton",
+      "name": "Bad Boy Golf Carts Scranton",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "1225 N. Keyser Ave #2",
@@ -147,12 +147,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 41.431, "longitude": -75.681},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Raleigh",
+      "name": "Bad Boy Golf Carts Raleigh",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2700 South Wilmington Street",
@@ -163,12 +163,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 35.756, "longitude": -78.637},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts South Bend",
+      "name": "Bad Boy Golf Carts South Bend",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "52129 State Highway 933",
@@ -179,12 +179,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 41.709, "longitude": -86.238},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Gloucester Point",
+      "name": "Bad Boy Golf Carts Gloucester Point",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2810 George Washington Memorial Highway",
@@ -195,12 +195,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 37.275, "longitude": -76.503},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Bayville",
+      "name": "Bad Boy Golf Carts Bayville",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "155 Atlantic City Boulevard",
@@ -211,12 +211,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 39.906, "longitude": -74.159},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Waretown",
+      "name": "Bad Boy Golf Carts Waretown",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "526 U.S. 9",
@@ -227,12 +227,12 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 39.777, "longitude": -74.191},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "LocalBusiness",
-      "name": "Discounted Golf Carts Lecanto",
+      "name": "Bad Boy Golf Carts Lecanto",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "299 East Gulf to Lake Highway",
@@ -243,84 +243,84 @@
       },
       "geo": {"@type": "GeoCoordinates", "latitude": 28.850, "longitude": -82.488},
       "telephone": "1-888-840-4490",
-      "url": "https://discountedgolfcart.com",
-      "parentOrganization": {"@id": "https://discountedgolfcart.com/#organization"}
+      "url": "https://badboygolfcarts.com",
+      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
     },
     {
       "@type": "FAQPage",
-      "@id": "https://discountedgolfcart.com/#faq",
+      "@id": "https://badboygolfcarts.com/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What brands of golf carts does Discounted Golf Carts sell?",
+          "name": "What brands of golf carts does Bad Boy Golf Carts sell?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Discounted Golf Carts is an authorized dealer for 13 golf cart brands: American Custom Golf Carts, Bintelli, Club Car, COLEMAN, COLUMBIA, CRICKET, Denago, Evolution, EZGO (E-Z-GO), Icon, Star EV, Tara, and Yamaha."
+            "text": "Bad Boy Golf Carts is an authorized dealer for 13 golf cart brands: American Custom Golf Carts, Bintelli, Club Car, COLEMAN, COLUMBIA, CRICKET, Denago, Evolution, EZGO (E-Z-GO), Icon, Star EV, Tara, and Yamaha."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Discounted Golf Carts offer financing?",
+          "name": "Does Bad Boy Golf Carts offer financing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Discounted Golf Carts offers 0% APR financing on golf cart purchases with terms up to 48 months. Financing is available at all 11 locations and is subject to credit approval."
+            "text": "Yes, Bad Boy Golf Carts offers 0% APR financing on golf cart purchases with terms up to 48 months. Financing is available at all 11 locations and is subject to credit approval."
           }
         },
         {
           "@type": "Question",
-          "name": "How many locations does Discounted Golf Carts have?",
+          "name": "How many locations does Bad Boy Golf Carts have?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Discounted Golf Carts operates 11 retail locations across 7 states: Pennsylvania (Hatfield, Long Pond, Scranton), New Jersey (Ocean View, Bayville, Waretown), Delaware (Dover), North Carolina (Raleigh), Indiana (South Bend), Virginia (Gloucester Point), and Florida (Lecanto)."
+            "text": "Bad Boy Golf Carts operates 11 retail locations across 7 states: Pennsylvania (Hatfield, Long Pond, Scranton), New Jersey (Ocean View, Bayville, Waretown), Delaware (Dover), North Carolina (Raleigh), Indiana (South Bend), Virginia (Gloucester Point), and Florida (Lecanto)."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Discounted Golf Carts sell street-legal golf carts?",
+          "name": "Does Bad Boy Golf Carts sell street-legal golf carts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Discounted Golf Carts offers street-legal golf carts (LSVs - Low Speed Vehicles) that meet federal and state safety requirements for operation on public roads with speed limits of 35 mph or less. These include headlights, taillights, turn signals, brake lights, mirrors, seat belts, horn, windshield, and a VIN."
+            "text": "Yes, Bad Boy Golf Carts offers street-legal golf carts (LSVs - Low Speed Vehicles) that meet federal and state safety requirements for operation on public roads with speed limits of 35 mph or less. These include headlights, taillights, turn signals, brake lights, mirrors, seat belts, horn, windshield, and a VIN."
           }
         },
         {
           "@type": "Question",
-          "name": "What is the phone number for Discounted Golf Carts?",
+          "name": "What is the phone number for Bad Boy Golf Carts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can reach Discounted Golf Carts at 1-888-840-4490. This toll-free number connects you to our sales team who can assist with inventory, pricing, financing, and store locations."
+            "text": "You can reach Bad Boy Golf Carts at 1-888-840-4490. This toll-free number connects you to our sales team who can assist with inventory, pricing, financing, and store locations."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Discounted Golf Carts service and repair golf carts?",
+          "name": "Does Bad Boy Golf Carts service and repair golf carts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Discounted Golf Carts offers comprehensive golf cart service and repair including routine maintenance, battery diagnostics and replacement, motor and controller repair, brake service, electrical diagnostics, body repair, and warranty service for all brands carried."
+            "text": "Yes, Bad Boy Golf Carts offers comprehensive golf cart service and repair including routine maintenance, battery diagnostics and replacement, motor and controller repair, brake service, electrical diagnostics, body repair, and warranty service for all brands carried."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Discounted Golf Carts sell used golf carts?",
+          "name": "Does Bad Boy Golf Carts sell used golf carts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Discounted Golf Carts sells both new and used golf carts at all 11 locations. Our used inventory includes inspected and serviced pre-owned carts from all major brands at discounted prices."
+            "text": "Yes, Bad Boy Golf Carts sells both new and used golf carts at all 11 locations. Our used inventory includes inspected and serviced pre-owned carts from all major brands at discounted prices."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Discounted Golf Carts accept trade-ins?",
+          "name": "Does Bad Boy Golf Carts accept trade-ins?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Discounted Golf Carts accepts trade-ins at all 11 locations. You can trade in your existing golf cart toward the purchase of a new or used cart and receive a fair market value offer."
+            "text": "Yes, Bad Boy Golf Carts accepts trade-ins at all 11 locations. You can trade in your existing golf cart toward the purchase of a new or used cart and receive a fair market value offer."
           }
         }
       ]
     },
     {
       "@type": "OfferCatalog",
-      "name": "Discounted Golf Carts Inventory",
+      "name": "Bad Boy Golf Carts Inventory",
       "description": "Complete inventory of new and used golf carts updated daily",
-      "url": "https://discountedgolfcart.com/inventory",
+      "url": "https://badboygolfcarts.com/inventory",
       "numberOfItems": 808,
       "itemListElement": [
         {
@@ -329,7 +329,7 @@
           "brand": {"@type": "Brand", "name": "Club Car"},
           "category": "Utility Golf Cart",
           "description": "Utility vehicle for commercial and personal use with cargo bed and heavy-duty frame",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -337,7 +337,7 @@
           "brand": {"@type": "Brand", "name": "Club Car"},
           "category": "Golf Cart",
           "description": "Classic golf cart platform with proven reliability and extensive aftermarket support",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -345,7 +345,7 @@
           "brand": {"@type": "Brand", "name": "Club Car"},
           "category": "Golf Cart",
           "description": "Modern design with improved suspension and electronics",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -353,7 +353,7 @@
           "brand": {"@type": "Brand", "name": "Club Car"},
           "category": "Premium Golf Cart",
           "description": "Latest generation with premium features and connected technology",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -361,7 +361,7 @@
           "brand": {"@type": "Brand", "name": "COLEMAN"},
           "category": "Electric Golf Cart",
           "description": "48-volt electric golf cart with versatile utility platform",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -369,7 +369,7 @@
           "brand": {"@type": "Brand", "name": "Denago"},
           "category": "Electric Golf Cart",
           "description": "Extended range electric golf cart with modern styling and advanced electronics",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -377,7 +377,7 @@
           "brand": {"@type": "Brand", "name": "Denago"},
           "category": "Electric Golf Cart",
           "description": "4-passenger electric golf cart with premium seating and advanced suspension",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -385,7 +385,7 @@
           "brand": {"@type": "Brand", "name": "Denago"},
           "category": "Electric Golf Cart",
           "description": "6-passenger electric golf cart with extended seating for families",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -393,7 +393,7 @@
           "brand": {"@type": "Brand", "name": "EZGO"},
           "category": "Golf Cart",
           "description": "Entry-level golf cart with reliable performance and easy maintenance",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -401,7 +401,7 @@
           "brand": {"@type": "Brand", "name": "EZGO"},
           "category": "Premium Golf Cart",
           "description": "Premium golf cart with AC drive technology, regenerative braking, and IntelliBrake system",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -409,7 +409,7 @@
           "brand": {"@type": "Brand", "name": "EZGO"},
           "category": "Golf Cart",
           "description": "Versatile golf cart platform with extensive customization options",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -417,7 +417,7 @@
           "brand": {"@type": "Brand", "name": "Evolution"},
           "category": "Electric Golf Cart",
           "description": "6-passenger electric vehicle with enhanced features and utility cargo area",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -425,7 +425,7 @@
           "brand": {"@type": "Brand", "name": "Evolution"},
           "category": "Premium Electric Golf Cart",
           "description": "6-passenger premium electric vehicle with sport styling and advanced technology",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -433,7 +433,7 @@
           "brand": {"@type": "Brand", "name": "Evolution"},
           "category": "Premium Electric Golf Cart",
           "description": "4-passenger premium electric vehicle with rugged styling and all-terrain capability",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -441,7 +441,7 @@
           "brand": {"@type": "Brand", "name": "Star EV"},
           "category": "Electric Golf Cart",
           "description": "Traditional style electric golf cart with modern electric drivetrain",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -449,7 +449,7 @@
           "brand": {"@type": "Brand", "name": "Tara"},
           "category": "Electric Golf Cart",
           "description": "Feature-rich electric golf cart with enhanced feature package and comfortable seating",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -457,7 +457,7 @@
           "brand": {"@type": "Brand", "name": "Yamaha"},
           "category": "Golf Cart",
           "description": "Latest generation Yamaha golf cart with QuieTech EFI technology and independent rear suspension",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -465,7 +465,7 @@
           "brand": {"@type": "Brand", "name": "Yamaha"},
           "category": "Golf Cart",
           "description": "Mid-generation classic golf cart with proven reliability and strong aftermarket support",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         },
         {
           "@type": "Product",
@@ -473,7 +473,7 @@
           "brand": {"@type": "Brand", "name": "Yamaha"},
           "category": "Golf Cart",
           "description": "Popular and versatile golf cart platform with wide customization options",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://discountedgolfcart.com/#organization"}}
+          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
         }
       ]
     }

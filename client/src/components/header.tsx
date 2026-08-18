@@ -25,9 +25,9 @@ export function Header() {
         <div className="flex h-16 items-center justify-between gap-4">
           <Link href="/" data-testid="link-home">
             <div className="flex items-center gap-2">
-              <img src={logoImg} alt="Discounted Golf Carts" className="h-10 w-10 object-contain" />
+              <img src={logoImg} alt="Bad Boy Golf Carts" className="h-10 w-10 object-contain" />
               <span className="text-xl font-bold tracking-tight">
-                Discounted <span className="text-primary">Golf Carts</span>
+                Bad Boy <span className="text-primary">Golf Carts</span>
               </span>
             </div>
           </Link>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Podcast feed placeholder. Bad Boy Golf Carts does not publish a podcast yet; the channel is valid and ready for episodes. -->
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Bad Boy Golf Carts Golf Cart Podcast</title>
+    <link>https://badboygolfcarts.com/</link>
+    <description>Golf cart buying guides, street legal rules and dealership news from Bad Boy Golf Carts.</description>
+    <language>en-us</language>
+    <itunes:author>Bad Boy Golf Carts</itunes:author>
+    <itunes:owner><itunes:name>Bad Boy Golf Carts</itunes:name><itunes:email>tigongolfcarts@gmail.com</itunes:email></itunes:owner>
+    <itunes:category text="Leisure"><itunes:category text="Automotive"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <lastBuildDate>Tue, 18 Aug 2026 20:00:34 GMT</lastBuildDate>
+  </channel>
+</rss>

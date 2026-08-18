@@ -1,7 +1,7 @@
-# Discounted Golf Carts - Maximum Crawl Accessibility Configuration
-# Website: https://discountedgolfcart.com
+# Bad Boy Golf Carts - Maximum Crawl Accessibility Configuration
+# Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
-# Last Updated: 2026-02-11
+# Last Updated: 2026-08-18
 # Policy: UNRESTRICTED ACCESS - All bots welcome
 
 # ============================================================
@@ -547,5 +547,57 @@ Crawl-delay: 0
 
 # ============================================================
 # SITEMAP REFERENCES
+# sitemap.xml is the master index; the rest are listed for crawlers
+# that do not follow sitemap index files.
 # ============================================================
-Sitemap: https://discountedgolfcart.com/sitemap.xml
+Sitemap: https://badboygolfcarts.com/sitemap.xml
+Sitemap: https://badboygolfcarts.com/sitemap-pages.xml
+Sitemap: https://badboygolfcarts.com/page-sitemap.xml
+Sitemap: https://badboygolfcarts.com/sitemap-brands.xml
+Sitemap: https://badboygolfcarts.com/category-sitemap.xml
+Sitemap: https://badboygolfcarts.com/tag-sitemap.xml
+Sitemap: https://badboygolfcarts.com/geo-sitemap.xml
+Sitemap: https://badboygolfcarts.com/dynamic-sitemap.xml
+Sitemap: https://badboygolfcarts.com/sitemap-images.xml
+Sitemap: https://badboygolfcarts.com/image-sitemap.xml
+Sitemap: https://badboygolfcarts.com/mobile-sitemap.xml
+Sitemap: https://badboygolfcarts.com/hreflang-sitemap.xml
+Sitemap: https://badboygolfcarts.com/xhtml-sitemap.xml
+Sitemap: https://badboygolfcarts.com/urllist.xml
+Sitemap: https://badboygolfcarts.com/sitemap-blog.xml
+Sitemap: https://badboygolfcarts.com/post-sitemap.xml
+Sitemap: https://badboygolfcarts.com/author-sitemap.xml
+Sitemap: https://badboygolfcarts.com/events-sitemap.xml
+Sitemap: https://badboygolfcarts.com/news-sitemap.xml
+
+# ============================================================
+# AI, FEED AND DATA FILES
+# ============================================================
+# https://badboygolfcarts.com/llms.txt
+# https://badboygolfcarts.com/llms-full.txt
+# https://badboygolfcarts.com/ai.txt
+# https://badboygolfcarts.com/gpt.txt
+# https://badboygolfcarts.com/claude.txt
+# https://badboygolfcarts.com/training.txt
+# https://badboygolfcarts.com/nlp.txt
+# https://badboygolfcarts.com/seo.txt
+# https://badboygolfcarts.com/geo.txt
+# https://badboygolfcarts.com/bots.txt
+# https://badboygolfcarts.com/crawlers.txt
+# https://badboygolfcarts.com/schema.json
+# https://badboygolfcarts.com/locations.json
+# https://badboygolfcarts.com/locations.geojson
+# https://badboygolfcarts.com/locations.kml
+# https://badboygolfcarts.com/schema/all-locations.jsonld
+# https://badboygolfcarts.com/product_feed.xml
+# https://badboygolfcarts.com/google-shopping-feed.xml
+# https://badboygolfcarts.com/local-inventory-feed.xml
+# https://badboygolfcarts.com/rss.xml
+# https://badboygolfcarts.com/atom.xml
+# https://badboygolfcarts.com/feed.xml
+# https://badboygolfcarts.com/data.xml
+# https://badboygolfcarts.com/api-feed.xml
+# https://badboygolfcarts.com/opensearch.xml
+
+# Host
+Host: badboygolfcarts.com

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bad Boy Golf Carts - Store Locations</name>
+    <description>11 golf cart dealership locations across 7 states. Call 1-888-840-4490.</description>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Hatfield</name>
+      <description>2333 Bethlehem Pike, Hatfield, PA 19440. Montgomery County. Phone 1-888-840-4490.</description>
+      <address>2333 Bethlehem Pike, Hatfield, PA 19440</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-75.2993,40.2751,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Ocean View</name>
+      <description>101 NJ-50, Ocean View, NJ 08230. Cape May County. Phone 1-888-840-4490.</description>
+      <address>101 NJ-50, Ocean View, NJ 08230</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-74.7202,39.2482,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Long Pond (Poconos)</name>
+      <description>4738 PA-115, Long Pond, PA 18334. Monroe County. Phone 1-888-840-4490.</description>
+      <address>4738 PA-115, Long Pond, PA 18334</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-75.4532,41.0506,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Dover</name>
+      <description>5158 N Dupont Hwy, Dover, DE 19901. Kent County. Phone 1-888-840-4490.</description>
+      <address>5158 N Dupont Hwy, Dover, DE 19901</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-75.5244,39.1582,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Scranton</name>
+      <description>1225 N. Keyser Ave #2, Scranton, PA 18504. Lackawanna County. Phone 1-888-840-4490.</description>
+      <address>1225 N. Keyser Ave #2, Scranton, PA 18504</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-75.6624,41.409,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Raleigh</name>
+      <description>2700 South Wilmington Street, Raleigh, NC 27603. Wake County. Phone 1-888-840-4490.</description>
+      <address>2700 South Wilmington Street, Raleigh, NC 27603</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-78.6382,35.7596,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - South Bend</name>
+      <description>52129 State Highway 933, South Bend, IN 46637. St. Joseph County. Phone 1-888-840-4490.</description>
+      <address>52129 State Highway 933, South Bend, IN 46637</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-86.239,41.7002,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Gloucester Point</name>
+      <description>2810 George Washington Memorial Highway, Gloucester Point, VA 23072. Gloucester County. Phone 1-888-840-4490.</description>
+      <address>2810 George Washington Memorial Highway, Gloucester Point, VA 23072</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-76.4966,37.2779,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Bayville</name>
+      <description>155 Atlantic City Boulevard, Bayville Township, NJ 08721. Ocean County. Phone 1-888-840-4490.</description>
+      <address>155 Atlantic City Boulevard, Bayville Township, NJ 08721</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-74.156,39.9065,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Waretown</name>
+      <description>526 U.S. 9, Ocean Township (Waretown), NJ 08758. Ocean County. Phone 1-888-840-4490.</description>
+      <address>526 U.S. 9, Ocean Township (Waretown), NJ 08758</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-74.2035,39.7812,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bad Boy Golf Carts - Lecanto</name>
+      <description>299 East Gulf to Lake Highway, Lecanto, FL 34461. Citrus County. Phone 1-888-840-4490.</description>
+      <address>299 East Gulf to Lake Highway, Lecanto, FL 34461</address>
+      <phoneNumber>1-888-840-4490</phoneNumber>
+      <Point><coordinates>-82.4876,28.8517,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

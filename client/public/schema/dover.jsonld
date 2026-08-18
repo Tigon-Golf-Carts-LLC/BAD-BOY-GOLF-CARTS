@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "@id": "https://badboygolfcarts.com/#dover",
+  "name": "Bad Boy Golf Carts - Dover",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Bad Boy Golf Carts",
+    "url": "https://badboygolfcarts.com/"
+  },
+  "url": "https://badboygolfcarts.com/inventory?location=Dover",
+  "telephone": "1-888-840-4490",
+  "email": "tigongolfcarts@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5158 N Dupont Hwy",
+    "addressLocality": "Dover",
+    "addressRegion": "DE",
+    "postalCode": "19901",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 39.1582,
+    "longitude": -75.5244
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Kent County"
+    },
+    {
+      "@type": "City",
+      "name": "Camden-Wyoming"
+    },
+    {
+      "@type": "City",
+      "name": "Smyrna"
+    },
+    {
+      "@type": "City",
+      "name": "Clayton"
+    },
+    {
+      "@type": "City",
+      "name": "Milford"
+    },
+    {
+      "@type": "City",
+      "name": "Harrington"
+    },
+    {
+      "@type": "City",
+      "name": "Felton"
+    },
+    {
+      "@type": "City",
+      "name": "Magnolia"
+    },
+    {
+      "@type": "City",
+      "name": "Frederica"
+    },
+    {
+      "@type": "City",
+      "name": "Woodside"
+    },
+    {
+      "@type": "City",
+      "name": "Hartly"
+    },
+    {
+      "@type": "City",
+      "name": "Cheswold"
+    },
+    {
+      "@type": "City",
+      "name": "Kenton"
+    },
+    {
+      "@type": "City",
+      "name": "Townsend"
+    },
+    {
+      "@type": "City",
+      "name": "Middletown"
+    },
+    {
+      "@type": "City",
+      "name": "Odessa"
+    }
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 39.1582,
+      "longitude": -75.5244
+    },
+    "description": "50+ miles"
+  },
+  "priceRange": "$$",
+  "currenciesAccepted": "USD",
+  "knowsAbout": [
+    "golf carts",
+    "low speed vehicles",
+    "neighborhood electric vehicles",
+    "street legal golf carts"
+  ],
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Product",
+      "name": "Golf carts - new and used"
+    },
+    "availability": "https://schema.org/InStock"
+  }
+}

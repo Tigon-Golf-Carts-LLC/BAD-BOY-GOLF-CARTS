@@ -37,7 +37,7 @@ export default function Home() {
     <div>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroBg} alt="Discounted Golf Carts Showroom" className="w-full h-full object-cover" />
+          <img src={heroBg} alt="Bad Boy Golf Carts Showroom" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
         <div className="mx-auto max-w-7xl px-4 py-16 sm:py-24 relative">
@@ -47,7 +47,7 @@ export default function Home() {
               Discounted Golf Cart Inventory
             </Badge>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6 text-white" data-testid="text-hero-title">
-              Discounted Golf Carts
+              Bad Boy Golf Carts
               <span className="text-green-400 block mt-1">Updated Daily</span>
             </h1>
             <p className="text-lg sm:text-xl text-white/80 max-w-2xl mb-8 leading-relaxed" data-testid="text-hero-description">
@@ -176,7 +176,7 @@ export default function Home() {
 
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="mx-auto max-w-7xl px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Find Your Discounted Golf Cart?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Find Your Golf Cart?</h2>
           <p className="text-primary-foreground/80 max-w-xl mx-auto mb-8">
             Our experts are standing by to help you find the perfect cart at the best price. Call now to learn about
             our current discounted inventory, pricing, and financing options.

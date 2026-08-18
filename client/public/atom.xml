@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <title>Bad Boy Golf Carts - Latest Inventory</title>
+  <link href="https://badboygolfcarts.com/atom.xml" rel="self"/>
+  <link href="https://badboygolfcarts.com/inventory"/>
+  <id>https://badboygolfcarts.com/</id>
+  <updated>2026-08-18T20:00:34.779Z</updated>
+  <author><name>Bad Boy Golf Carts</name><email>tigongolfcarts@gmail.com</email></author>
+  <subtitle>Discounted new and used golf carts, updated daily.</subtitle>
+</feed>

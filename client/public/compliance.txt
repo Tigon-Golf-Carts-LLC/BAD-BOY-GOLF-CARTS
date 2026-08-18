@@ -1,6 +1,6 @@
-# Discounted Golf Carts - Compliance & Standards Documentation
-# Last Updated: 2026-02-11
-# Website: https://discountedgolfcart.com
+# Bad Boy Golf Carts - Compliance & Standards Documentation
+# Last Updated: 2026-08-18
+# Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
 
 ================================================================================
@@ -9,7 +9,7 @@ COMPLIANCE & REGULATORY STANDARDS
 
 PURPOSE:
 Document all compliance requirements, industry standards, and regulatory
-frameworks applicable to the Discounted Golf Carts website and business operations
+frameworks applicable to the Bad Boy Golf Carts website and business operations
 to ensure full legal and technical compliance across all operating states.
 
 ================================================================================
@@ -55,7 +55,7 @@ CCPA COMPLIANCE (California Consumer Privacy Act)
 ================================================================================
 
 APPLICABILITY:
-- Discounted Golf Carts respects CCPA rights for all California residents
+- Bad Boy Golf Carts respects CCPA rights for all California residents
 - No sale of personal information to third parties
 - Consumers may request disclosure of collected data
 - Consumers may request deletion of personal data
@@ -63,7 +63,7 @@ APPLICABILITY:
 
 CONTACT FOR CCPA REQUESTS:
 - Phone: 1-888-840-4490
-- Website: https://discountedgolfcart.com
+- Website: https://badboygolfcarts.com
 
 ================================================================================
 WCAG ACCESSIBILITY GUIDELINES (Web Content Accessibility Guidelines 2.1)
@@ -351,5 +351,5 @@ ANNUALLY:
 END OF COMPLIANCE & STANDARDS DOCUMENTATION
 ================================================================================
 
-Maintained by Discounted Golf Carts for regulatory and standards compliance.
-Contact: 1-888-840-4490 | https://discountedgolfcart.com
+Maintained by Bad Boy Golf Carts for regulatory and standards compliance.
+Contact: 1-888-840-4490 | https://badboygolfcarts.com

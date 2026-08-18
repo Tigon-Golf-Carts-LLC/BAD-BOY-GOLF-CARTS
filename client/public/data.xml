@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Machine-readable summary of badboygolfcarts.com. Generated 2026-08-18T20:00:34.779Z. -->
+<site generated="2026-08-18T20:00:34.779Z">
+  <business>
+    <name>Bad Boy Golf Carts</name>
+    <url>https://badboygolfcarts.com/</url>
+    <telephone>1-888-840-4490</telephone>
+    <email>tigongolfcarts@gmail.com</email>
+    <type>AutoDealer</type>
+    <industry>Golf cart and low speed vehicle sales</industry>
+  </business>
+  <inventory total="0">
+    <condition new="0" used="0"/>
+    <power electric="0" gas="0"/>
+    <streetLegal count="0"/>
+    <brands count="0">
+    </brands>
+  </inventory>
+  <locations count="11">
+    <location slug="hatfield" city="Hatfield" state="PA" zip="19440" lat="40.2751" lng="-75.2993"/>
+    <location slug="ocean-view" city="Ocean View" state="NJ" zip="08230" lat="39.2482" lng="-74.7202"/>
+    <location slug="long-pond" city="Long Pond" state="PA" zip="18334" lat="41.0506" lng="-75.4532"/>
+    <location slug="dover" city="Dover" state="DE" zip="19901" lat="39.1582" lng="-75.5244"/>
+    <location slug="scranton" city="Scranton" state="PA" zip="18504" lat="41.409" lng="-75.6624"/>
+    <location slug="raleigh" city="Raleigh" state="NC" zip="27603" lat="35.7596" lng="-78.6382"/>
+    <location slug="south-bend" city="South Bend" state="IN" zip="46637" lat="41.7002" lng="-86.239"/>
+    <location slug="gloucester-point" city="Gloucester Point" state="VA" zip="23072" lat="37.2779" lng="-76.4966"/>
+    <location slug="bayville-township" city="Bayville Township" state="NJ" zip="08721" lat="39.9065" lng="-74.156"/>
+    <location slug="ocean-township" city="Ocean Township (Waretown)" state="NJ" zip="08758" lat="39.7812" lng="-74.2035"/>
+    <location slug="lecanto" city="Lecanto" state="FL" zip="34461" lat="28.8517" lng="-82.4876"/>
+  </locations>
+</site>

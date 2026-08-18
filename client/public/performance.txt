@@ -1,6 +1,6 @@
-# Discounted Golf Carts - Performance Optimization Guidelines
-# Last Updated: 2026-02-11
-# Website: https://discountedgolfcart.com
+# Bad Boy Golf Carts - Performance Optimization Guidelines
+# Last Updated: 2026-08-18
+# Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
 
 ================================================================================
@@ -9,7 +9,7 @@ PERFORMANCE OPTIMIZATION STANDARDS
 
 PURPOSE:
 Document performance best practices and optimization strategies for the
-Discounted Golf Carts website to ensure fast load times, excellent Core Web Vitals
+Bad Boy Golf Carts website to ensure fast load times, excellent Core Web Vitals
 scores, and optimal user experience across all devices and networks.
 
 ================================================================================
@@ -259,5 +259,5 @@ SEO PERFORMANCE SIGNALS
 END OF PERFORMANCE OPTIMIZATION GUIDELINES
 ================================================================================
 
-Maintained by Discounted Golf Carts for web performance standards.
-Contact: 1-888-840-4490 | https://discountedgolfcart.com
+Maintained by Bad Boy Golf Carts for web performance standards.
+Contact: 1-888-840-4490 | https://badboygolfcarts.com

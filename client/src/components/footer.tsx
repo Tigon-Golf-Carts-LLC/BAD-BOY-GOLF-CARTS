@@ -16,8 +16,8 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src={logoImg} alt="Discounted Golf Carts" className="h-9 w-9 object-contain" />
-              <span className="text-lg font-bold">Discounted <span className="text-primary">Golf Carts</span></span>
+              <img src={logoImg} alt="Bad Boy Golf Carts" className="h-9 w-9 object-contain" />
+              <span className="text-lg font-bold">Bad Boy <span className="text-primary">Golf Carts</span></span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Your destination for discounted new and used golf carts. We carry top brands at the best prices
@@ -72,7 +72,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Discounted Golf Carts. All rights reserved. | discountedgolfcart.com</p>
+          <p>&copy; {new Date().getFullYear()} Bad Boy Golf Carts. All rights reserved. | badboygolfcarts.com</p>
         </div>
       </div>
     </footer>

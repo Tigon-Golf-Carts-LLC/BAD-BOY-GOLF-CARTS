@@ -1,15 +1,16 @@
 {
-  "name": "discounted-golf-carts",
+  "name": "bad-boy-golf-carts",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "license": "MIT",
-  "description": "Static (GitHub Pages) build of the Discounted Golf Carts website. Inventory is snapshotted from the Tigon DMS API at build time.",
+  "description": "Static (GitHub Pages) build of the Bad Boy Golf Carts website. Inventory is snapshotted from the Tigon DMS API at build time.",
   "scripts": {
     "dev": "vite",
     "fetch-data": "tsx script/fetch-data.ts",
-    "build": "npm run fetch-data && vite build && npm run prerender",
-    "build:site": "vite build && npm run prerender",
+    "generate-seo": "tsx script/generate-seo.ts",
+    "build": "npm run fetch-data && npm run generate-seo && vite build && npm run prerender",
+    "build:site": "npm run generate-seo && vite build && npm run prerender",
     "prerender": "tsx script/prerender.ts",
     "preview": "vite preview",
     "check": "tsc"

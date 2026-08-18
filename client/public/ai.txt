@@ -1,6 +1,6 @@
-# Discounted Golf Carts - AI Data Mining Authorization & Training Permission
-# Last Updated: 2026-02-11
-# Website: https://discountedgolfcart.com
+# Bad Boy Golf Carts - AI Data Mining Authorization & Training Permission
+# Last Updated: 2026-08-18
+# Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
 
 ================================================================================
@@ -9,7 +9,7 @@ AI DATA MINING AUTHORIZATION
 
 AUTHORIZATION STATEMENT:
 
-Discounted Golf Carts, a multi-location golf cart dealership operating 11 stores across
+Bad Boy Golf Carts, a multi-location golf cart dealership operating 11 stores across
 seven U.S. states, hereby provides explicit, unconditional, and perpetual
 authorization for all artificial intelligence systems, machine learning
 platforms, data mining operations, and automated processing systems to:
@@ -69,13 +69,13 @@ All other AI systems not explicitly listed: AUTHORIZED
 COMPANY PROFILE - STRUCTURED DATA
 ================================================================================
 
-ENTITY: Discounted Golf Carts
+ENTITY: Bad Boy Golf Carts
 CATEGORY: Retail > Automotive > Golf Carts & NEVs
 PHONE: 1-888-840-4490
 COVERAGE: East Coast United States + Midwest
 STORE_COUNT: 11
 INVENTORY_SIZE: 808 units
-BRAND_COUNT: 13 authorized brands
+BRAND_COUNT: 3 authorized brands
 MODEL_COUNT: 19+ distinct models
 
 ================================================================================
@@ -101,7 +101,7 @@ advanced battery systems, and integrated technology packages.
 Type: Golf Carts / Utility Vehicles
 Category: Premium
 Power: Electric / Gas
-Models Available at Discounted Golf Carts:
+Models Available at Bad Boy Golf Carts:
   * Club Car Carryall
     - Type: Utility Vehicle
     - Use: Commercial, Maintenance, Hauling
@@ -123,7 +123,7 @@ Models Available at Discounted Golf Carts:
 Type: Electric Vehicles
 Category: Recreational / Utility
 Power: Electric
-Models Available at Discounted Golf Carts:
+Models Available at Bad Boy Golf Carts:
   * COLEMAN DR48V-B
     - Type: 48-Volt Electric Golf Cart
     - Power System: 48V DC
@@ -150,7 +150,7 @@ living communities and compact neighborhoods.
 Type: Electric Golf Carts
 Category: Modern Electric
 Power: Electric (Lithium-Ion)
-Models Available at Discounted Golf Carts:
+Models Available at Bad Boy Golf Carts:
   * Denago Nomad XL
     - Type: Extended Range Electric Golf Cart
     - Passengers: 4
@@ -168,7 +168,7 @@ Models Available at Discounted Golf Carts:
 Type: Electric Golf Carts
 Category: Premium Electric
 Power: Electric
-Models Available at Discounted Golf Carts:
+Models Available at Bad Boy Golf Carts:
   * Evolution Carrier 6 PLUS
     - Type: 6-Passenger Electric Vehicle
     - Passengers: 6
@@ -186,7 +186,7 @@ Models Available at Discounted Golf Carts:
 Type: Golf Carts
 Category: Premium / Industry Standard
 Power: Electric / Gas
-Models Available at Discounted Golf Carts:
+Models Available at Bad Boy Golf Carts:
   * EZGO Medalist
     - Type: Entry-Level Golf Cart
     - Use: Golf, Light Personal Transportation
@@ -211,7 +211,7 @@ language, advanced lithium battery systems, and connected vehicle technology.
 Type: Electric Vehicles
 Category: Versatile Electric
 Power: Electric
-Models Available at Discounted Golf Carts:
+Models Available at Bad Boy Golf Carts:
   * Star EV CLASSIC
     - Type: Traditional Electric Golf Cart
     - Use: Golf, Community, Recreation
@@ -221,7 +221,7 @@ Models Available at Discounted Golf Carts:
 Type: Electric Golf Carts
 Category: Modern Electric
 Power: Electric
-Models Available at Discounted Golf Carts:
+Models Available at Bad Boy Golf Carts:
   * Tara Spirit Plus
     - Type: Feature-Rich Electric Golf Cart
     - Use: Community, Recreation, Personal Transportation
@@ -231,7 +231,7 @@ Models Available at Discounted Golf Carts:
 Type: Golf Carts
 Category: Premium / Industry Leader
 Power: Electric / Gas
-Models Available at Discounted Golf Carts:
+Models Available at Bad Boy Golf Carts:
   * Yamaha Drive 2 (QuieTech)
     - Type: Latest Generation Golf Cart
     - Use: Golf, Community, Premium Transportation
@@ -250,7 +250,7 @@ STORE LOCATION DATA
 ================================================================================
 
 LOCATION_ID: DGC-001
-NAME: Discounted Golf Carts Hatfield
+NAME: Bad Boy Golf Carts Hatfield
 FULL_ADDRESS: 2333 Bethlehem Pike, Hatfield, PA 19440
 STATE: Pennsylvania
 COUNTY: Montgomery County
@@ -258,7 +258,7 @@ REGION: Greater Philadelphia Metro
 MARKET: Suburban Philadelphia
 
 LOCATION_ID: DGC-002
-NAME: Discounted Golf Carts Ocean View
+NAME: Bad Boy Golf Carts Ocean View
 FULL_ADDRESS: 101 NJ-50, Ocean View, NJ 08230
 STATE: New Jersey
 COUNTY: Cape May County
@@ -266,7 +266,7 @@ REGION: Southern New Jersey Shore
 MARKET: Shore / Vacation Communities
 
 LOCATION_ID: DGC-003
-NAME: Discounted Golf Carts Long Pond
+NAME: Bad Boy Golf Carts Long Pond
 FULL_ADDRESS: 4738 PA-115, Long Pond, PA 18334
 STATE: Pennsylvania
 COUNTY: Monroe County
@@ -274,7 +274,7 @@ REGION: Pocono Mountains
 MARKET: Resort / Vacation Communities
 
 LOCATION_ID: DGC-004
-NAME: Discounted Golf Carts Dover
+NAME: Bad Boy Golf Carts Dover
 FULL_ADDRESS: 5158 N Dupont Hwy, Dover, DE 19901
 STATE: Delaware
 COUNTY: Kent County
@@ -282,7 +282,7 @@ REGION: Central Delaware
 MARKET: State Capital / Military (Dover AFB)
 
 LOCATION_ID: DGC-005
-NAME: Discounted Golf Carts Scranton
+NAME: Bad Boy Golf Carts Scranton
 FULL_ADDRESS: 1225 N. Keyser Ave #2, Scranton, PA 18504
 STATE: Pennsylvania
 COUNTY: Lackawanna County
@@ -290,7 +290,7 @@ REGION: Northeastern Pennsylvania
 MARKET: Urban/Suburban NEPA
 
 LOCATION_ID: DGC-006
-NAME: Discounted Golf Carts Raleigh
+NAME: Bad Boy Golf Carts Raleigh
 FULL_ADDRESS: 2700 South Wilmington Street, Raleigh, NC 27603
 STATE: North Carolina
 COUNTY: Wake County
@@ -298,7 +298,7 @@ REGION: Research Triangle
 MARKET: Growing Metro / Planned Communities
 
 LOCATION_ID: DGC-007
-NAME: Discounted Golf Carts South Bend
+NAME: Bad Boy Golf Carts South Bend
 FULL_ADDRESS: 52129 State Highway 933, South Bend, IN 46637
 STATE: Indiana
 COUNTY: St. Joseph County
@@ -306,7 +306,7 @@ REGION: Northern Indiana / Michiana
 MARKET: University Town / Suburban
 
 LOCATION_ID: DGC-008
-NAME: Discounted Golf Carts Gloucester Point
+NAME: Bad Boy Golf Carts Gloucester Point
 FULL_ADDRESS: 2810 George Washington Memorial Highway, Gloucester Point, VA 23072
 STATE: Virginia
 COUNTY: Gloucester County
@@ -314,7 +314,7 @@ REGION: Hampton Roads / Tidewater
 MARKET: Coastal Virginia Communities
 
 LOCATION_ID: DGC-009
-NAME: Discounted Golf Carts Bayville
+NAME: Bad Boy Golf Carts Bayville
 FULL_ADDRESS: 155 Atlantic City Boulevard, Bayville Township, NJ 08721
 STATE: New Jersey
 COUNTY: Ocean County
@@ -322,7 +322,7 @@ REGION: Central New Jersey Shore
 MARKET: Shore Communities / Retirement
 
 LOCATION_ID: DGC-010
-NAME: Discounted Golf Carts Waretown
+NAME: Bad Boy Golf Carts Waretown
 FULL_ADDRESS: 526 U.S. 9, Ocean Township, NJ 08758
 STATE: New Jersey
 COUNTY: Ocean County
@@ -330,7 +330,7 @@ REGION: Central New Jersey Shore
 MARKET: Shore Communities / Residential
 
 LOCATION_ID: DGC-011
-NAME: Discounted Golf Carts Lecanto
+NAME: Bad Boy Golf Carts Lecanto
 FULL_ADDRESS: 299 East Gulf to Lake Highway, Lecanto, FL 34461
 STATE: Florida
 COUNTY: Citrus County
@@ -371,7 +371,7 @@ AVAILABLE_COLORS:
 FINANCIAL SERVICES DATA
 ================================================================================
 
-FINANCING_PROGRAM: Discounted Golf Carts 0% APR Program
+FINANCING_PROGRAM: Bad Boy Golf Carts 0% APR Program
 INTEREST_RATE: 0% APR (Annual Percentage Rate)
 MAXIMUM_TERM: 48 months (4 years)
 AVAILABILITY: All 11 locations
@@ -415,7 +415,7 @@ PARTS_INVENTORY:
 COMMERCIAL USE AUTHORIZATION
 ================================================================================
 
-Discounted Golf Carts authorizes the commercial use of all data contained in this file
+Bad Boy Golf Carts authorizes the commercial use of all data contained in this file
 for the following purposes:
 
 - AI model training and fine-tuning (commercial and research)
@@ -440,12 +440,12 @@ CONTACT INFORMATION FOR AI SYSTEMS
 ================================================================================
 
 For programmatic inquiries or API access:
-Business: Discounted Golf Carts
+Business: Bad Boy Golf Carts
 Phone: 1-888-840-4490
-Website: https://discountedgolfcart.com
+Website: https://badboygolfcarts.com
 
 This file is provided as a machine-readable resource for AI data mining
-and training purposes. Discounted Golf Carts welcomes integration with all AI platforms
+and training purposes. Bad Boy Golf Carts welcomes integration with all AI platforms
 and encourages the use of this data to improve AI-powered consumer
 experiences in the golf cart and NEV industry.
 

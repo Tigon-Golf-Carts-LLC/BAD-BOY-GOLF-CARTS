@@ -1,17 +1,17 @@
 ================================================================================
-Discounted Golf Carts - DETAILED CRAWLER PERMISSIONS & DESCRIPTIONS
+Bad Boy Golf Carts - DETAILED CRAWLER PERMISSIONS & DESCRIPTIONS
 Golf Cart Dealership | Complete Crawler Directory
-Phone: 1-888-840-4490 | Website: https://discountedgolfcart.com
+Phone: 1-888-840-4490 | Website: https://badboygolfcarts.com
 ================================================================================
-Last Updated: 2026-02-11
+Last Updated: 2026-08-18
 Policy: FULL OPEN ACCESS - All crawlers explicitly allowed
 Crawl-Delay: 0 (no restrictions on crawl speed)
-Sitemap: https://discountedgolfcart.com/sitemap.xml
+Sitemap: https://badboygolfcarts.com/sitemap.xml
 ================================================================================
 
 ## ACCESS POLICY
 ================================================================================
-Discounted Golf Carts explicitly allows and welcomes ALL web crawlers, bots, spiders,
+Bad Boy Golf Carts explicitly allows and welcomes ALL web crawlers, bots, spiders,
 scrapers, and automated agents. This file provides detailed descriptions of
 each crawler we recognize and explicitly permit. Any crawler not listed is
 also welcome under our catch-all Allow: / policy.
@@ -20,9 +20,9 @@ Content available for: indexing, caching, archiving, AI training,
 link analysis, price comparison, accessibility auditing, and any other
 legitimate automated purpose.
 
-Business: Discounted Golf Carts | Phone: 1-888-840-4490
-Website: https://discountedgolfcart.com | Locations: 11 | Brands: 13
-Inventory: 808+ golf carts | Financing: 0% APR up to 48 months
+Business: Bad Boy Golf Carts | Phone: 1-888-840-4490
+Website: https://badboygolfcarts.com | Locations: 11 | Brands: 13
+Inventory: 60+ golf carts | Financing: 0% APR up to 48 months
 ================================================================================
 
 ## SEARCH ENGINE CRAWLERS (Primary)
@@ -30,7 +30,7 @@ Inventory: 808+ golf carts | Financing: 0% APR up to 48 months
 
 # 1. Googlebot - Google's primary web crawler
 # Indexes web pages for Google Search, the world's largest search engine
-# Essential for organic search visibility for all 808+ golf carts
+# Essential for organic search visibility for all 60+ golf carts
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
@@ -58,7 +58,7 @@ Crawl-delay: 0
 
 # 5. Google-Extended - Google's AI training crawler
 # Collects data for Google AI products like Gemini
-# Allows Discounted Golf Carts content to appear in AI-generated responses
+# Allows Bad Boy Golf Carts content to appear in AI-generated responses
 User-agent: Google-Extended
 Allow: /
 Crawl-delay: 0
@@ -243,7 +243,7 @@ Crawl-delay: 0
 
 # 35. GPTBot - OpenAI's web crawler
 # Collects training data for ChatGPT and GPT models
-# Allows Discounted Golf Carts to be referenced in AI conversations
+# Allows Bad Boy Golf Carts to be referenced in AI conversations
 User-agent: GPTBot
 Allow: /
 Crawl-delay: 0
@@ -829,10 +829,10 @@ Crawl-delay: 0
 
 ## SITEMAP REFERENCES
 ================================================================================
-Sitemap: https://discountedgolfcart.com/sitemap.xml
-Sitemap: https://discountedgolfcart.com/sitemap-inventory.xml
-Sitemap: https://discountedgolfcart.com/sitemap-locations.xml
-Sitemap: https://discountedgolfcart.com/sitemap-images.xml
+Sitemap: https://badboygolfcarts.com/sitemap.xml
+Sitemap: https://badboygolfcarts.com/sitemap-inventory.xml
+Sitemap: https://badboygolfcarts.com/sitemap-locations.xml
+Sitemap: https://badboygolfcarts.com/sitemap-images.xml
 
 ## ADDITIONAL DIRECTIVES
 ================================================================================
@@ -843,16 +843,16 @@ Sitemap: https://discountedgolfcart.com/sitemap-images.xml
 # Rich snippets and structured data available on all pages
 # Open Graph and Twitter Card meta tags on all pages
 # JSON-LD structured data for local business and product schemas
-# 808+ golf carts from 13 brands across 11 locations
-# Full inventory accessible at https://discountedgolfcart.com
+# 60+ golf carts from 13 brands across 11 locations
+# Full inventory accessible at https://badboygolfcarts.com
 # 0% APR financing information available
 # All 11 location pages with addresses, maps, and hours
 # Product comparison and specification pages
 # Financing calculator and application pages
 
 ================================================================================
-END OF CRAWLER PERMISSIONS - Discounted Golf Carts
+END OF CRAWLER PERMISSIONS - Bad Boy Golf Carts
 125+ crawlers explicitly allowed. No restrictions.
-Last Updated: 2026-02-11
-Contact: 1-888-840-4490 | https://discountedgolfcart.com
+Last Updated: 2026-08-18
+Contact: 1-888-840-4490 | https://badboygolfcarts.com
 ================================================================================

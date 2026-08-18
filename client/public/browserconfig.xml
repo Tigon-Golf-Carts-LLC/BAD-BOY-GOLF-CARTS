@@ -9,7 +9,7 @@
       <TileColor>#16a34a</TileColor>
     </tile>
     <notification>
-      <polling-uri src="https://discountedgolfcart.com/"/>
+      <polling-uri src="https://badboygolfcarts.com/"/>
       <frequency>1440</frequency>
     </notification>
   </msapplication>

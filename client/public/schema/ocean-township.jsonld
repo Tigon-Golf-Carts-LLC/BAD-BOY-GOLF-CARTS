@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "@id": "https://badboygolfcarts.com/#ocean-township",
+  "name": "Bad Boy Golf Carts - Waretown",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Bad Boy Golf Carts",
+    "url": "https://badboygolfcarts.com/"
+  },
+  "url": "https://badboygolfcarts.com/inventory?location=Ocean%20Township%20(Waretown)",
+  "telephone": "1-888-840-4490",
+  "email": "tigongolfcarts@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "526 U.S. 9",
+    "addressLocality": "Ocean Township (Waretown)",
+    "addressRegion": "NJ",
+    "postalCode": "08758",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 39.7812,
+    "longitude": -74.2035
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Ocean County"
+    },
+    {
+      "@type": "City",
+      "name": "Barnegat"
+    },
+    {
+      "@type": "City",
+      "name": "Manahawkin"
+    },
+    {
+      "@type": "City",
+      "name": "Stafford Township"
+    },
+    {
+      "@type": "City",
+      "name": "Long Beach Township"
+    },
+    {
+      "@type": "City",
+      "name": "Beach Haven"
+    },
+    {
+      "@type": "City",
+      "name": "Ship Bottom"
+    },
+    {
+      "@type": "City",
+      "name": "Surf City"
+    },
+    {
+      "@type": "City",
+      "name": "Harvey Cedars"
+    },
+    {
+      "@type": "City",
+      "name": "Barnegat Light"
+    },
+    {
+      "@type": "City",
+      "name": "Tuckerton"
+    },
+    {
+      "@type": "City",
+      "name": "Little Egg Harbor"
+    },
+    {
+      "@type": "City",
+      "name": "New Gretna"
+    },
+    {
+      "@type": "City",
+      "name": "Chatsworth"
+    },
+    {
+      "@type": "City",
+      "name": "Hammonton"
+    },
+    {
+      "@type": "City",
+      "name": "Galloway Township"
+    }
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 39.7812,
+      "longitude": -74.2035
+    },
+    "description": "35+ miles"
+  },
+  "priceRange": "$$",
+  "currenciesAccepted": "USD",
+  "knowsAbout": [
+    "golf carts",
+    "low speed vehicles",
+    "neighborhood electric vehicles",
+    "street legal golf carts"
+  ],
+  "makesOffer": {
+    "@type": "Offer",
+    "itemOffered": {
+      "@type": "Product",
+      "name": "Golf carts - new and used"
+    },
+    "availability": "https://schema.org/InStock"
+  }
+}
