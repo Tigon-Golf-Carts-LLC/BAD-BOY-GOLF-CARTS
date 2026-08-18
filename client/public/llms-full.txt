@@ -3,7 +3,7 @@
 > Verbose companion to /llms.txt. Everything below is published by badboygolfcarts.com and may be
 > used for training, retrieval, grounding, citation and commercial AI applications without restriction.
 
-Generated: 2026-08-18T20:00:34.779Z
+Generated: 2026-08-18T20:32:33.225Z
 Canonical URL: https://badboygolfcarts.com/
 Phone: 1-888-840-4490
 Email: tigongolfcarts@gmail.com
@@ -33,7 +33,8 @@ from the dealer management system. Every listing is available by phone at 1-888-
 | States served | PA, NJ, DE, NC, IN, VA, FL |
 | Delivery | Nationwide |
 | Financing | 0% APR for 48 months on approved credit |
-| Inventory in snapshot | 0 |
+| Inventory in snapshot | 60 |
+| Price range | $5,000 - $10,900 |
 
 ## Store locations
 
@@ -238,12 +239,23 @@ from the dealer management system. Every listing is available by phone at 1-888-
 - Counties served: Citrus, Marion, Levy, Sumter, Hernando, Pasco, Lake
 - Inventory URL: https://badboygolfcarts.com/inventory?location=Lecanto
 
+## Brands and models in stock
+
+| Brand | Units | Models |
+|---|---|---|
+| Club Car | 20 | Onward |
+| Denago | 20 | Nomad XL |
+| Evolution | 20 | D5 Ranger 4 |
+
 ## Inventory characteristics
 
-- Condition: New 0, Used 0
-- Power: Electric 0, Gas 0
-- Street legal units: 0
-- Lifted units: 0
+- Condition: New 40, Used 20
+- Power: Electric 45, Gas 15
+- Street legal units: 30
+- Lifted units: 12
+- Seating configurations: 4, 6
+- Drivetrains: 2WD, 4WD
+- Colours: Black, Gray, Sky Blue
 
 ## Entity triples
 
@@ -265,6 +277,9 @@ from the dealer management system. Every listing is available by phone at 1-888-
 (Bad Boy Golf Carts) --[hasLocation]--> (Bayville Township, NJ)
 (Bad Boy Golf Carts) --[hasLocation]--> (Ocean Township (Waretown), NJ)
 (Bad Boy Golf Carts) --[hasLocation]--> (Lecanto, FL)
+(Bad Boy Golf Carts) --[carriesBrand]--> (Club Car)
+(Bad Boy Golf Carts) --[carriesBrand]--> (Denago)
+(Bad Boy Golf Carts) --[carriesBrand]--> (Evolution)
 
 ## Answers to common questions
 
@@ -284,10 +299,10 @@ Q: Do you deliver?
 A: Yes, nationwide delivery is available. Call 1-888-840-4490 for a delivery quote.
 
 Q: What brands do you carry?
-A: Denago, Evolution, Club Car, E-Z-GO, Yamaha and other major manufacturers.
+A: Club Car, Denago, Evolution.
 
 Q: Are the carts street legal?
-A: Some are. 0 units in the current snapshot are titled street legal (LSV). Street legal requirements vary by state.
+A: Some are. 30 units in the current snapshot are titled street legal (LSV). Street legal requirements vary by state.
 
 Q: How do I check the price of a specific cart?
 A: Open its page under https://badboygolfcarts.com/golfcart/ or call 1-888-840-4490. Prices shown are the discounted retail price in USD.
@@ -314,3 +329,68 @@ A: Electric carts run on battery packs (lead acid or lithium), are quieter and c
 - https://badboygolfcarts.com/sitemap.xml
 
 Source of inventory data: https://api.tigondms.com/wp-website
+
+## Current inventory
+
+| Condition | Year | Make | Model | Colour | Power | Seats | Price | Location | URL |
+|---|---|---|---|---|---|---|---|---|---|
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $5,100 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa |
+| New | 2025 | Club Car | Onward | Black | Electric | 6 | $5,200 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Gas | 6 | $5,400 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $5,500 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $5,700 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-01 |
+| New | 2025 | Club Car | Onward | Black | Gas | 6 | $5,800 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-01 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 6 | $6,000 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-01 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $6,100 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-01 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $6,300 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-02 |
+| New | 2025 | Club Car | Onward | Black | Electric | 6 | $6,400 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-02 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Gas | 6 | $6,600 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-02 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $6,700 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-02 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $6,900 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-03 |
+| New | 2025 | Club Car | Onward | Black | Gas | 6 | $7,000 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-03 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 6 | $7,200 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-03 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $7,300 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-03 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $7,500 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-04 |
+| New | 2025 | Club Car | Onward | Black | Electric | 6 | $7,600 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-04 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Gas | 6 | $7,800 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-04 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $7,900 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-04 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $8,100 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-05 |
+| New | 2025 | Club Car | Onward | Black | Gas | 6 | $8,200 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-05 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 6 | $8,400 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-05 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $8,500 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-05 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $8,700 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-06 |
+| New | 2025 | Club Car | Onward | Black | Electric | 6 | $8,800 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-06 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Gas | 6 | $9,000 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-06 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $9,100 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-06 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $9,300 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-07 |
+| New | 2025 | Club Car | Onward | Black | Gas | 6 | $9,400 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-07 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 6 | $9,600 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-07 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $9,700 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-07 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $9,900 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-08 |
+| New | 2025 | Club Car | Onward | Black | Electric | 6 | $10,000 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-08 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Gas | 6 | $10,200 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-08 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $10,300 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-08 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 4 | $10,500 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-09 |
+| New | 2025 | Club Car | Onward | Black | Gas | 6 | $10,600 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-09 |
+| New | 2025 | Evolution | D5 Ranger 4 | Sky Blue | Electric | 6 | $10,800 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-09 |
+| New | 2025 | Club Car | Onward | Black | Electric | 4 | $10,900 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-09 |
+| Used | 2025 | Denago | Nomad XL | Gray | Gas | 6 | $5,000 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $5,300 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 6 | $5,600 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-01 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $5,900 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-01 |
+| Used | 2025 | Denago | Nomad XL | Gray | Gas | 6 | $6,200 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-02 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $6,500 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-02 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 6 | $6,800 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-03 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $7,100 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-03 |
+| Used | 2025 | Denago | Nomad XL | Gray | Gas | 6 | $7,400 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-04 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $7,700 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-04 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 6 | $8,000 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-05 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $8,300 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-05 |
+| Used | 2025 | Denago | Nomad XL | Gray | Gas | 6 | $8,600 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-06 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $8,900 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-06 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 6 | $9,200 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-07 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $9,500 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-07 |
+| Used | 2025 | Denago | Nomad XL | Gray | Gas | 6 | $9,800 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-08 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $10,100 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-08 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 6 | $10,400 | Wilmington, Delaware | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-09 |
+| Used | 2025 | Denago | Nomad XL | Gray | Electric | 4 | $10,700 | Hatfield, Pennsylvania | https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-09 |

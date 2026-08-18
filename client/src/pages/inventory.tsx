@@ -159,7 +159,7 @@ export default function Inventory() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-6">
       <div className="mb-6">
-        <h1 className="text-2xl font-bold" data-testid="text-inventory-title">
+        <h1 className="hotrod-heading text-2xl" data-testid="text-inventory-title">
           Golf Cart Inventory
         </h1>
         <p className="text-sm text-muted-foreground mt-1" data-testid="text-inventory-count">

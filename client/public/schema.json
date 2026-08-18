@@ -5,7 +5,10 @@
       "@type": "AutoDealer",
       "@id": "https://badboygolfcarts.com/#organization",
       "name": "Bad Boy Golf Carts",
-      "alternateName": ["Bad Boy Golf Carts", "DGC"],
+      "alternateName": [
+        "Bad Boy Golf Carts",
+        "DGC"
+      ],
       "url": "https://badboygolfcarts.com",
       "telephone": "1-888-840-4490",
       "description": "Bad Boy Golf Carts is one of the largest multi-location golf cart dealerships on the East Coast, operating 11 retail locations across 7 states. We carry 13 major golf cart brands with over 800 units in stock, updated daily. 0% APR financing available.",
@@ -13,38 +16,118 @@
       "currenciesAccepted": "USD",
       "paymentAccepted": "Cash, Credit Card, Financing",
       "areaServed": [
-        {"@type": "State", "name": "Pennsylvania"},
-        {"@type": "State", "name": "New Jersey"},
-        {"@type": "State", "name": "Delaware"},
-        {"@type": "State", "name": "North Carolina"},
-        {"@type": "State", "name": "Indiana"},
-        {"@type": "State", "name": "Virginia"},
-        {"@type": "State", "name": "Florida"}
+        {
+          "@type": "State",
+          "name": "Pennsylvania"
+        },
+        {
+          "@type": "State",
+          "name": "New Jersey"
+        },
+        {
+          "@type": "State",
+          "name": "Delaware"
+        },
+        {
+          "@type": "State",
+          "name": "North Carolina"
+        },
+        {
+          "@type": "State",
+          "name": "Indiana"
+        },
+        {
+          "@type": "State",
+          "name": "Virginia"
+        },
+        {
+          "@type": "State",
+          "name": "Florida"
+        }
       ],
       "knowsAbout": [
-        "golf carts", "electric vehicles", "neighborhood electric vehicles",
-        "low speed vehicles", "golf cart financing", "golf cart service",
-        "golf cart parts", "golf cart accessories", "street legal golf carts",
-        "lifted golf carts", "custom golf carts"
+        "golf carts",
+        "electric vehicles",
+        "neighborhood electric vehicles",
+        "low speed vehicles",
+        "golf cart financing",
+        "golf cart service",
+        "golf cart parts",
+        "golf cart accessories",
+        "street legal golf carts",
+        "lifted golf carts",
+        "custom golf carts"
       ],
       "brand": [
-        {"@type": "Brand", "name": "American Custom Golf Carts"},
-        {"@type": "Brand", "name": "Bintelli"},
-        {"@type": "Brand", "name": "Club Car"},
-        {"@type": "Brand", "name": "COLEMAN"},
-        {"@type": "Brand", "name": "COLUMBIA"},
-        {"@type": "Brand", "name": "CRICKET"},
-        {"@type": "Brand", "name": "Denago"},
-        {"@type": "Brand", "name": "Evolution"},
-        {"@type": "Brand", "name": "EZGO"},
-        {"@type": "Brand", "name": "Icon"},
-        {"@type": "Brand", "name": "Star EV"},
-        {"@type": "Brand", "name": "Tara"},
-        {"@type": "Brand", "name": "Yamaha"}
+        {
+          "@type": "Brand",
+          "name": "American Custom Golf Carts"
+        },
+        {
+          "@type": "Brand",
+          "name": "Bintelli"
+        },
+        {
+          "@type": "Brand",
+          "name": "Club Car"
+        },
+        {
+          "@type": "Brand",
+          "name": "COLEMAN"
+        },
+        {
+          "@type": "Brand",
+          "name": "COLUMBIA"
+        },
+        {
+          "@type": "Brand",
+          "name": "CRICKET"
+        },
+        {
+          "@type": "Brand",
+          "name": "Denago"
+        },
+        {
+          "@type": "Brand",
+          "name": "Evolution"
+        },
+        {
+          "@type": "Brand",
+          "name": "EZGO"
+        },
+        {
+          "@type": "Brand",
+          "name": "Icon"
+        },
+        {
+          "@type": "Brand",
+          "name": "Star EV"
+        },
+        {
+          "@type": "Brand",
+          "name": "Tara"
+        },
+        {
+          "@type": "Brand",
+          "name": "Yamaha"
+        }
       ],
-      "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 50},
-      "foundingLocation": {"@type": "Place", "name": "Pennsylvania, United States"},
-      "sameAs": []
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minValue": 50
+      },
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Pennsylvania, United States"
+      },
+      "sameAs": [],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "WebSite",
@@ -52,7 +135,9 @@
       "url": "https://badboygolfcarts.com",
       "name": "Bad Boy Golf Carts",
       "description": "Discounted golf cart inventory updated daily. New and used golf carts from 13 top brands at the best prices.",
-      "publisher": {"@id": "https://badboygolfcarts.com/#organization"},
+      "publisher": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://badboygolfcarts.com/inventory?search={search_term_string}",
@@ -65,8 +150,12 @@
       "@id": "https://badboygolfcarts.com/#webpage",
       "url": "https://badboygolfcarts.com",
       "name": "Bad Boy Golf Carts | New & Used Golf Cart Inventory Updated Daily",
-      "isPartOf": {"@id": "https://badboygolfcarts.com/#website"},
-      "about": {"@id": "https://badboygolfcarts.com/#organization"},
+      "isPartOf": {
+        "@id": "https://badboygolfcarts.com/#website"
+      },
+      "about": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
       "description": "Browse discounted golf cart inventory updated daily. Premium brands including Club Car, EZGO, Yamaha, Evolution, Denago and more. 0% APR financing. Call 1-888-840-4490.",
       "inLanguage": "en-US"
     },
@@ -81,10 +170,23 @@
         "postalCode": "19440",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 40.279, "longitude": -75.299},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.279,
+        "longitude": -75.299
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -97,10 +199,23 @@
         "postalCode": "08230",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 39.249, "longitude": -74.722},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.249,
+        "longitude": -74.722
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -113,10 +228,23 @@
         "postalCode": "18334",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 41.054, "longitude": -75.454},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.054,
+        "longitude": -75.454
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -129,10 +257,23 @@
         "postalCode": "19901",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 39.187, "longitude": -75.546},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.187,
+        "longitude": -75.546
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -145,10 +286,23 @@
         "postalCode": "18504",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 41.431, "longitude": -75.681},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.431,
+        "longitude": -75.681
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -161,10 +315,23 @@
         "postalCode": "27603",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 35.756, "longitude": -78.637},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.756,
+        "longitude": -78.637
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -177,10 +344,23 @@
         "postalCode": "46637",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 41.709, "longitude": -86.238},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.709,
+        "longitude": -86.238
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -193,10 +373,23 @@
         "postalCode": "23072",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 37.275, "longitude": -76.503},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.275,
+        "longitude": -76.503
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -209,10 +402,23 @@
         "postalCode": "08721",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 39.906, "longitude": -74.159},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.906,
+        "longitude": -74.159
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -225,10 +431,23 @@
         "postalCode": "08758",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 39.777, "longitude": -74.191},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.777,
+        "longitude": -74.191
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "LocalBusiness",
@@ -241,10 +460,23 @@
         "postalCode": "34461",
         "addressCountry": "US"
       },
-      "geo": {"@type": "GeoCoordinates", "latitude": 28.850, "longitude": -82.488},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.85,
+        "longitude": -82.488
+      },
       "telephone": "1-888-840-4490",
       "url": "https://badboygolfcarts.com",
-      "parentOrganization": {"@id": "https://badboygolfcarts.com/#organization"}
+      "parentOrganization": {
+        "@id": "https://badboygolfcarts.com/#organization"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://badboygolfcarts.com/favicon.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://badboygolfcarts.com/og-image.png"
     },
     {
       "@type": "FAQPage",
@@ -326,154 +558,344 @@
         {
           "@type": "Product",
           "name": "Club Car Carryall",
-          "brand": {"@type": "Brand", "name": "Club Car"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Club Car"
+          },
           "category": "Utility Golf Cart",
           "description": "Utility vehicle for commercial and personal use with cargo bed and heavy-duty frame",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Club Car DS",
-          "brand": {"@type": "Brand", "name": "Club Car"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Club Car"
+          },
           "category": "Golf Cart",
           "description": "Classic golf cart platform with proven reliability and extensive aftermarket support",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Club Car Precedent",
-          "brand": {"@type": "Brand", "name": "Club Car"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Club Car"
+          },
           "category": "Golf Cart",
           "description": "Modern design with improved suspension and electronics",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Club Car Tempo",
-          "brand": {"@type": "Brand", "name": "Club Car"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Club Car"
+          },
           "category": "Premium Golf Cart",
           "description": "Latest generation with premium features and connected technology",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "COLEMAN DR48V-B",
-          "brand": {"@type": "Brand", "name": "COLEMAN"},
+          "brand": {
+            "@type": "Brand",
+            "name": "COLEMAN"
+          },
           "category": "Electric Golf Cart",
           "description": "48-volt electric golf cart with versatile utility platform",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Denago Nomad XL",
-          "brand": {"@type": "Brand", "name": "Denago"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Denago"
+          },
           "category": "Electric Golf Cart",
           "description": "Extended range electric golf cart with modern styling and advanced electronics",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Denago Rover XL",
-          "brand": {"@type": "Brand", "name": "Denago"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Denago"
+          },
           "category": "Electric Golf Cart",
           "description": "4-passenger electric golf cart with premium seating and advanced suspension",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Denago Rover XL6",
-          "brand": {"@type": "Brand", "name": "Denago"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Denago"
+          },
           "category": "Electric Golf Cart",
           "description": "6-passenger electric golf cart with extended seating for families",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "EZGO Medalist",
-          "brand": {"@type": "Brand", "name": "EZGO"},
+          "brand": {
+            "@type": "Brand",
+            "name": "EZGO"
+          },
           "category": "Golf Cart",
           "description": "Entry-level golf cart with reliable performance and easy maintenance",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "EZGO RXV",
-          "brand": {"@type": "Brand", "name": "EZGO"},
+          "brand": {
+            "@type": "Brand",
+            "name": "EZGO"
+          },
           "category": "Premium Golf Cart",
           "description": "Premium golf cart with AC drive technology, regenerative braking, and IntelliBrake system",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "EZGO TXT",
-          "brand": {"@type": "Brand", "name": "EZGO"},
+          "brand": {
+            "@type": "Brand",
+            "name": "EZGO"
+          },
           "category": "Golf Cart",
           "description": "Versatile golf cart platform with extensive customization options",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Evolution Carrier 6 PLUS",
-          "brand": {"@type": "Brand", "name": "Evolution"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Evolution"
+          },
           "category": "Electric Golf Cart",
           "description": "6-passenger electric vehicle with enhanced features and utility cargo area",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Evolution D5 Maverick 6",
-          "brand": {"@type": "Brand", "name": "Evolution"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Evolution"
+          },
           "category": "Premium Electric Golf Cart",
           "description": "6-passenger premium electric vehicle with sport styling and advanced technology",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Evolution D5 Ranger 4",
-          "brand": {"@type": "Brand", "name": "Evolution"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Evolution"
+          },
           "category": "Premium Electric Golf Cart",
           "description": "4-passenger premium electric vehicle with rugged styling and all-terrain capability",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Star EV CLASSIC",
-          "brand": {"@type": "Brand", "name": "Star EV"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Star EV"
+          },
           "category": "Electric Golf Cart",
           "description": "Traditional style electric golf cart with modern electric drivetrain",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Tara Spirit Plus",
-          "brand": {"@type": "Brand", "name": "Tara"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Tara"
+          },
           "category": "Electric Golf Cart",
           "description": "Feature-rich electric golf cart with enhanced feature package and comfortable seating",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Yamaha Drive 2",
-          "brand": {"@type": "Brand", "name": "Yamaha"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Yamaha"
+          },
           "category": "Golf Cart",
           "description": "Latest generation Yamaha golf cart with QuieTech EFI technology and independent rear suspension",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Yamaha G22",
-          "brand": {"@type": "Brand", "name": "Yamaha"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Yamaha"
+          },
           "category": "Golf Cart",
           "description": "Mid-generation classic golf cart with proven reliability and strong aftermarket support",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         },
         {
           "@type": "Product",
           "name": "Yamaha G29 (The Drive)",
-          "brand": {"@type": "Brand", "name": "Yamaha"},
+          "brand": {
+            "@type": "Brand",
+            "name": "Yamaha"
+          },
           "category": "Golf Cart",
           "description": "Popular and versatile golf cart platform with wide customization options",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "seller": {"@id": "https://badboygolfcarts.com/#organization"}}
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@id": "https://badboygolfcarts.com/#organization"
+            }
+          }
         }
       ]
     }

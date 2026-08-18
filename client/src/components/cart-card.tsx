@@ -65,7 +65,7 @@ export function CartCard({ cart, slug }: CartCardProps) {
 
       <div className="p-4 space-y-3">
         <Link href={cartUrl}>
-          <h3 className="font-semibold text-sm leading-tight line-clamp-2 hover:text-primary transition-colors" data-testid={`text-title-${cart._id}`}>
+          <h3 className="hotrod-heading text-sm leading-tight line-clamp-2 hover:text-primary transition-colors" data-testid={`text-title-${cart._id}`}>
             {title}
           </h3>
         </Link>

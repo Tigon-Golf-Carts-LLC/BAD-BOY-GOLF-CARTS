@@ -386,7 +386,8 @@ For questions about this file or data usage: 1-888-840-4490
 # BEGIN GENERATED: MACHINE-READABLE COMPANIONS
 # Regenerated on every build - do not edit by hand.
 # Full reference (locations, brands, live inventory table): https://badboygolfcarts.com/llms-full.txt
-# Inventory snapshot generated: 2026-08-18T20:00:34.779Z
+# Inventory snapshot generated: 2026-08-18T20:32:33.225Z
+# Carts in snapshot: 60 | Brands: 3 | Locations: 11
 #
 # JSON and feed endpoints:
 #   https://badboygolfcarts.com/data/carts.json

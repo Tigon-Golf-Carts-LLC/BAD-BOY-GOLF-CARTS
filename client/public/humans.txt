@@ -74,7 +74,7 @@ The site is a fully static build - there is no application server and no databas
 Standards Compliance: HTML5, CSS3, ES2020+
 Development Editor: Visual Studio Code
 Version Control: Git / GitHub
-Theme Color: #16a34a (Brand Green)
+Theme Color: #d10f14 (Hot Rod Red)
 Language: en-US
 
 /* THANKS */

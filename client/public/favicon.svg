@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Bad Boy Golf Carts">
+  <title>Bad Boy Golf Carts</title>
+  <defs>
+    <linearGradient id="bbPlate" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#f5262b"/>
+      <stop offset="0.55" stop-color="#d10f14"/>
+      <stop offset="1" stop-color="#8f0206"/>
+    </linearGradient>
+    <linearGradient id="bbChrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#f2f4f7"/>
+      <stop offset="0.52" stop-color="#c8ced7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <!-- One heavy italic B, reused for the monogram -->
+    <path id="bbLetter" fill-rule="evenodd" d="
+      M0 0 H112 A62 62 0 0 1 148 112 A64 64 0 0 1 118 232 H0 Z
+      M52 38 V96 H104 A29 29 0 0 0 104 38 Z
+      M52 136 V194 H110 A29 29 0 0 0 110 136 Z
+    "/>
+  </defs>
+
+  <!-- Plate -->
+  <rect x="14" y="14" width="484" height="484" rx="112" fill="url(#bbPlate)"/>
+  <rect x="14" y="14" width="484" height="484" rx="112" fill="none" stroke="#0b0c0e" stroke-width="26"/>
+
+  <!-- Speed slashes -->
+  <g clip-path="inset(27px round 99px)" fill="#0b0c0e" opacity="0.42">
+    <path d="M330 27 L458 27 L246 485 L118 485 Z"/>
+    <path d="M446 27 L498 27 L286 485 L234 485 Z"/>
+  </g>
+
+  <!-- BB monogram -->
+  <g transform="translate(256 256) skewX(-11) translate(-176 -116)">
+    <use href="#bbLetter" x="0" y="0" fill="#0b0c0e" transform="translate(7 8)"/>
+    <use href="#bbLetter" x="204" y="0" fill="#0b0c0e" transform="translate(7 8)"/>
+    <use href="#bbLetter" x="0" y="0" fill="url(#bbChrome)"/>
+    <use href="#bbLetter" x="204" y="0" fill="url(#bbChrome)"/>
+  </g>
+</svg>

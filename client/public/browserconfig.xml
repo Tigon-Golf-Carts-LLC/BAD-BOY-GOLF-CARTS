@@ -2,11 +2,11 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="/favicon.png"/>
-      <square150x150logo src="/favicon.png"/>
-      <square310x310logo src="/favicon.png"/>
-      <wide310x150logo src="/favicon.png"/>
-      <TileColor>#16a34a</TileColor>
+      <square70x70logo src="/icon-192.png"/>
+      <square150x150logo src="/icon-192.png"/>
+      <square310x310logo src="/icon-192.png"/>
+      <wide310x150logo src="/icon-192.png"/>
+      <TileColor>#d10f14</TileColor>
     </tile>
     <notification>
       <polling-uri src="https://badboygolfcarts.com/"/>

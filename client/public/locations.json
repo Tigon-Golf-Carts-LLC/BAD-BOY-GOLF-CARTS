@@ -7,7 +7,7 @@
     "email": "tigongolfcarts@gmail.com",
     "type": "AutoDealer"
   },
-  "generated": "2026-08-18T20:00:34.779Z",
+  "generated": "2026-08-18T20:32:33.225Z",
   "totalLocations": 11,
   "states": [
     {
@@ -111,6 +111,7 @@
         "golf carts bucks county",
         "golf carts king of prussia area"
       ],
+      "storeId": "store1",
       "inventoryUrl": "https://badboygolfcarts.com/inventory?location=Hatfield",
       "schemaUrl": "https://badboygolfcarts.com/schema/hatfield.jsonld"
     },

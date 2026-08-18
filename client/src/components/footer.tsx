@@ -3,7 +3,7 @@ import { Phone, MapPin } from "lucide-react";
 import { PHONE_NUMBER, PHONE_TEL } from "@/lib/constants";
 import type { Store } from "@shared/schema";
 import { useQuery } from "@tanstack/react-query";
-import logoImg from "@assets/DISCOUNTED_GOLF_CARTS_(2)_1770670989091.png";
+import logoImg from "@assets/bad-boy-golf-carts-badge.svg";
 
 export function Footer() {
   const { data: stores } = useQuery<Store[]>({
@@ -11,13 +11,14 @@ export function Footer() {
   });
 
   return (
-    <footer className="border-t bg-card" data-testid="footer">
+    <footer className="border-t border-primary/25 carbon-surface" data-testid="footer">
+      <div className="h-1 racing-stripes opacity-80" aria-hidden="true" />
       <div className="mx-auto max-w-7xl px-4 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img src={logoImg} alt="Bad Boy Golf Carts" className="h-9 w-9 object-contain" />
-              <span className="text-lg font-bold">Bad Boy <span className="text-primary">Golf Carts</span></span>
+              <span className="hotrod-heading text-lg leading-none"><span className="chrome-text">Bad Boy</span> <span className="text-primary">Golf Carts</span></span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Your destination for discounted new and used golf carts. We carry top brands at the best prices

@@ -134,4 +134,10 @@
       <image:geo_location>South Bend, Indiana, USA</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://badboygolfcarts.com/inventory?location=Wilmington</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

@@ -27,6 +27,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://badboygolfcarts.com/inventory?seats=4</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://badboygolfcarts.com/inventory?seats=6</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://badboygolfcarts.com/inventory?driveTrain=2WD</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://badboygolfcarts.com/inventory?driveTrain=4WD</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://badboygolfcarts.com/inventory?isStreetLegal=true</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>

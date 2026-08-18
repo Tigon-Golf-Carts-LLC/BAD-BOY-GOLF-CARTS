@@ -10,7 +10,7 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
   --background: 0 0% 100%;
-  --foreground: 220 20% 10%;
+  --foreground: 220 18% 9%;
   --border: 220 10% 90%;
   --card: 220 10% 98%;
   --card-foreground: 220 20% 10%;
@@ -18,28 +18,28 @@
   --sidebar: 220 15% 96%;
   --sidebar-foreground: 220 20% 10%;
   --sidebar-border: 220 10% 90%;
-  --sidebar-primary: 152 60% 32%;
+  --sidebar-primary: 0 82% 44%;
   --sidebar-primary-foreground: 0 0% 100%;
   --sidebar-accent: 220 10% 93%;
   --sidebar-accent-foreground: 220 20% 10%;
-  --sidebar-ring: 152 60% 32%;
+  --sidebar-ring: 0 82% 44%;
   --popover: 220 10% 97%;
   --popover-foreground: 220 20% 10%;
   --popover-border: 220 10% 90%;
-  --primary: 152 60% 32%;
+  --primary: 0 82% 44%;
   --primary-foreground: 0 0% 100%;
   --secondary: 220 10% 93%;
   --secondary-foreground: 220 20% 10%;
   --muted: 220 10% 92%;
   --muted-foreground: 220 10% 42%;
-  --accent: 152 20% 92%;
-  --accent-foreground: 152 40% 22%;
-  --destructive: 0 72% 42%;
-  --destructive-foreground: 0 72% 98%;
+  --accent: 0 40% 94%;
+  --accent-foreground: 0 60% 30%;
+  --destructive: 28 92% 42%;
+  --destructive-foreground: 28 92% 98%;
   --input: 220 10% 78%;
-  --ring: 152 60% 32%;
-  --chart-1: 152 60% 32%;
-  --chart-2: 10 55% 45%;
+  --ring: 0 82% 44%;
+  --chart-1: 0 82% 44%;
+  --chart-2: 22 85% 48%;
   --chart-3: 195 70% 35%;
   --chart-4: 280 65% 40%;
   --chart-5: 40 75% 50%;
@@ -93,37 +93,37 @@
   --opaque-button-border-intensity: 9;
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
-  --background: 220 15% 7%;
+  --background: 220 12% 5%;
   --foreground: 220 10% 96%;
-  --border: 220 10% 18%;
-  --card: 220 12% 10%;
+  --border: 220 8% 16%;
+  --card: 220 10% 9%;
   --card-foreground: 220 10% 96%;
-  --card-border: 220 10% 14%;
-  --sidebar: 220 12% 11%;
+  --card-border: 0 15% 16%;
+  --sidebar: 220 10% 8%;
   --sidebar-foreground: 220 10% 96%;
   --sidebar-border: 220 10% 16%;
-  --sidebar-primary: 152 55% 40%;
+  --sidebar-primary: 0 84% 52%;
   --sidebar-primary-foreground: 0 0% 100%;
   --sidebar-accent: 220 10% 15%;
   --sidebar-accent-foreground: 220 10% 96%;
-  --sidebar-ring: 152 55% 40%;
-  --popover: 220 12% 13%;
+  --sidebar-ring: 0 84% 52%;
+  --popover: 220 10% 11%;
   --popover-foreground: 220 10% 96%;
   --popover-border: 220 10% 18%;
-  --primary: 152 55% 40%;
+  --primary: 0 84% 52%;
   --primary-foreground: 0 0% 100%;
   --secondary: 220 10% 16%;
   --secondary-foreground: 220 10% 96%;
   --muted: 220 10% 14%;
   --muted-foreground: 220 10% 65%;
-  --accent: 152 15% 18%;
-  --accent-foreground: 152 30% 85%;
-  --destructive: 0 72% 45%;
-  --destructive-foreground: 0 72% 98%;
+  --accent: 0 35% 20%;
+  --accent-foreground: 0 60% 88%;
+  --destructive: 28 92% 50%;
+  --destructive-foreground: 28 92% 98%;
   --input: 220 10% 28%;
-  --ring: 152 55% 40%;
-  --chart-1: 152 55% 55%;
-  --chart-2: 10 55% 60%;
+  --ring: 0 84% 52%;
+  --chart-1: 0 84% 60%;
+  --chart-2: 22 85% 60%;
   --chart-3: 195 70% 70%;
   --chart-4: 280 65% 75%;
   --chart-5: 40 75% 65%;
@@ -284,5 +284,104 @@
   .border.active-elevate-2:not(.no-active-interaction-elevate)::after,
   .border.hover-elevate:not(.no-hover-interaction-elevate)::after {
     inset: -1px;
+  }
+}
+
+/**
+ * Hot rod styling.
+ *
+ * The dealership look: garage-black surfaces, hot rod red accents, chrome
+ * lettering and racing stripes. Everything here is driven by --primary, so the
+ * whole system follows if the brand colour is ever retuned.
+ */
+@layer components {
+
+  /* Heavy, slanted, all-caps headline - the "muscle car badge" voice. */
+  .hotrod-heading {
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+  }
+
+  /* Polished chrome lettering.
+   *
+   * .chrome-text follows the theme, so it stays readable on a light header;
+   * .chrome-text-on-dark is always bright and belongs on dark imagery. */
+  .chrome-text,
+  .chrome-text-on-dark {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Light mode: brushed gunmetal, dark enough to read on white. */
+  .chrome-text {
+    background-image: linear-gradient(
+      180deg,
+      #3c4149 0%,
+      #23272d 46%,
+      #0d0f12 52%,
+      #333840 100%
+    );
+  }
+
+  .dark .chrome-text,
+  .chrome-text-on-dark {
+    background-image: linear-gradient(
+      180deg,
+      #ffffff 0%,
+      #f2f4f7 46%,
+      #b9c0ca 52%,
+      #ffffff 100%
+    );
+  }
+
+  /* Diagonal racing stripes, used as a thin accent band. */
+  .racing-stripes {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      hsl(var(--primary)) 0px,
+      hsl(var(--primary)) 14px,
+      transparent 14px,
+      transparent 28px
+    );
+  }
+
+  /* Red-hot rule that fades out at both ends. */
+  .flame-rule {
+    background-image: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--primary)) 20%,
+      hsl(var(--primary)) 80%,
+      transparent
+    );
+  }
+
+  /* Subtle carbon fibre weave for header and footer surfaces. */
+  .carbon-surface {
+    background-color: hsl(var(--card));
+    background-image:
+      repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.022) 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 0 2px, transparent 2px 4px);
+  }
+
+  /* Skewed tag used for callouts such as "0% APR". */
+  .speed-tag {
+    transform: skewX(-10deg);
+  }
+
+  .speed-tag > * {
+    display: inline-block;
+    transform: skewX(10deg);
+  }
+
+  /* Red glow for primary calls to action. */
+  .redline-glow {
+    box-shadow:
+      0 0 0 1px hsl(var(--primary) / 0.35),
+      0 8px 30px -8px hsl(var(--primary) / 0.65);
   }
 }

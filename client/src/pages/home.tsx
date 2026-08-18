@@ -9,7 +9,7 @@ import { CartCard, CartCardSkeleton } from "@/components/cart-card";
 import type { Store } from "@shared/schema";
 import type { CartsResult } from "@/lib/static-data";
 import { PHONE_NUMBER, PHONE_TEL } from "@/lib/constants";
-import heroBg from "@assets/DISCOUNTED_GOLF_CARTS_DEALERSHIP_1770671250863.png";
+import heroBg from "@assets/bad-boy-hero.svg";
 
 interface SlugMap {
   slugToId: Record<string, string>;
@@ -37,26 +37,30 @@ export default function Home() {
     <div>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroBg} alt="Bad Boy Golf Carts Showroom" className="w-full h-full object-cover" />
+          <img src={heroBg} alt="Bad Boy Golf Carts showroom" className="w-full h-full object-cover" />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/92 via-black/60 to-black/20" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_85%,hsl(var(--primary)/0.35),transparent_55%)]" />
+        <div className="absolute bottom-0 left-0 right-0 h-1.5 racing-stripes" aria-hidden="true" />
         <div className="mx-auto max-w-7xl px-4 py-16 sm:py-24 relative">
           <div className="max-w-3xl">
             <Badge variant="secondary" className="mb-6" data-testid="badge-hero-tag">
               <Tag className="h-3 w-3 mr-1" />
-              Discounted Golf Cart Inventory
+              Hot Rod Golf Cart Dealership
             </Badge>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6 text-white" data-testid="text-hero-title">
-              Bad Boy Golf Carts
-              <span className="text-green-400 block mt-1">Updated Daily</span>
+            <h1 className="hotrod-heading text-4xl sm:text-5xl lg:text-6xl leading-[1.05] mb-6 text-white" data-testid="text-hero-title">
+              <span className="chrome-text-on-dark">Bad Boy</span> Golf Carts
+              <span className="text-primary block mt-1 drop-shadow-[0_0_25px_hsl(var(--primary)/0.55)]">
+                Built To Turn Heads
+              </span>
             </h1>
             <p className="text-lg sm:text-xl text-white/80 max-w-2xl mb-8 leading-relaxed" data-testid="text-hero-description">
-              Browse our discounted inventory of new and used golf carts from top brands.
-              Street legal, electric, gas, and more — updated every day with the best deals.
+              Street legal, lifted, electric and gas — custom golf carts with attitude, from every
+              major brand. Discounted inventory refreshed daily, delivered nationwide.
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <Link href="/inventory">
-                <Button size="lg" data-testid="button-browse-inventory">
+                <Button size="lg" className="redline-glow" data-testid="button-browse-inventory">
                   Browse Discounted Inventory
                   <ChevronRight className="h-4 w-4 ml-1" />
                 </Button>
@@ -76,10 +80,10 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { icon: RefreshCw, label: "Updated Daily", desc: "Inventory refreshed at 10:55 PM EST" },
+              { icon: RefreshCw, label: "Fresh Metal Daily", desc: "Inventory refreshed every night" },
               { icon: Shield, label: "Warranty Included", desc: "Coverage on all carts" },
-              { icon: Award, label: "Top Brands", desc: "Denago, Evolution & more" },
-              { icon: Truck, label: "Nationwide Delivery", desc: "We ship across the US" },
+              { icon: Award, label: "Top Shelf Brands", desc: "Denago, Evolution & more" },
+              { icon: Truck, label: "Nationwide Delivery", desc: "We ship to your driveway" },
             ].map((item) => (
               <div key={item.label} className="text-center space-y-2">
                 <div className="inline-flex items-center justify-center w-10 h-10 rounded-md bg-primary/10">
@@ -98,7 +102,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-4">
             <div className="flex items-center justify-between mb-8">
               <div>
-                <h2 className="text-2xl font-bold">Shop by Brand</h2>
+                <h2 className="hotrod-heading text-2xl">Shop by Brand</h2>
                 <p className="text-sm text-muted-foreground mt-1">Browse discounted golf carts from top manufacturers</p>
               </div>
             </div>
@@ -119,7 +123,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h2 className="text-2xl font-bold">Latest Discounted Inventory</h2>
+              <h2 className="hotrod-heading text-2xl">Fresh Off The Truck</h2>
               <p className="text-sm text-muted-foreground mt-1">
                 {featured?.totalCarts
                   ? `${featured.totalCarts.toLocaleString()} discounted carts available`
@@ -146,7 +150,7 @@ export default function Home() {
         <section className="py-12 border-t" data-testid="section-locations">
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-8">
-              <h2 className="text-2xl font-bold">Our Locations</h2>
+              <h2 className="hotrod-heading text-2xl">Our Locations</h2>
               <p className="text-sm text-muted-foreground mt-1">Visit us at one of our dealerships</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
@@ -174,9 +178,10 @@ export default function Home() {
         </section>
       )}
 
-      <section className="py-16 bg-primary text-primary-foreground">
-        <div className="mx-auto max-w-7xl px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Find Your Golf Cart?</h2>
+      <section className="relative py-16 bg-primary text-primary-foreground overflow-hidden">
+        <div className="absolute inset-0 opacity-15 racing-stripes mix-blend-overlay" aria-hidden="true" />
+        <div className="relative mx-auto max-w-7xl px-4 text-center">
+          <h2 className="hotrod-heading text-3xl mb-4">Ready To Build Your Bad Boy?</h2>
           <p className="text-primary-foreground/80 max-w-xl mx-auto mb-8">
             Our experts are standing by to help you find the perfect cart at the best price. Call now to learn about
             our current discounted inventory, pricing, and financing options.
