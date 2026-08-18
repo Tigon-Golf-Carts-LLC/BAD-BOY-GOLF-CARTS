@@ -10,7 +10,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import type { Store, CartModel } from "@shared/schema";
 import { STATE_ABBREVIATIONS } from "@/lib/constants";
-import { apiRequest } from "@/lib/queryClient";
+import { getColors, getModels } from "@/lib/static-data";
 
 export interface FilterState {
   searchText: string;
@@ -122,14 +122,12 @@ function FilterContent({ filters, onFiltersChange, totalCarts }: InventoryFilter
       setColors([]);
       return;
     }
-    apiRequest("POST", "/api/cart-models", { makeKeys: selectedMakeKeys })
-      .then((r) => r.json())
+    getModels(selectedMakeKeys)
       .then(setModels)
       .catch(() => setModels([]));
 
-    apiRequest("POST", "/api/cart-colors", { makeKeys: selectedMakeKeys })
-      .then((r) => r.json())
-      .then((data: Array<{color: string}>) => setColors(data.map((c) => c.color)))
+    getColors(selectedMakeKeys)
+      .then(setColors)
       .catch(() => setColors([]));
   }, [filters.makes.join(",")]);
 

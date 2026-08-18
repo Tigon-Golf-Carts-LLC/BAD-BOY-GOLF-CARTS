@@ -7,8 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CartCard, CartCardSkeleton } from "@/components/cart-card";
 import { InventoryFilters, defaultFilters, type FilterState } from "@/components/inventory-filters";
-import type { CartsResponse } from "@shared/schema";
-import { apiRequest } from "@/lib/queryClient";
+import type { CartsResult } from "@/lib/static-data";
 
 interface SlugMap {
   slugToId: Record<string, string>;
@@ -71,7 +70,7 @@ export default function Inventory() {
 
   const queryKey = `/api/carts?${buildQueryParams()}`;
 
-  const { data, isLoading, isFetching } = useQuery<CartsResponse>({
+  const { data, isLoading, isFetching } = useQuery<CartsResult>({
     queryKey: [queryKey],
     staleTime: 60_000,
   });

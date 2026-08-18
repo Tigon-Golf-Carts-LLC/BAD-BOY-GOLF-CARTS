@@ -1,0 +1,323 @@
+/**
+ * Post-build step for GitHub Pages.
+ *
+ * Vite emits a single-page app. GitHub Pages has no rewrite rules, so every URL
+ * that should be reachable directly needs a real file on disk. This script:
+ *   - writes an index.html for /inventory, /financing and every /golfcart/<slug>,
+ *     each with its own title, description, canonical and structured data
+ *   - writes 404.html as the SPA fallback for anything else
+ *   - generates sitemap.xml from the inventory snapshot
+ *   - writes CNAME (custom domain) and .nojekyll
+ */
+import { mkdir, readFile, writeFile } from "fs/promises";
+import { existsSync } from "fs";
+import path from "path";
+import type { Cart, Store } from "../shared/schema";
+import { S3_CARTS_URL } from "../shared/schema";
+import type { CartIndexEntry, SlugMap } from "../shared/inventory";
+import { storeIdOf } from "../shared/inventory";
+
+const DIST = path.resolve(import.meta.dirname, "..", "dist");
+const DATA = path.join(DIST, "data");
+
+const SITE_DOMAIN = process.env.SITE_DOMAIN || "discountedgolfcart.com";
+const BASE_PATH = (process.env.BASE_PATH || "/").replace(/\/$/, "");
+const SITE_URL = `https://${SITE_DOMAIN}${BASE_PATH}`;
+const SITE_NAME = "Discounted Golf Carts";
+const PHONE_NUMBER = "1-888-840-4490";
+const WRITE_CNAME = process.env.WRITE_CNAME !== "false" && BASE_PATH === "";
+
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function escapeXml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+async function readJson<T>(file: string, fallback: T): Promise<T> {
+  const target = path.join(DATA, file);
+  if (!existsSync(target)) return fallback;
+  return JSON.parse(await readFile(target, "utf-8")) as T;
+}
+
+interface PageMeta {
+  title: string;
+  description: string;
+  url: string;
+  image?: string;
+  jsonLd?: unknown;
+}
+
+/** Rewrites the head of the built index.html for one route. */
+function renderPage(shell: string, meta: PageMeta): string {
+  const title = escapeHtml(meta.title);
+  const description = escapeHtml(meta.description);
+  const url = escapeHtml(meta.url);
+
+  let html = shell
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${title}</title>`)
+    .replace(/<meta name="description" content="[\s\S]*?"\s*\/>/, `<meta name="description" content="${description}" />`)
+    .replace(/<meta property="og:title" content="[\s\S]*?"\s*\/>/, `<meta property="og:title" content="${title}" />`)
+    .replace(
+      /<meta property="og:description" content="[\s\S]*?"\s*\/>/,
+      `<meta property="og:description" content="${description}" />`,
+    )
+    .replace(/<meta property="og:url" content="[\s\S]*?"\s*\/>/, `<meta property="og:url" content="${url}" />`)
+    .replace(/<meta name="twitter:title" content="[\s\S]*?"\s*\/>/, `<meta name="twitter:title" content="${title}" />`)
+    .replace(
+      /<meta name="twitter:description" content="[\s\S]*?"\s*\/>/,
+      `<meta name="twitter:description" content="${description}" />`,
+    )
+    .replace(/<link rel="canonical" href="[\s\S]*?"\s*\/>/, `<link rel="canonical" href="${url}" />`);
+
+  const extraHead: string[] = [];
+  if (meta.image) {
+    extraHead.push(`<meta property="og:image" content="${escapeHtml(meta.image)}" />`);
+    extraHead.push(`<meta name="twitter:image" content="${escapeHtml(meta.image)}" />`);
+  }
+  if (meta.jsonLd) {
+    extraHead.push(
+      `<script type="application/ld+json">${JSON.stringify(meta.jsonLd).replace(/</g, "\\u003c")}</script>`,
+    );
+  }
+
+  if (extraHead.length > 0) {
+    html = html.replace("</head>", `    ${extraHead.join("\n    ")}\n  </head>`);
+  }
+  return html;
+}
+
+async function writePage(routePath: string, html: string) {
+  const target = routePath === "" ? path.join(DIST, "index.html") : path.join(DIST, routePath, "index.html");
+  await mkdir(path.dirname(target), { recursive: true });
+  await writeFile(target, html);
+}
+
+function cartTitle(cart: Cart): string {
+  const condition = cart.isUsed ? "Used" : "New";
+  const parts = [condition, cart.cartType?.year, cart.cartType?.make, cart.cartType?.model].filter(Boolean);
+  return parts.join(" ") || "Golf Cart";
+}
+
+function cartImage(cart: Cart): string | undefined {
+  const first = cart.imageUrls?.[0];
+  return first ? (first.startsWith("http") ? first : `${S3_CARTS_URL}${first}`) : undefined;
+}
+
+async function main() {
+  const shellPath = path.join(DIST, "index.html");
+  if (!existsSync(shellPath)) {
+    throw new Error("dist/index.html not found - run `vite build` before prerendering");
+  }
+  const shell = await readFile(shellPath, "utf-8");
+
+  const [carts, stores, slugMap] = await Promise.all([
+    readJson<CartIndexEntry[]>("carts.json", []),
+    readJson<Store[]>("stores.json", []),
+    readJson<SlugMap>("slug-map.json", { slugToId: {}, idToSlug: {} }),
+  ]);
+
+  const storeMap = new Map<string, Store>();
+  for (const store of stores) {
+    if (store.storeId) storeMap.set(store.storeId, store);
+  }
+  const cartById = new Map<string, CartIndexEntry>();
+  for (const cart of carts) cartById.set(cart._id, cart);
+
+  // Home page - keep the shell's own copy, just pin the canonical URL.
+  await writePage(
+    "",
+    renderPage(shell, {
+      title: `${SITE_NAME} | New & Used Golf Cart Inventory Updated Daily | ${SITE_DOMAIN}`,
+      description: `Browse discounted golf cart inventory at ${SITE_DOMAIN}. Updated daily with the best deals on new and used golf carts. Premium brands including Denago, Evolution, Club Car, EZGO, Yamaha and more. Street legal, electric, and gas golf carts available nationwide. Call ${PHONE_NUMBER}.`,
+      url: `${SITE_URL}/`,
+    }),
+  );
+
+  await writePage(
+    "inventory",
+    renderPage(shell, {
+      title: `Golf Cart Inventory - ${carts.length} Discounted Carts | ${SITE_NAME}`,
+      description: `Browse ${carts.length} discounted new and used golf carts. Filter by brand, condition, power type, color, seating, drivetrain and location. Updated daily. Call ${PHONE_NUMBER}.`,
+      url: `${SITE_URL}/inventory`,
+    }),
+  );
+
+  await writePage(
+    "financing",
+    renderPage(shell, {
+      title: `Golf Cart Financing - 0% APR for 48 Months | ${SITE_NAME}`,
+      description: `Golf cart financing with 0% APR for 48 months on approved credit. Fast approvals on new and used golf carts. Call ${PHONE_NUMBER} to apply.`,
+      url: `${SITE_URL}/financing`,
+    }),
+  );
+
+  // One real page per cart so search engines and shared links resolve directly.
+  let cartPages = 0;
+  for (const [slug, cartId] of Object.entries(slugMap.slugToId)) {
+    const cart = cartById.get(cartId);
+    if (!cart) continue;
+
+    const title = cartTitle(cart);
+    const color = cart.cartAttributes?.cartColor || "";
+    const store = storeMap.get(storeIdOf(cart));
+    const location = store ? `${store.address?.city || ""}, ${store.address?.state || ""}`.trim() : "";
+    const price = cart.retailPrice || 0;
+    const image = cartImage(cart);
+    const url = `${SITE_URL}/golfcart/${slug}`;
+
+    const description =
+      `${title}${color ? ` in ${color}` : ""}${location ? ` available in ${location}` : ""}. ` +
+      `${cart.isElectric ? "Electric" : "Gas"} golf cart${cart.title?.isStreetLegal ? ", street legal" : ""}` +
+      `${price ? ` - $${price.toLocaleString("en-US")}` : ""}. Call ${PHONE_NUMBER} for the best discounted price.`;
+
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: title + (color ? ` ${color}` : ""),
+      description,
+      url,
+      ...(image ? { image } : {}),
+      ...(cart.cartType?.make ? { brand: { "@type": "Brand", name: cart.cartType.make } } : {}),
+      ...(cart.cartType?.model ? { model: cart.cartType.model } : {}),
+      itemCondition: cart.isUsed ? "https://schema.org/UsedCondition" : "https://schema.org/NewCondition",
+      offers: {
+        "@type": "Offer",
+        url,
+        priceCurrency: "USD",
+        ...(price ? { price } : {}),
+        availability: "https://schema.org/InStock",
+        seller: { "@type": "AutoDealer", name: SITE_NAME, telephone: PHONE_NUMBER },
+      },
+    };
+
+    await writePage(`golfcart/${slug}`, renderPage(shell, { title: `${title} | ${SITE_NAME}`, description, url, image, jsonLd }));
+    cartPages++;
+  }
+
+  // GitHub Pages serves 404.html for unknown paths; the SPA then routes client-side.
+  await writeFile(
+    path.join(DIST, "404.html"),
+    renderPage(shell, {
+      title: `Page Not Found | ${SITE_NAME}`,
+      description: `The page you are looking for is not available. Browse discounted golf carts at ${SITE_DOMAIN} or call ${PHONE_NUMBER}.`,
+      url: `${SITE_URL}/404`,
+    }),
+  );
+
+  await buildSitemap(carts, slugMap, storeMap);
+  await syncRobots();
+
+  await writeFile(path.join(DIST, ".nojekyll"), "");
+  if (WRITE_CNAME) {
+    await writeFile(path.join(DIST, "CNAME"), `${SITE_DOMAIN}\n`);
+  }
+
+  console.log(
+    `Prerendered ${cartPages} cart pages + home/inventory/financing/404, sitemap.xml` +
+      `${WRITE_CNAME ? `, CNAME (${SITE_DOMAIN})` : ""}`,
+  );
+}
+
+async function buildSitemap(carts: CartIndexEntry[], slugMap: SlugMap, storeMap: Map<string, Store>) {
+  const today = new Date().toISOString().split("T")[0];
+  const cartById = new Map<string, CartIndexEntry>();
+  for (const cart of carts) cartById.set(cart._id, cart);
+
+  const makes = new Set<string>();
+  const conditions = new Set<string>();
+  const locations = new Set<string>();
+  const makeModels = new Map<string, Set<string>>();
+
+  for (const cart of carts) {
+    const make = cart.cartType?.make;
+    const model = cart.cartType?.model;
+    if (make) {
+      makes.add(make);
+      if (model) {
+        if (!makeModels.has(make)) makeModels.set(make, new Set());
+        makeModels.get(make)!.add(model);
+      }
+    }
+    conditions.add(cart.isUsed ? "Used" : "New");
+    const city = storeMap.get(storeIdOf(cart))?.address?.city;
+    if (city) locations.add(city);
+  }
+
+  const url = (loc: string, priority: string, changefreq = "daily", images: string[] = [], title = "") => {
+    let entry = `  <url>\n    <loc>${escapeXml(loc)}</loc>\n    <lastmod>${today}</lastmod>\n`;
+    entry += `    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n`;
+    for (const image of images) {
+      entry += `    <image:image>\n      <image:loc>${escapeXml(image)}</image:loc>\n`;
+      entry += `      <image:title>${escapeXml(title)}</image:title>\n    </image:image>\n`;
+    }
+    return entry + `  </url>\n`;
+  };
+
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n`;
+  xml += `        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n\n`;
+
+  xml += url(`${SITE_URL}/`, "1.0");
+  xml += url(`${SITE_URL}/inventory`, "0.9");
+  xml += url(`${SITE_URL}/financing`, "0.8", "monthly");
+
+  for (const make of Array.from(makes).sort()) {
+    xml += url(`${SITE_URL}/inventory?make=${encodeURIComponent(make)}`, "0.85");
+  }
+  for (const condition of Array.from(conditions).sort()) {
+    xml += url(`${SITE_URL}/inventory?condition=${encodeURIComponent(condition)}`, "0.85");
+  }
+  xml += url(`${SITE_URL}/inventory?powerType=Electric`, "0.8");
+  xml += url(`${SITE_URL}/inventory?powerType=Gas`, "0.8");
+
+  for (const location of Array.from(locations).sort()) {
+    xml += url(`${SITE_URL}/inventory?location=${encodeURIComponent(location)}`, "0.8");
+  }
+  for (const [make, models] of Array.from(makeModels.entries()).sort((a, b) => a[0].localeCompare(b[0]))) {
+    for (const model of Array.from(models).sort()) {
+      xml += url(
+        `${SITE_URL}/inventory?make=${encodeURIComponent(make)}&model=${encodeURIComponent(model)}`,
+        "0.8",
+      );
+    }
+  }
+
+  for (const file of ["llms.txt", "ai.txt", "gpt.txt", "claude.txt", "training.txt", "schema.json", "seo.txt", "nlp.txt"]) {
+    xml += url(`${SITE_URL}/${file}`, "0.3", "monthly");
+  }
+
+  for (const [slug, cartId] of Object.entries(slugMap.slugToId)) {
+    const cart = cartById.get(cartId);
+    if (!cart) continue;
+    const image = cartImage(cart);
+    xml += url(`${SITE_URL}/golfcart/${slug}`, "0.9", "daily", image ? [image] : [], cartTitle(cart));
+  }
+
+  xml += `\n</urlset>\n`;
+  await writeFile(path.join(DIST, "sitemap.xml"), xml);
+}
+
+/** Keeps robots.txt pointing at whatever domain this build was published under. */
+async function syncRobots() {
+  const robotsPath = path.join(DIST, "robots.txt");
+  if (!existsSync(robotsPath)) return;
+  const robots = await readFile(robotsPath, "utf-8");
+  await writeFile(robotsPath, robots.replace(/^Sitemap:.*$/gm, `Sitemap: ${SITE_URL}/sitemap.xml`));
+}
+
+main().catch((error) => {
+  console.error(`\nprerender failed: ${(error as Error).message}`);
+  process.exit(1);
+});

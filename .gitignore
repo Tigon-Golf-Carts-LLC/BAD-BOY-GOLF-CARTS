@@ -1,6 +1,7 @@
 node_modules
 dist
 .DS_Store
-server/public
-vite.config.ts.*
 *.tar.gz
+
+# Inventory snapshot - regenerated from the DMS API on every build
+client/public/data
