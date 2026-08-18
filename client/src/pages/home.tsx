@@ -6,7 +6,8 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { CartCard, CartCardSkeleton } from "@/components/cart-card";
-import type { CartsResponse, Store } from "@shared/schema";
+import type { Store } from "@shared/schema";
+import type { CartsResult } from "@/lib/static-data";
 import { PHONE_NUMBER, PHONE_TEL } from "@/lib/constants";
 import heroBg from "@assets/DISCOUNTED_GOLF_CARTS_DEALERSHIP_1770671250863.png";
 
@@ -16,7 +17,7 @@ interface SlugMap {
 }
 
 export default function Home() {
-  const { data: featured, isLoading: featuredLoading } = useQuery<CartsResponse>({
+  const { data: featured, isLoading: featuredLoading } = useQuery<CartsResult>({
     queryKey: ["/api/carts?pageNumber=0&pageSize=8"],
   });
 

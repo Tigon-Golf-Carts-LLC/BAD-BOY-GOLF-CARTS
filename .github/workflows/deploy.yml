@@ -1,0 +1,65 @@
+name: Deploy to GitHub Pages
+
+on:
+  # Every push to main rebuilds and republishes the site.
+  push:
+    branches: [main]
+  # Daily inventory refresh: 03:55 UTC = 10:55 PM EST (11:55 PM EDT in summer).
+  schedule:
+    - cron: "55 3 * * *"
+  # Lets you rebuild on demand from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  # Custom domain the site is published under. Clear it (and set BASE_PATH below)
+  # if you serve the site from https://<user>.github.io/<repo>/ instead.
+  SITE_DOMAIN: discountedgolfcart.com
+  # "/" for a custom domain or a user site; "/<repo-name>/" for a project site.
+  BASE_PATH: "/"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch inventory snapshot from the DMS API
+        run: npm run fetch-data
+
+      - name: Build site
+        run: npm run build:site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
