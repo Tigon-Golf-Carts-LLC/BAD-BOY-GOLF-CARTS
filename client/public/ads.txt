@@ -1,6 +1,6 @@
 # ads.txt - Advertising Authorization File
 # Bad Boy Golf Carts
-# Last Updated: 2026-08-18
+# Last Updated: 2026-08-19
 
 # ABOUT THIS FILE
 # This ads.txt file is provided in accordance with the Interactive Advertising Bureau (IAB)

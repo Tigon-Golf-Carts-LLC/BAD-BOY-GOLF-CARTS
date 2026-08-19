@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <!-- Send every visitor to HTTPS. GitHub Pages also does this once
+         Settings > Pages > Enforce HTTPS is ticked; this covers the gap. -->
+    <script>
+      (function () {
+        var host = location.hostname;
+        if (
+          location.protocol === "http:" &&
+          host !== "localhost" &&
+          host !== "127.0.0.1" &&
+          host !== "[::1]" &&
+          !/^192\.168\./.test(host) &&
+          !/^10\./.test(host)
+        ) {
+          location.replace(location.href.replace(/^http:/, "https:"));
+        }
+      })();
+    </script>
+    <!-- Any subresource that slips through as http:// is upgraded rather than blocked. -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYX3NWZZL0"></script>
     <script>
@@ -16,7 +37,6 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WLJ86LBR');</script>
     <!-- End Google Tag Manager -->
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>Bad Boy Golf Carts | New & Used Golf Cart Inventory Updated Daily | badboygolfcarts.com</title>
     <meta name="description" content="Browse discounted golf cart inventory at badboygolfcarts.com. Updated daily with the best deals on new and used golf carts. Premium brands including Denago, Evolution, Club Car, EZGO, Yamaha and more. Street legal, electric, and gas golf carts available nationwide. Call 1-888-840-4490." />

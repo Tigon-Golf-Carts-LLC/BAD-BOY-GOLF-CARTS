@@ -34,6 +34,25 @@ same URLs, same filters, same slugs as before, with no server.
 > "There isn't a GitHub Pages site here" means no deployment exists yet for the domain.
 > DNS alone does not create the site — steps 2 and 3 have to run first.
 
+### HTTPS / the "Not secure" warning
+
+If the browser shows **Not secure**, the page was served over plain HTTP. Fix it at the source:
+**Settings → Pages → Enforce HTTPS**. GitHub issues and renews the certificate for free once the
+custom domain is verified; ticking the box makes GitHub redirect every HTTP request to HTTPS.
+The box is greyed out until the certificate finishes provisioning (usually minutes, up to 24h).
+
+The site does not rely on that alone. `client/index.html` carries:
+
+- a redirect in the first `<script>` of `<head>` that sends any HTTP visitor to HTTPS
+  (localhost and LAN addresses excluded, so local development still works)
+- `Content-Security-Policy: upgrade-insecure-requests`, so any subresource requested over
+  HTTP is upgraded instead of triggering a mixed-content warning
+- `referrer` set to `strict-origin-when-cross-origin`
+
+Note this is a static site: it takes no logins, no payments and no form submissions — every
+application is a link out to the lender's own secure site — so nothing sensitive is ever typed
+into a page served from this domain.
+
 The site rebuilds automatically:
 
 - on every push to `main`
@@ -162,6 +181,11 @@ Edit the content freely. The build only rewrites the parts that go stale:
 
 - **`ads.txt`** carries a placeholder AdSense publisher id, which the build comments out. Put your
   real `pub-…` id in if you run ads; otherwise the file is fine as pure documentation.
+- **Financing partner artwork** lives in `client/public/partners/` (`sheffield-bbt.png`,
+  `bli-heartland.png`, `dll-financial-solutions.png`, `roadrunner-octane.png`,
+  `univest-capital.png`, `dealer-direct.png`). These are branded name plates generated for this
+  site. To use a lender's own artwork, replace the file, keeping the same name — the page picks
+  it up with no code change. 800×400 or any 2:1 image works.
 - **Store locations** live in `shared/locations.ts` (11 stores, verified addresses and
   coordinates). Everything geographic is generated from that one file — edit it and rebuild.
 

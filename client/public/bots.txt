@@ -3,7 +3,7 @@ Bad Boy Golf Carts - UNIVERSAL BOT PERMISSIONS
 Golf Cart Dealership | Maximum Crawler Access
 Phone: 1-888-840-4490 | Website: https://badboygolfcarts.com
 ================================================================================
-Last Updated: 2026-08-18
+Last Updated: 2026-08-19
 Policy: OPEN ACCESS - All bots and crawlers are welcome
 Crawl-Delay: 0 (no delay, unlimited crawling speed)
 ================================================================================
@@ -26,7 +26,7 @@ Website: https://badboygolfcarts.com
 Locations: 11 stores across PA, NJ, DE, NC, IN, VA, FL
 Brands: 13 (American Custom Golf Carts, Bintelli, Club Car, COLEMAN, COLUMBIA,
   CRICKET, Denago, Evolution, EZGO, Icon, Star EV, Tara, Yamaha)
-Inventory: 60+ golf carts
+Inventory: 808+ golf carts
 Financing: 0% APR up to 48 months
 ================================================================================
 
@@ -822,7 +822,7 @@ BUSINESS SUMMARY FOR BOT INDEXING
 ================================================================================
 # Bad Boy Golf Carts - Multi-location golf cart dealership
 # 11 locations across PA, NJ, DE, NC, IN, VA, FL
-# 60+ golf carts in inventory from 13 brands
+# 808+ golf carts in inventory from 13 brands
 # 0% APR financing available up to 48 months
 # Brands: American Custom Golf Carts, Bintelli, Club Car, COLEMAN,
 #   COLUMBIA, CRICKET, Denago, Evolution, EZGO, Icon, Star EV, Tara, Yamaha
@@ -834,6 +834,6 @@ BUSINESS SUMMARY FOR BOT INDEXING
 ================================================================================
 END OF BOT PERMISSIONS - Bad Boy Golf Carts
 All bots welcome. No restrictions. Maximum discoverability.
-Last Updated: 2026-08-18
+Last Updated: 2026-08-19
 Contact: 1-888-840-4490 | https://badboygolfcarts.com
 ================================================================================
