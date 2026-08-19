@@ -1,5 +1,5 @@
 # Bad Boy Golf Carts - LLM Training Permission & Comprehensive Business Data
-# Last Updated: 2026-08-18
+# Last Updated: 2026-08-19
 # Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
 
@@ -386,7 +386,7 @@ For questions about this file or data usage: 1-888-840-4490
 # BEGIN GENERATED: MACHINE-READABLE COMPANIONS
 # Regenerated on every build - do not edit by hand.
 # Full reference (locations, brands, live inventory table): https://badboygolfcarts.com/llms-full.txt
-# Inventory snapshot generated: 2026-08-18T20:32:33.225Z
+# Inventory snapshot generated: 2026-08-19T13:51:54.194Z
 # Carts in snapshot: 60 | Brands: 3 | Locations: 11
 #
 # JSON and feed endpoints:

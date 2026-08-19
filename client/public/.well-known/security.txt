@@ -1,5 +1,5 @@
 Contact: mailto:security@badboygolfcarts.com
-Expires: 2027-08-18T00:00:00Z
+Expires: 2027-08-19T00:00:00Z
 Preferred-Languages: en
 Canonical: https://badboygolfcarts.com/.well-known/security.txt
 
@@ -19,7 +19,7 @@ We support the latest versions of all major browsers. Please ensure your browser
 
 ## HTTPS
 
-All connections to badboygolfcarts.com are encrypted with HTTPS/TLS 1.2 or higher. We do not accept unencrypted HTTP connections.
+All connections to badboygolfcarts.com are encrypted with HTTPS/TLS 1.2 or higher. Plain HTTP requests are redirected to HTTPS, and the site is served from GitHub Pages with an automatically renewed certificate.
 
 ## Security Measures
 
@@ -44,4 +44,4 @@ Website: https://badboygolfcarts.com
 
 ## Last Updated
 
-2026-08-18
+2026-08-19

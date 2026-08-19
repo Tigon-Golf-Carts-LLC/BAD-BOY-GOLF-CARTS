@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Static JSON endpoints published by this site. All are plain GET, no authentication. -->
-<api generated="2026-08-18T20:32:33.225Z" version="1.0">
+<api generated="2026-08-19T13:51:54.194Z" version="1.0">
   <site>https://badboygolfcarts.com/</site>
   <upstream>https://api.tigondms.com/wp-website</upstream>
   <endpoint path="/data/carts.json" format="json">Full inventory index (all carts, card-level fields)</endpoint>

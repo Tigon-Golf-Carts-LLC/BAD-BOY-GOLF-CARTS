@@ -1,7 +1,7 @@
 # Bad Boy Golf Carts - Maximum Crawl Accessibility Configuration
 # Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
-# Last Updated: 2026-08-18
+# Last Updated: 2026-08-19
 # Policy: UNRESTRICTED ACCESS - All bots welcome
 
 # ============================================================

@@ -1,49 +1,82 @@
+import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, ArrowRight, CreditCard, DollarSign, Shield, Clock } from "lucide-react";
 
+/** Partner artwork, with a branded name plate if the file ever goes missing. */
+function PartnerImage({ image, name }: { image: string; name: string }) {
+  const [failed, setFailed] = useState(false);
+
+  if (failed) {
+    return (
+      <div className="w-full h-48 rounded-t-md carbon-surface flex flex-col items-center justify-center gap-2 border-b border-primary/30">
+        <span className="text-[11px] tracking-[0.3em] text-primary font-bold">FINANCING PARTNER</span>
+        <span className="hotrod-heading text-2xl text-center px-4">{name}</span>
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={`${import.meta.env.BASE_URL}${image}`}
+      alt={`${name} golf cart financing`}
+      className="w-full h-48 object-cover rounded-t-md"
+      loading="lazy"
+      onError={() => setFailed(true)}
+    />
+  );
+}
+
+/**
+ * Financing partners.
+ *
+ * `image` is a self-hosted file under client/public/partners. These were
+ * hotlinked from another dealership's WordPress and broke when that site
+ * stopped serving them, so the artwork now ships with the site. To use a
+ * lender's own artwork, drop it in at the same path and filename.
+ */
 const financingPartners = [
   {
     name: "Sheffield BBT",
     heading: "Prequalify Now!",
     description: "Get prequalified with no impact to your credit.*",
     url: "https://prequalify.sheffieldfinancial.com/Apply/Dealer/56712?source=web",
-    imageUrl: "https://tigongolfcarts.com/wp-content/uploads/2024/08/Sheffield-BBT-And-TIGON-Golf-Carts.jpg",
+    image: "partners/sheffield-bbt.png",
   },
   {
     name: "BLI Heartland",
     heading: "Rent To Own",
     description: "Helping Golf Cart Customers Achieve Ownership.*",
     url: "https://blirentals.com/app/TIGON_GOLFCARTS_LLC",
-    imageUrl: "https://tigongolfcarts.com/wp-content/uploads/2024/08/RENT-TO-OWN-Golf-Carts-BLI-Heartland-And-TIGON-Golf-Carts.jpg",
+    image: "partners/bli-heartland.png",
   },
   {
     name: "DLL Financial Solutions",
     heading: "DLL Financial Solutions",
     description: "Get the lowest APR without hidden fees.*",
     url: "https://applynow-cica-prd.dllgroup.com/?entityId=4&dealerCode=015639",
-    imageUrl: "https://tigongolfcarts.com/wp-content/uploads/2024/08/DLL-Financial-Solutions-And-TIGON-Golf-Carts.jpg",
+    image: "partners/dll-financial-solutions.png",
   },
   {
     name: "Roadrunner / Octane",
     heading: "Consumer Financing",
     description: "Get Ready To Ride With Consumer Financing.",
     url: "https://octane.co/flex/034170",
-    imageUrl: "https://tigongolfcarts.com/wp-content/uploads/2024/08/Roadrunner-Financial-Octane-And-Tigon-Golf-Carts-1.jpg",
+    image: "partners/roadrunner-octane.png",
   },
   {
     name: "Univest Capital",
     heading: "Univest Capital",
     description: "Customized a solution for your specific business needs.",
     url: "https://form.jotform.com/UnivestCapital/credit-application-bakos?utm_source=TIGON+Golf+Carts&utm_medium=Financing&utm_campaign=Business&utm_term=Best+Golf+Cart+Financing",
-    imageUrl: "https://tigongolfcarts.com/wp-content/uploads/2025/04/Univest-capital-2.jpg",
+    image: "partners/univest-capital.png",
   },
   {
     name: "Dealer Direct",
     heading: "Dealer Direct Financing",
     description: "Buy Now, Pay Later With Dealer Direct Financing.*",
     url: "https://dealerdirect.apptraker.com/my/guest?dealer=10735",
-    imageUrl: "https://tigongolfcarts.com/wp-content/uploads/2024/11/trio-capital-leanding-And-TIGON-Golf-Carts.jpg",
+    image: "partners/dealer-direct.png",
   },
 ];
 
@@ -118,7 +151,7 @@ export default function Financing() {
       <section className="pb-12 md:pb-20">
         <div className="max-w-6xl mx-auto px-4">
           <h2
-            className="text-2xl md:text-3xl font-bold text-center mb-10"
+            className="hotrod-heading text-2xl md:text-3xl text-center mb-10"
             data-testid="text-partners-heading"
           >
             Our Financing Partners
@@ -136,12 +169,7 @@ export default function Financing() {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <img
-                    src={partner.imageUrl}
-                    alt={partner.name}
-                    className="w-full h-48 object-cover rounded-t-md"
-                    loading="lazy"
-                  />
+                  <PartnerImage image={partner.image} name={partner.name} />
                 </a>
                 <div className="p-5 flex flex-col flex-1">
                   <h3 className="text-lg font-semibold mb-1" data-testid={`text-partner-name-${partner.name.toLowerCase().replace(/[\s\/]/g, "-")}`}>

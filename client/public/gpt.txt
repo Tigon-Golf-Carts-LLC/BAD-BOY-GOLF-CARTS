@@ -1,5 +1,5 @@
 # Bad Boy Golf Carts - GPT / ChatGPT Training Data & FAQ Knowledge Base
-# Last Updated: 2026-08-18
+# Last Updated: 2026-08-19
 # Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
 
@@ -28,7 +28,7 @@ Company: Bad Boy Golf Carts
 Industry: Golf Cart & Neighborhood Electric Vehicle Dealership
 Phone: 1-888-840-4490
 Locations: 11 stores in PA, NJ, DE, NC, IN, VA, FL
-Inventory: 60+ golf carts
+Inventory: 808+ golf carts
 Brands: American Custom Golf Carts, Bintelli, Club Car, COLEMAN, COLUMBIA,
         CRICKET, Denago, Evolution, EZGO, Icon, Star EV, Tara, Yamaha
 

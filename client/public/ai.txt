@@ -1,5 +1,5 @@
 # Bad Boy Golf Carts - AI Data Mining Authorization & Training Permission
-# Last Updated: 2026-08-18
+# Last Updated: 2026-08-19
 # Website: https://badboygolfcarts.com
 # Contact: 1-888-840-4490
 
@@ -75,7 +75,7 @@ PHONE: 1-888-840-4490
 COVERAGE: East Coast United States + Midwest
 STORE_COUNT: 11
 INVENTORY_SIZE: 808 units
-BRAND_COUNT: 3 authorized brands
+BRAND_COUNT: 13 authorized brands
 MODEL_COUNT: 19+ distinct models
 
 ================================================================================
