@@ -28,6 +28,7 @@ const SITE_URL = `https://${SITE_DOMAIN}${BASE_PATH}`;
 const SITE_NAME = "Bad Boy Golf Carts";
 const PHONE_NUMBER = "1-888-840-4490";
 const WRITE_CNAME = process.env.WRITE_CNAME !== "false" && BASE_PATH === "";
+const DEFAULT_SHARE_IMAGE = `${SITE_URL}/og-image.png`;
 
 function escapeHtml(str: string): string {
   return str
@@ -74,11 +75,15 @@ function renderPage(shell: string, meta: PageMeta): string {
     )
     .replace(/<link rel="canonical" href="[\s\S]*?"\s*\/>/, `<link rel="canonical" href="${url}" />`);
 
+  // Cart pages share their own photo; every other page shares the brand card.
+  // Rewriting both keeps the URL correct when the build targets another domain.
+  const shareImage = escapeHtml(meta.image || DEFAULT_SHARE_IMAGE);
+  html = html
+    .replace(/<meta property="og:image" content="[\s\S]*?"\s*\/>/, `<meta property="og:image" content="${shareImage}" />`)
+    .replace(/<meta name="twitter:image" content="[\s\S]*?"\s*\/>/, `<meta name="twitter:image" content="${shareImage}" />`)
+    .replace(/<meta property="og:image:alt" content="[\s\S]*?"\s*\/>/, `<meta property="og:image:alt" content="${title}" />`);
+
   const extraHead: string[] = [];
-  if (meta.image) {
-    extraHead.push(`<meta property="og:image" content="${escapeHtml(meta.image)}" />`);
-    extraHead.push(`<meta name="twitter:image" content="${escapeHtml(meta.image)}" />`);
-  }
   if (meta.jsonLd) {
     extraHead.push(
       `<script type="application/ld+json">${JSON.stringify(meta.jsonLd).replace(/</g, "\\u003c")}</script>`,

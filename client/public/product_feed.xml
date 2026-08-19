@@ -3,7 +3,1127 @@
   <channel>
     <title>Bad Boy Golf Carts - Product Feed</title>
     <link>https://badboygolfcarts.com/</link>
-    <description>Google Merchant Center product feed for Bad Boy Golf Carts. 0 golf carts with pricing. Updated daily.</description>
-    <lastBuildDate>Tue, 18 Aug 2026 20:00:34 GMT</lastBuildDate>
+    <description>Google Merchant Center product feed for Bad Boy Golf Carts. 60 golf carts with pricing. Updated daily.</description>
+    <lastBuildDate>Tue, 18 Aug 2026 20:32:33 GMT</lastBuildDate>
+    <item>
+      <g:id>id1</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image1.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image1b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>5100.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id2</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image2.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image2b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>5200.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id4</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image4.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image4b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>5400.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id5</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image5.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image5b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>5500.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id7</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-01</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image7.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image7b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>5700.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id8</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-01</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image8.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image8b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>5800.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id10</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-01</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image10.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image10b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>6000.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id11</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-01</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image11.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image11b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>6100.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id13</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-02</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image13.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image13b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>6300.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id14</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-02</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image14.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image14b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>6400.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id16</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-02</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image16.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image16b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>6600.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id17</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-02</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image17.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image17b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>6700.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id19</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-03</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image19.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image19b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>6900.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id20</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-03</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image20.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image20b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>7000.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id22</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-03</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image22.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image22b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>7200.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id23</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-03</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image23.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image23b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>7300.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id25</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-04</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image25.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image25b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>7500.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id26</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-04</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image26.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image26b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>7600.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id28</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-04</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image28.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image28b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>7800.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id29</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-04</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image29.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image29b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>7900.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id31</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-05</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image31.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image31b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>8100.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id32</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-05</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image32.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image32b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>8200.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id34</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-05</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image34.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image34b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>8400.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id35</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-05</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image35.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image35b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>8500.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id37</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-06</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image37.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image37b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>8700.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id38</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-06</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image38.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image38b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>8800.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id40</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-06</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image40.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image40b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>9000.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id41</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-06</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image41.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image41b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>9100.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id43</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-07</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image43.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image43b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>9300.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id44</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-07</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image44.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image44b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>9400.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id46</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-07</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image46.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image46b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>9600.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id47</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-07</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image47.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image47b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>9700.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id49</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-08</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image49.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image49b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>9900.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id50</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-08</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image50.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image50b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>10000.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id52</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-08</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image52.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image52b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>10200.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id53</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-08</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image53.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image53b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>10300.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id55</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-hatfield-pennsylvania-usa-09</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image55.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image55b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>10500.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id56</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-wilmington-delaware-usa-09</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image56.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image56b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>10600.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id58</g:id>
+      <g:title>New 2025 Evolution D5 Ranger 4 Sky Blue</g:title>
+      <g:description>New 2025 Evolution D5 Ranger 4 in Sky Blue. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/evolution-d5-ranger-4-sky-blue-wilmington-delaware-usa-09</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image58.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image58b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>10800.00 USD</g:price>
+      <g:brand>Evolution</g:brand>
+      <g:mpn>D5 Ranger 4</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Evolution</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id59</g:id>
+      <g:title>New 2025 Club Car Onward Black</g:title>
+      <g:description>New 2025 Club Car Onward in Black. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/club-car-onward-black-hatfield-pennsylvania-usa-09</g:link>
+      <g:image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image59.jpg</g:image_link>
+      <g:additional_image_link>https://s3.amazonaws.com/prod.docs.s3/carts/image59b.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>10900.00 USD</g:price>
+      <g:brand>Club Car</g:brand>
+      <g:mpn>Onward</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; New &gt; Club Car</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id0</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>5000.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id3</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>5300.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id6</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-01</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>5600.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id9</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-01</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>5900.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id12</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-02</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>6200.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id15</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-02</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>6500.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id18</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-03</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>6800.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id21</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-03</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>7100.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id24</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-04</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>7400.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id27</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-04</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>7700.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id30</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-05</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>8000.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id33</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-05</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>8300.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id36</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-06</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>8600.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id39</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-06</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>8900.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id42</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-07</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>9200.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id45</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-07</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>9500.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id48</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Gas golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-08</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>9800.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Gas</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id51</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-08</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>10100.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id54</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, street legal, 6 passenger, 4WD. Available in Wilmington, Delaware. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-wilmington-delaware-usa-09</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>10400.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>6</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
+    <item>
+      <g:id>id57</g:id>
+      <g:title>Used 2025 Denago Nomad XL Gray</g:title>
+      <g:description>Used 2025 Denago Nomad XL in Gray. Electric golf cart, 4 passenger, 2WD. Available in Hatfield, Pennsylvania. Call 1-888-840-4490.</g:description>
+      <g:link>https://badboygolfcarts.com/golfcart/denago-nomad-xl-gray-hatfield-pennsylvania-usa-09</g:link>
+      <g:image_link>https://tigongolfcarts.com/wp-content/uploads/2024/11/TIGON-GOLF-CARTS-IMAGES-COMING-SOON.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:condition>used</g:condition>
+      <g:price>10700.00 USD</g:price>
+      <g:brand>Denago</g:brand>
+      <g:mpn>Nomad XL</g:mpn>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:google_product_category>Vehicles &amp; Parts &gt; Vehicles &gt; Motor Vehicles</g:google_product_category>
+      <g:product_type>Golf Carts &gt; Used &gt; Denago</g:product_type>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Year</g:attribute_name><g:attribute_value>2025</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Passengers</g:attribute_name><g:attribute_value>4</g:attribute_value></g:product_detail>
+      <g:product_detail><g:section_name>Vehicle</g:section_name><g:attribute_name>Power</g:attribute_name><g:attribute_value>Electric</g:attribute_value></g:product_detail>
+    </item>
   </channel>
 </rss>

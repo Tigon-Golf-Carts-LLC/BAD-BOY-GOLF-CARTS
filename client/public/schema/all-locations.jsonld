@@ -87,6 +87,7 @@
       "url": "https://badboygolfcarts.com/inventory?location=Hatfield",
       "telephone": "1-888-840-4490",
       "email": "tigongolfcarts@gmail.com",
+      "identifier": "store1",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2333 Bethlehem Pike",

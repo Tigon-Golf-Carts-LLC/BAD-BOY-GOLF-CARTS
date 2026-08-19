@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useTheme } from "@/components/theme-provider";
 import { PHONE_NUMBER, PHONE_TEL } from "@/lib/constants";
 import { useState } from "react";
-import logoImg from "@assets/DISCOUNTED_GOLF_CARTS_(2)_1770670989091.png";
+import logoImg from "@assets/bad-boy-golf-carts-badge.svg";
 
 export function Header() {
   const [location] = useLocation();
@@ -20,14 +20,16 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-[100] border-b bg-background/95 backdrop-blur-md">
+    <header className="sticky top-0 z-[100] border-b border-primary/25 bg-background/95 backdrop-blur-md">
+      <div className="h-1 racing-stripes opacity-80" aria-hidden="true" />
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link href="/" data-testid="link-home">
             <div className="flex items-center gap-2">
               <img src={logoImg} alt="Bad Boy Golf Carts" className="h-10 w-10 object-contain" />
-              <span className="text-xl font-bold tracking-tight">
-                Bad Boy <span className="text-primary">Golf Carts</span>
+              <span className="hotrod-heading text-xl leading-none">
+                <span className="chrome-text">Bad Boy</span>{" "}
+                <span className="text-primary">Golf Carts</span>
               </span>
             </div>
           </Link>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Machine-readable summary of badboygolfcarts.com. Generated 2026-08-18T20:00:34.779Z. -->
-<site generated="2026-08-18T20:00:34.779Z">
+<!-- Machine-readable summary of badboygolfcarts.com. Generated 2026-08-18T20:32:33.225Z. -->
+<site generated="2026-08-18T20:32:33.225Z">
   <business>
     <name>Bad Boy Golf Carts</name>
     <url>https://badboygolfcarts.com/</url>
@@ -9,11 +9,15 @@
     <type>AutoDealer</type>
     <industry>Golf cart and low speed vehicle sales</industry>
   </business>
-  <inventory total="0">
-    <condition new="0" used="0"/>
-    <power electric="0" gas="0"/>
-    <streetLegal count="0"/>
-    <brands count="0">
+  <inventory total="60">
+    <condition new="40" used="20"/>
+    <power electric="45" gas="15"/>
+    <streetLegal count="30"/>
+    <priceRange currency="USD" min="5000" max="10900"/>
+    <brands count="3">
+      <brand name="Club Car" count="20"/>
+      <brand name="Denago" count="20"/>
+      <brand name="Evolution" count="20"/>
     </brands>
   </inventory>
   <locations count="11">

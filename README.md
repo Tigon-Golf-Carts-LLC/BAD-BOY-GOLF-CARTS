@@ -181,6 +181,40 @@ script/prerender.ts             Static pages, 404, CNAME
 .github/workflows/deploy.yml    Build + deploy to GitHub Pages
 ```
 
+## Brand
+
+Hot rod dealership look: garage black surfaces, hot rod red accents, chrome lettering and
+racing stripes.
+
+| Token | Value |
+|-------|-------|
+| Primary red (dark theme) | `hsl(0 84% 52%)` |
+| Primary red (light theme) | `hsl(0 82% 44%)` |
+| Theme colour / tile colour | `#d10f14` |
+| Garage black | `#0b0c0e` |
+| Default theme | Dark |
+
+The colour lives in `client/src/index.css` as `--primary` (plus `--ring`, `--accent`,
+`--chart-1` and the sidebar tokens). Retune those and the whole UI follows — the hot rod
+helpers (`.hotrod-heading`, `.chrome-text`, `.racing-stripes`, `.flame-rule`, `.carbon-surface`,
+`.redline-glow`) are all driven by `--primary`.
+
+Brand assets, all generated from `client/public/favicon.svg`:
+
+| File | Use |
+|------|-----|
+| `favicon.svg` | Master mark — the BB badge |
+| `favicon.ico`, `logo-icon.ico` | Multi-resolution (16–256px) browser icons |
+| `favicon.png`, `icon-192.png`, `icon-512.png` | PNG icons for search engines and the manifest |
+| `icon-maskable-512.png` | Android maskable icon (safe-zone inset) |
+| `apple-touch-icon.png` | 180px iOS home screen icon, opaque background |
+| `og-image.png` | 1200×630 social share card |
+| `attached_assets/bad-boy-golf-carts-badge.svg` | Header and footer logo |
+| `attached_assets/bad-boy-hero.svg` | Home page hero backdrop |
+
+To change the mark, edit `favicon.svg` and re-render the raster sizes; the SVG hero and badge
+are plain SVG and can be edited directly.
+
 ## Site facts
 
 - Phone: **1-888-840-4490** (every CTA is a `tel:` link)

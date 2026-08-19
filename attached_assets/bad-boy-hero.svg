@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Bad Boy Golf Carts showroom">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#08090b"/>
+      <stop offset="0.62" stop-color="#141619"/>
+      <stop offset="0.63" stop-color="#1c1f23"/>
+      <stop offset="1" stop-color="#0a0b0d"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0.34" cy="0.78" r="0.62">
+      <stop offset="0" stop-color="#ff2a2a" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#a30d10" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ceiling" cx="0.72" cy="0.06" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rimLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff3b30"/>
+      <stop offset="1" stop-color="#ff8a3d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Garage -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#ceiling)"/>
+
+  <!-- Bay doors in the back wall -->
+  <g opacity="0.5">
+    <rect x="120" y="180" width="300" height="380" fill="#0e1013"/>
+    <rect x="1180" y="180" width="300" height="380" fill="#0e1013"/>
+    <g stroke="#22262b" stroke-width="3">
+      <path d="M120 240 H420 M120 300 H420 M120 360 H420 M120 420 H420 M120 480 H420"/>
+      <path d="M1180 240 H1480 M1180 300 H1480 M1180 360 H1480 M1180 420 H1480 M1180 480 H1480"/>
+    </g>
+  </g>
+
+  <!-- Diagonal speed stripes across the wall -->
+  <g opacity="0.16">
+    <path d="M640 100 L760 100 L520 570 L400 570 Z" fill="#e01b1b"/>
+    <path d="M800 100 L860 100 L620 570 L560 570 Z" fill="#e01b1b"/>
+    <path d="M900 100 L930 100 L690 570 L660 570 Z" fill="#e01b1b"/>
+  </g>
+
+  <!-- Checkered band along the top of the wall -->
+  <g opacity="0.25">
+    <rect x="0" y="120" width="1600" height="34" fill="#0b0c0e"/>
+    <g fill="#e6e9ee">
+      <rect x="0" y="120" width="34" height="17"/><rect x="68" y="120" width="34" height="17"/>
+      <rect x="136" y="120" width="34" height="17"/><rect x="204" y="120" width="34" height="17"/>
+      <rect x="272" y="120" width="34" height="17"/><rect x="340" y="120" width="34" height="17"/>
+      <rect x="408" y="120" width="34" height="17"/><rect x="476" y="120" width="34" height="17"/>
+      <rect x="544" y="120" width="34" height="17"/><rect x="612" y="120" width="34" height="17"/>
+      <rect x="680" y="120" width="34" height="17"/><rect x="748" y="120" width="34" height="17"/>
+      <rect x="816" y="120" width="34" height="17"/><rect x="884" y="120" width="34" height="17"/>
+      <rect x="952" y="120" width="34" height="17"/><rect x="1020" y="120" width="34" height="17"/>
+      <rect x="1088" y="120" width="34" height="17"/><rect x="1156" y="120" width="34" height="17"/>
+      <rect x="1224" y="120" width="34" height="17"/><rect x="1292" y="120" width="34" height="17"/>
+      <rect x="1360" y="120" width="34" height="17"/><rect x="1428" y="120" width="34" height="17"/>
+      <rect x="1496" y="120" width="34" height="17"/><rect x="1564" y="120" width="34" height="17"/>
+      <rect x="34" y="137" width="34" height="17"/><rect x="102" y="137" width="34" height="17"/>
+      <rect x="170" y="137" width="34" height="17"/><rect x="238" y="137" width="34" height="17"/>
+      <rect x="306" y="137" width="34" height="17"/><rect x="374" y="137" width="34" height="17"/>
+      <rect x="442" y="137" width="34" height="17"/><rect x="510" y="137" width="34" height="17"/>
+      <rect x="578" y="137" width="34" height="17"/><rect x="646" y="137" width="34" height="17"/>
+      <rect x="714" y="137" width="34" height="17"/><rect x="782" y="137" width="34" height="17"/>
+      <rect x="850" y="137" width="34" height="17"/><rect x="918" y="137" width="34" height="17"/>
+      <rect x="986" y="137" width="34" height="17"/><rect x="1054" y="137" width="34" height="17"/>
+      <rect x="1122" y="137" width="34" height="17"/><rect x="1190" y="137" width="34" height="17"/>
+      <rect x="1258" y="137" width="34" height="17"/><rect x="1326" y="137" width="34" height="17"/>
+      <rect x="1394" y="137" width="34" height="17"/><rect x="1462" y="137" width="34" height="17"/>
+      <rect x="1530" y="137" width="34" height="17"/>
+    </g>
+  </g>
+
+  <!-- Floor sheen and red spotlight -->
+  <rect x="0" y="567" width="1600" height="333" fill="url(#floorSheen)"/>
+  <rect width="1600" height="900" fill="url(#spot)"/>
+
+  <!-- Lifted golf cart, three-quarter side silhouette -->
+  <g>
+    <!-- Ground shadow -->
+    <ellipse cx="800" cy="752" rx="380" ry="28" fill="#000000" opacity="0.65"/>
+
+    <!-- Roof -->
+    <path d="M520 356 H1086 a16 16 0 0 1 16 16 v14 a16 16 0 0 1 -16 16 H520 a16 16 0 0 1 -16 -16 v-14 a16 16 0 0 1 16 -16 z" fill="#101215"/>
+    <path d="M520 356 H1086 a16 16 0 0 1 16 16 H504 a16 16 0 0 1 16 -16 z" fill="url(#rimLight)" opacity="0.8"/>
+
+    <!-- Roof supports -->
+    <rect x="540" y="402" width="16" height="180" rx="6" fill="#0d0f12"/>
+    <rect x="1062" y="402" width="16" height="150" rx="6" fill="#0d0f12"/>
+
+    <!-- Seat back -->
+    <path d="M726 432 h74 a14 14 0 0 1 14 14 v136 h-102 v-136 a14 14 0 0 1 14 -14 z" fill="#121417"/>
+    <path d="M726 432 h74 a14 14 0 0 1 14 14 h-102 a14 14 0 0 1 14 -14 z" fill="url(#rimLight)" opacity="0.55"/>
+
+    <!-- Body tub -->
+    <path d="M498 566 h620 a22 22 0 0 1 22 22 v52 a22 22 0 0 1 -22 22 h-620 a22 22 0 0 1 -22 -22 v-52 a22 22 0 0 1 22 -22 z" fill="#15181c"/>
+    <path d="M498 566 h620 a22 22 0 0 1 22 22 h-664 a22 22 0 0 1 22 -22 z" fill="url(#rimLight)" opacity="0.85"/>
+
+    <!-- Front cowl and headlight -->
+    <path d="M1118 566 h44 a34 34 0 0 1 34 34 v40 a22 22 0 0 1 -22 22 h-56 z" fill="#101317"/>
+    <rect x="1160" y="596" width="34" height="18" rx="9" fill="#ffd9a0" opacity="0.9"/>
+
+    <!-- Seat cushion -->
+    <rect x="606" y="546" width="212" height="24" rx="10" fill="#181b1f"/>
+
+    <!-- Wheels -->
+    <g>
+      <circle cx="612" cy="656" r="92" fill="#08090a"/>
+      <circle cx="612" cy="656" r="52" fill="#1b1e23"/>
+      <circle cx="612" cy="656" r="34" fill="#d10f14"/>
+      <circle cx="612" cy="656" r="92" fill="none" stroke="#2a2e34" stroke-width="6"/>
+      <circle cx="1046" cy="656" r="92" fill="#08090a"/>
+      <circle cx="1046" cy="656" r="52" fill="#1b1e23"/>
+      <circle cx="1046" cy="656" r="34" fill="#d10f14"/>
+      <circle cx="1046" cy="656" r="92" fill="none" stroke="#2a2e34" stroke-width="6"/>
+    </g>
+  </g>
+
+  <!-- Foreground vignette so headline text always sits on a dark field -->
+  <rect width="1600" height="900" fill="url(#spot)" opacity="0.35"/>
+</svg>

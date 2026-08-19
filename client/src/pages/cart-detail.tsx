@@ -154,7 +154,7 @@ export default function CartDetail() {
         <div className="space-y-6">
           <div>
             {year && <span className="text-sm text-muted-foreground">{year}</span>}
-            <h1 className="text-2xl sm:text-3xl font-bold mt-1" data-testid="text-cart-title">{title}</h1>
+            <h1 className="hotrod-heading text-2xl sm:text-3xl mt-1" data-testid="text-cart-title">{title}</h1>
             {locationStr && (
               <div className="flex items-center gap-1.5 text-sm text-muted-foreground mt-2">
                 <MapPin className="h-4 w-4 text-primary" />
@@ -197,7 +197,7 @@ export default function CartDetail() {
 
           <div className="flex flex-col gap-2">
             <a href={PHONE_TEL} className="block">
-              <Button className="w-full" size="lg" data-testid="button-call-now">
+              <Button className="w-full redline-glow" size="lg" data-testid="button-call-now">
                 <Phone className="h-5 w-5 mr-2" />
                 Call Now - {PHONE_NUMBER}
               </Button>
