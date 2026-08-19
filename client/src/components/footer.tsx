@@ -73,9 +73,25 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Bad Boy Golf Carts. All rights reserved. | badboygolfcarts.com</p>
-        </div>
-      </div>
-    </footer>
+  <p>
+    &copy; {new Date().getFullYear()}{" "}
+    <a
+      href="https://tigongolfcarts.com/inventory"
+      rel="sponsored"
+      className="hover:underline"
+    >
+      Bad Boy Golf Carts
+    </a>
+    . All rights reserved. |{" "}
+    <a
+      href="https://badboygolfcarts.com"
+      className="hover:underline"
+    >
+      badboygolfcarts.com
+    </a>
+  </p>
+</div>
+</div>
+</footer>
   );
 }
