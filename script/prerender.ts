@@ -3,7 +3,7 @@
  *
  * Vite emits a single-page app. GitHub Pages has no rewrite rules, so every URL
  * that should be reachable directly needs a real file on disk. This script:
- *   - writes an index.html for /inventory, /financing and every /golfcart/<slug>,
+ *   - writes an index.html for /inventory, /financing, /contact and every /golfcart/<slug>,
  *     each with its own title, description, canonical and structured data
  *   - writes 404.html as the SPA fallback for anything else
  *   - writes CNAME (custom domain) and .nojekyll
@@ -161,6 +161,15 @@ async function main() {
     }),
   );
 
+  await writePage(
+    "contact",
+    renderPage(shell, {
+      title: `Contact Us | ${SITE_NAME}`,
+      description: `Contact ${SITE_NAME} about new and used golf carts, pricing, trade-ins and financing. Send us a message or call ${PHONE_NUMBER}.`,
+      url: `${SITE_URL}/contact`,
+    }),
+  );
+
   // One real page per cart so search engines and shared links resolve directly.
   let cartPages = 0;
   for (const [slug, cartId] of Object.entries(slugMap.slugToId)) {
@@ -220,7 +229,7 @@ async function main() {
   }
 
   console.log(
-    `Prerendered ${cartPages} cart pages + home/inventory/financing/404` +
+    `Prerendered ${cartPages} cart pages + home/inventory/financing/contact/404` +
       `${WRITE_CNAME ? `, CNAME (${SITE_DOMAIN})` : ""}`,
   );
 }

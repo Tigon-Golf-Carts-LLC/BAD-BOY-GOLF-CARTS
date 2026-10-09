@@ -1,12 +1,14 @@
 import { useQuery } from "@tanstack/react-query";
 import { useParams, Link } from "wouter";
-import { Phone, ChevronLeft, Zap, Fuel, Shield, Users, MapPin, Calendar, Gauge, Clock, Battery, Wrench, CheckCircle2 } from "lucide-react";
+import { Phone, MessageSquare, ChevronLeft, Zap, Fuel, Shield, Users, MapPin, Calendar, Gauge, Clock, Battery, Wrench, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { LeadForm } from "@/components/lead-form";
 import type { Cart, Store } from "@shared/schema";
 import { formatPrice, getAllCartImages, buildCartTitle, PHONE_NUMBER, PHONE_TEL, STATE_ABBREVIATIONS } from "@/lib/constants";
 import { useState } from "react";
@@ -207,6 +209,29 @@ export default function CartDetail() {
                 Apply Now - 0% Financing
               </Button>
             </Link>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button variant="secondary" className="w-full" size="lg" data-testid="button-request-info">
+                  <MessageSquare className="h-5 w-5 mr-2" />
+                  Request Info &amp; Pricing
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+                <DialogHeader>
+                  <DialogTitle className="hotrod-heading text-xl">Ask About This Cart</DialogTitle>
+                  <DialogDescription>
+                    {year ? `${year} ` : ""}{title}{locationStr ? ` - ${locationStr}` : ""}. Send us your details and
+                    our team will get back to you with pricing, availability and financing options.
+                  </DialogDescription>
+                </DialogHeader>
+                <LeadForm
+                  idPrefix={`cart-lead-${cart._id}`}
+                  cart={{ brand: make, model, vin: cart.vinNo || "", sku: cart.serialNo || cart._id }}
+                  defaultComments={`I'm interested in the ${year ? `${year} ` : ""}${title}. Is it still available?`}
+                  submitLabel="Send Inquiry"
+                />
+              </DialogContent>
+            </Dialog>
           </div>
 
           <Tabs defaultValue="specs" className="w-full">

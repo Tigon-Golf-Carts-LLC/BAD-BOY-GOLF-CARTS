@@ -47,6 +47,10 @@ jobs:
 
       - name: Build site
         run: npm run build:site
+        env:
+          # TIGON IOT lead webhook for the contact / cart inquiry forms.
+          # Stored as a repository secret so the webhook key is never committed.
+          VITE_TIGON_WEBHOOK_URL: ${{ secrets.TIGON_WEBHOOK_URL }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

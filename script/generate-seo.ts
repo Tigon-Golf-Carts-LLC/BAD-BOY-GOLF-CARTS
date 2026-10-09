@@ -200,6 +200,7 @@ async function main() {
     { loc: absoluteUrl("/"), lastmod: TODAY, changefreq: "weekly", priority: "1.0" },
     { loc: absoluteUrl("/inventory"), lastmod: TODAY, changefreq: "daily", priority: "0.9" },
     { loc: absoluteUrl("/financing"), lastmod: TODAY, changefreq: "monthly", priority: "0.8" },
+    { loc: absoluteUrl("/contact"), lastmod: TODAY, changefreq: "monthly", priority: "0.7" },
   ];
 
   // ---------------------------------------------------------------- sitemaps
