@@ -15,9 +15,11 @@ permissions:
   pages: write
   id-token: write
 
+# One deploy at a time. A newer run cancels an older one that is still queued,
+# running or stuck waiting, so a hung deploy can never block the queue again.
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: pages-deploy
+  cancel-in-progress: true
 
 env:
   # Custom domain the site is published under. Clear it (and set BASE_PATH below)
