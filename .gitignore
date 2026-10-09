@@ -3,5 +3,10 @@ dist
 .DS_Store
 *.tar.gz
 
+# Local env files (e.g. VITE_TIGON_WEBHOOK_URL for testing forms locally)
+.env
+.env.*
+!.env.example
+
 # Inventory snapshot - regenerated from the DMS API on every build
 client/public/data

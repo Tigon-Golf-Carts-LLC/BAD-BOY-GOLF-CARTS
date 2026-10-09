@@ -17,6 +17,7 @@ export function Header() {
     { href: "/inventory?isNew=true", label: "New Carts" },
     { href: "/inventory?isUsed=true", label: "Used Carts" },
     { href: "/financing", label: "Financing" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (

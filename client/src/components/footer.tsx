@@ -41,6 +41,12 @@ export function Footer() {
               <Link href="/inventory?isUsed=true" className="block text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-used">
                 Used Carts
               </Link>
+              <Link href="/financing" className="block text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-financing">
+                Financing
+              </Link>
+              <Link href="/contact" className="block text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-contact">
+                Contact Us
+              </Link>
             </div>
           </div>
 
@@ -69,6 +75,9 @@ export function Footer() {
             <p className="text-sm text-muted-foreground mt-3">
               Call us today to learn more about our discounted inventory and current specials.
             </p>
+            <Link href="/contact" className="inline-block text-sm font-semibold text-primary hover:underline mt-2" data-testid="link-footer-contact-form">
+              Send us a message &rarr;
+            </Link>
           </div>
         </div>
 

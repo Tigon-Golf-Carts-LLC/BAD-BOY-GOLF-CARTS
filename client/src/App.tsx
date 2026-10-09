@@ -10,6 +10,7 @@ import Home from "@/pages/home";
 import Inventory from "@/pages/inventory";
 import CartDetail from "@/pages/cart-detail";
 import Financing from "@/pages/financing";
+import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
 
 // "/" for a custom domain, "/<repo>" when the site is served from a project page.
@@ -22,6 +23,7 @@ function Router() {
       <Route path="/inventory" component={Inventory} />
       <Route path="/golfcart/:slug" component={CartDetail} />
       <Route path="/financing" component={Financing} />
+      <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
   );
